@@ -29,6 +29,9 @@ export async function getBoardById(req, res) {
     }
 }
 
+
+
+
 export async function addBoard(req, res) {
     const { loggedinUser, body } = req
     const board = {
