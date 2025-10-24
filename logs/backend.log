@@ -1,0 +1,256 @@
+24.10.2025, 23:39:29 - INFO - Server is running on port: 3030
+24.10.2025, 23:40:21 - INFO - Server is running on port: 3030
+24.10.2025, 23:40:34 - INFO - Server is running on port: 3030
+24.10.2025, 23:42:53 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:42:53 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:42:53 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:43:57 - INFO - Server is running on port: 3030
+24.10.2025, 23:44:00 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:44:00 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:44:00 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:44:12 - INFO - Server is running on port: 3030
+24.10.2025, 23:44:16 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:44:16 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:44:16 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:44:41 - INFO - Server is running on port: 3030
+24.10.2025, 23:45:02 - INFO - Server is running on port: 3030
+24.10.2025, 23:45:04 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:45:04 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:45:04 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:45:07 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:45:07 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:45:07 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:45:29 - INFO - Server is running on port: 3030
+24.10.2025, 23:45:34 - INFO - Server is running on port: 3030
+24.10.2025, 23:45:36 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:45:36 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:45:36 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:46:02 - INFO - Server is running on port: 3030
+24.10.2025, 23:46:14 - INFO - Server is running on port: 3030
+24.10.2025, 23:46:15 - INFO - Server is running on port: 3030
+24.10.2025, 23:46:28 - INFO - Server is running on port: 3030
+24.10.2025, 23:47:33 - INFO - Server is running on port: 3030
+24.10.2025, 23:47:39 - INFO - Server is running on port: 3030
+24.10.2025, 23:47:45 - INFO - Server is running on port: 3030
+24.10.2025, 23:50:28 - INFO - Server is running on port: 3030
+24.10.2025, 23:50:33 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:50:33 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:50:33 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:50:39 - INFO - /api/board | GET |  | {}
+24.10.2025, 23:50:55 - INFO - Server is running on port: 3030
+24.10.2025, 23:50:56 - INFO - Server is running on port: 3030
+24.10.2025, 23:53:15 - INFO - Server is running on port: 3030
+24.10.2025, 23:53:17 - INFO - Server is running on port: 3030
+24.10.2025, 23:53:26 - INFO - Server is running on port: 3030
+24.10.2025, 23:53:34 - INFO - Server is running on port: 3030
+24.10.2025, 23:53:44 - INFO - /api/board | GET |  | {"id":"QEXKG"}
+24.10.2025, 23:53:44 - ERROR - while finding board QEXKG | BSONError: hex string must be 24 characters
+24.10.2025, 23:53:44 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+24.10.2025, 23:55:36 - INFO - Server is running on port: 3030
+24.10.2025, 23:59:37 - INFO - Server is running on port: 3030
+24.10.2025, 23:59:39 - INFO - Server is running on port: 3030
+24.10.2025, 23:59:46 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:00:10 - INFO - Server is running on port: 3030
+25.10.2025, 0:00:14 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:00:14 - ERROR - cannot find boards | ReferenceError: board is not defined
+25.10.2025, 0:00:14 - ERROR - Failed to get boards | ReferenceError: board is not defined
+25.10.2025, 0:00:38 - INFO - Server is running on port: 3030
+25.10.2025, 0:00:41 - INFO - Server is running on port: 3030
+25.10.2025, 0:00:47 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:00:47 - ERROR - cannot find boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:00:47 - ERROR - Failed to get boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:00:50 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:00:50 - ERROR - Failed to get boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:00:50 - ERROR - cannot find boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:01:24 - INFO - Server is running on port: 3030
+25.10.2025, 0:01:26 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:02:04 - INFO - Server is running on port: 3030
+25.10.2025, 0:02:08 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:02:33 - INFO - Server is running on port: 3030
+25.10.2025, 0:02:37 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:02:37 - ERROR - cannot find boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:02:37 - ERROR - Failed to get boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:03:18 - INFO - Server is running on port: 3030
+25.10.2025, 0:03:21 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:03:21 - ERROR - cannot find boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:03:21 - ERROR - Failed to get boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:04:19 - INFO - Server is running on port: 3030
+25.10.2025, 0:04:20 - INFO - Server is running on port: 3030
+25.10.2025, 0:04:32 - INFO - Server is running on port: 3030
+25.10.2025, 0:04:36 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:04:36 - ERROR - cannot find boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:04:36 - ERROR - Failed to get boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:05:24 - INFO - Server is running on port: 3030
+25.10.2025, 0:05:27 - INFO - Server is running on port: 3030
+25.10.2025, 0:05:30 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:05:30 - ERROR - cannot find boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:05:30 - ERROR - Failed to get boards | TypeError: Assignment to constant variable.
+25.10.2025, 0:06:28 - INFO - Server is running on port: 3030
+25.10.2025, 0:06:30 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:06:48 - INFO - Server is running on port: 3030
+25.10.2025, 0:07:00 - INFO - Server is running on port: 3030
+25.10.2025, 0:07:06 - INFO - Server is running on port: 3030
+25.10.2025, 0:07:08 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:07:32 - INFO - Server is running on port: 3030
+25.10.2025, 0:07:43 - INFO - Server is running on port: 3030
+25.10.2025, 0:08:02 - INFO - Server is running on port: 3030
+25.10.2025, 0:08:06 - INFO - Server is running on port: 3030
+25.10.2025, 0:08:08 - ERROR - cannot find boards | ReferenceError: filterBy is not defined
+25.10.2025, 0:08:08 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:08:08 - ERROR - Failed to get boards | ReferenceError: filterBy is not defined
+25.10.2025, 0:08:19 - INFO - Server is running on port: 3030
+25.10.2025, 0:09:11 - INFO - Server is running on port: 3030
+25.10.2025, 0:09:14 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:09:14 - ERROR - cannot find boards | ReferenceError: criteria is not defined
+25.10.2025, 0:09:14 - ERROR - Failed to get boards | ReferenceError: criteria is not defined
+25.10.2025, 0:09:26 - INFO - Server is running on port: 3030
+25.10.2025, 0:09:46 - INFO - Server is running on port: 3030
+25.10.2025, 0:10:05 - INFO - Server is running on port: 3030
+25.10.2025, 0:10:11 - INFO - Server is running on port: 3030
+25.10.2025, 0:10:14 - INFO - Server is running on port: 3030
+25.10.2025, 0:10:17 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:10:17 - ERROR - cannot find boards | ReferenceError: criteria is not defined
+25.10.2025, 0:10:17 - ERROR - Failed to get boards | ReferenceError: criteria is not defined
+25.10.2025, 0:10:58 - INFO - Server is running on port: 3030
+25.10.2025, 0:11:06 - INFO - Server is running on port: 3030
+25.10.2025, 0:11:13 - INFO - Server is running on port: 3030
+25.10.2025, 0:11:23 - INFO - Server is running on port: 3030
+25.10.2025, 0:11:25 - INFO - Server is running on port: 3030
+25.10.2025, 0:11:28 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:11:28 - ERROR - cannot find boards | ReferenceError: criteria is not defined
+25.10.2025, 0:11:28 - ERROR - Failed to get boards | ReferenceError: criteria is not defined
+25.10.2025, 0:11:53 - INFO - Server is running on port: 3030
+25.10.2025, 0:11:57 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:12:05 - INFO - Server is running on port: 3030
+25.10.2025, 0:12:08 - INFO - Server is running on port: 3030
+25.10.2025, 0:12:09 - INFO - Server is running on port: 3030
+25.10.2025, 0:12:32 - INFO - Server is running on port: 3030
+25.10.2025, 0:12:34 - INFO - Server is running on port: 3030
+25.10.2025, 0:28:44 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:28:46 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:28:47 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:28:49 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:34:40 - INFO - Server is running on port: 3030
+25.10.2025, 0:35:19 - INFO - Server is running on port: 3030
+25.10.2025, 0:35:33 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:36:03 - ERROR - Cannot Connect to DB | MongoServerSelectionError: C0A00F0C02000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:916:SSL alert number 80
+
+25.10.2025, 0:36:03 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: C0A00F0C02000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:916:SSL alert number 80
+
+25.10.2025, 0:36:03 - ERROR - cannot find boards | MongoServerSelectionError: C0A00F0C02000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:916:SSL alert number 80
+
+25.10.2025, 0:36:03 - ERROR - Failed to get boards | MongoServerSelectionError: C0A00F0C02000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:916:SSL alert number 80
+
+25.10.2025, 0:36:45 - INFO - Server is running on port: 3030
+25.10.2025, 0:36:51 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:36:53 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:37:12 - INFO - Server is running on port: 3030
+25.10.2025, 0:37:14 - INFO - Server is running on port: 3030
+25.10.2025, 0:37:16 - INFO - Server is running on port: 3030
+25.10.2025, 0:41:06 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:41:27 - INFO - Server is running on port: 3030
+25.10.2025, 0:42:13 - INFO - Server is running on port: 3030
+25.10.2025, 0:42:15 - INFO - Server is running on port: 3030
+25.10.2025, 0:42:59 - INFO - Server is running on port: 3030
+25.10.2025, 0:43:03 - INFO - Server is running on port: 3030
+25.10.2025, 0:46:09 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:48:10 - INFO - Server is running on port: 3030
+25.10.2025, 0:48:49 - INFO - Server is running on port: 3030
+25.10.2025, 0:48:58 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:49:01 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:51:23 - INFO - Server is running on port: 3030
+25.10.2025, 0:51:43 - INFO - Server is running on port: 3030
+25.10.2025, 0:51:46 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:51:47 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:52:04 - INFO - Server is running on port: 3030
+25.10.2025, 0:52:07 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:52:07 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:52:52 - INFO - Server is running on port: 3030
+25.10.2025, 0:52:57 - INFO - Server is running on port: 3030
+25.10.2025, 0:52:59 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:56:53 - INFO - Server is running on port: 3030
+25.10.2025, 0:57:03 - INFO - Server is running on port: 3030
+25.10.2025, 0:57:10 - INFO - Server is running on port: 3030
+25.10.2025, 0:58:04 - INFO - Server is running on port: 3030
+25.10.2025, 0:58:06 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:58:06 - ERROR - cannot find boards | ReferenceError: criteria is not defined
+25.10.2025, 0:58:06 - ERROR - Failed to get boards | ReferenceError: criteria is not defined
+25.10.2025, 0:59:03 - INFO - Server is running on port: 3030
+25.10.2025, 0:59:16 - INFO - Server is running on port: 3030
+25.10.2025, 0:59:18 - INFO - /api/board | GET |  | {}
+25.10.2025, 0:59:56 - INFO - Server is running on port: 3030
+25.10.2025, 1:00:00 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:00:28 - INFO - Server is running on port: 3030
+25.10.2025, 1:00:31 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:01:31 - INFO - Server is running on port: 3030
+25.10.2025, 1:02:52 - INFO - Server is running on port: 3030
+25.10.2025, 1:04:05 - INFO - Server is running on port: 3030
+25.10.2025, 1:04:33 - INFO - Server is running on port: 3030
+25.10.2025, 1:04:35 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:04:35 - ERROR - Failed to get boards | MongoServerError: $regex has to be a string
+25.10.2025, 1:04:40 - INFO - Server is running on port: 3030
+25.10.2025, 1:04:45 - INFO - Server is running on port: 3030
+25.10.2025, 1:04:57 - INFO - Server is running on port: 3030
+25.10.2025, 1:04:58 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:04:58 - ERROR - Failed to get boards | MongoServerError: $regex has to be a string
+25.10.2025, 1:05:19 - INFO - Server is running on port: 3030
+25.10.2025, 1:06:52 - INFO - Server is running on port: 3030
+25.10.2025, 1:06:54 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:06:54 - ERROR - Failed to get boards | MongoServerError: $regex has to be a string
+25.10.2025, 1:07:27 - INFO - Server is running on port: 3030
+25.10.2025, 1:07:29 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:07:29 - ERROR - cannot find boards | ReferenceError: boardCursor is not defined
+25.10.2025, 1:07:29 - ERROR - Failed to get boards | ReferenceError: boardCursor is not defined
+25.10.2025, 1:09:21 - INFO - Server is running on port: 3030
+25.10.2025, 1:09:27 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:09:27 - ERROR - Failed to get boards | MongoServerError: $regex has to be a string
+25.10.2025, 1:10:09 - INFO - Server is running on port: 3030
+25.10.2025, 1:10:30 - INFO - Server is running on port: 3030
+25.10.2025, 1:10:31 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:10:42 - INFO - Server is running on port: 3030
+25.10.2025, 1:10:44 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:11:19 - INFO - Server is running on port: 3030
+25.10.2025, 1:11:20 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:12:24 - INFO - Server is running on port: 3030
+25.10.2025, 1:13:05 - INFO - Server is running on port: 3030
+25.10.2025, 1:13:07 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:13:07 - ERROR - cannot find boards | TypeError: collection.find(...).find is not a function
+25.10.2025, 1:13:07 - ERROR - Failed to get boards | TypeError: collection.find(...).find is not a function
+25.10.2025, 1:13:27 - INFO - Server is running on port: 3030
+25.10.2025, 1:13:29 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:13:46 - INFO - Server is running on port: 3030
+25.10.2025, 1:13:48 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:14:15 - INFO - Server is running on port: 3030
+25.10.2025, 1:14:16 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:14:29 - INFO - Server is running on port: 3030
+25.10.2025, 1:15:44 - INFO - Server is running on port: 3030
+25.10.2025, 1:15:45 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:15:45 - ERROR - cannot find boards | MongoServerError: $regex has to be a string
+25.10.2025, 1:15:45 - ERROR - Failed to get boards | MongoServerError: $regex has to be a string
+25.10.2025, 1:17:19 - INFO - Server is running on port: 3030
+25.10.2025, 1:17:20 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:17:52 - INFO - Server is running on port: 3030
+25.10.2025, 1:18:00 - INFO - Server is running on port: 3030
+25.10.2025, 1:18:15 - INFO - Server is running on port: 3030
+25.10.2025, 1:18:19 - INFO - Server is running on port: 3030
+25.10.2025, 1:18:21 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:18:22 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:18:55 - INFO - Server is running on port: 3030
+25.10.2025, 1:19:07 - INFO - Server is running on port: 3030
+25.10.2025, 1:19:11 - INFO - Server is running on port: 3030
+25.10.2025, 1:19:14 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:19:15 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:19:15 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:19:16 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:19:19 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:19:23 - INFO - Server is running on port: 3030
+25.10.2025, 1:21:02 - INFO - Server is running on port: 3030
+25.10.2025, 1:21:25 - INFO - Server is running on port: 3030
+25.10.2025, 1:21:52 - INFO - Server is running on port: 3030
+25.10.2025, 1:21:59 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:21:59 - ERROR - Failed to get boards | ReferenceError: filterBy is not defined
+25.10.2025, 1:22:08 - INFO - Server is running on port: 3030
+25.10.2025, 1:22:11 - INFO - /api/board | GET |  | {}
+25.10.2025, 1:48:30 - INFO - Server is running on port: 3030
+25.10.2025, 1:48:44 - INFO - Server is running on port: 3030
+25.10.2025, 1:49:20 - INFO - Server is running on port: 3030

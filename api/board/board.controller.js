@@ -3,14 +3,7 @@ import { boardService } from './board.service.js'
 
 export async function getBoards(req, res) {
     try {
-        const filterBy = {
-            txt: req.query.txt || '',
-            minSpeed: +req.query.minSpeed || 0,
-            sortField: req.query.sortField || '',
-            sortDir: req.query.sortDir || 1,
-            pageIdx: req.query.pageIdx,
-        }
-        const boards = await boardService.query(filterBy)
+        const boards = await boardService.query()
         res.json(boards)
     } catch (err) {
         logger.error('Failed to get boards', err)

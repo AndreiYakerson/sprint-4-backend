@@ -19,17 +19,12 @@ export const boardService = {
 
 async function query(filterBy = { txt: '' }) {
     try {
-        const criteria = _buildCriteria(filterBy)
-        const sort = _buildSort(filterBy)
+        // const criteria = _buildCriteria(filterBy)
+        // const sort = _buildSort(filterBy)
 
         const collection = await dbService.getCollection('board')
-        var boardCursor = await collection.find(criteria, { sort })
-
-        if (filterBy.pageIdx !== undefined) {
-            boardCursor.skip(filterBy.pageIdx * PAGE_SIZE).limit(PAGE_SIZE)
-        }
-
-        const boards = boardCursor.toArray()
+        const miniBoards = await collection.find({}, { projection: { _id: 1, title: 1, isStarred: 1 } })
+        const boards = await miniBoards.toArray()
         return boards
     } catch (err) {
         logger.error('cannot find boards', err)
@@ -132,8 +127,7 @@ async function removeBoardMsg(boardId, msgId) {
 
 function _buildCriteria(filterBy) {
     const criteria = {
-        vendor: { $regex: filterBy.txt, $options: 'i' },
-        speed: { $gte: filterBy.minSpeed },
+        title: { $regex: filterBy.txt, $options: 'i' },
     }
 
     return criteria
