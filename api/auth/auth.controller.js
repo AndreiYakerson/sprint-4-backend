@@ -47,3 +47,6 @@ export async function logout(req, res) {
         res.status(400).send({ err: 'Failed to logout' })
     }
 }
+
+// Hey there. One. One check one check
+// HeyHey there. One. One check one check
