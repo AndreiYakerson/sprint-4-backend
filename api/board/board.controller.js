@@ -5,11 +5,12 @@ export async function getBoards(req, res) {
     try {
         const filterBy = {
             txt: req.query.txt || '',
-            minSpeed: +req.query.minSpeed || 0,
-            sortField: req.query.sortField || '',
-            sortDir: req.query.sortDir || 1,
-            pageIdx: req.query.pageIdx,
+            // minSpeed: +req.query.minSpeed || 0,
+            // sortField: req.query.sortField || '',
+            // sortDir: req.query.sortDir || 1,
+            // pageIdx: req.query.pageIdx,
         }
+
         const boards = await boardService.query(filterBy)
         res.json(boards)
     } catch (err) {
@@ -34,6 +35,8 @@ export async function getBoardById(req, res) {
 
 export async function addBoard(req, res) {
     const { loggedinUser, body } = req
+    console.log("🚀 ~ addBoard ~ loggedinUser:", loggedinUser)
+    console.log("🚀 ~ addBoard ~ body:", body)
     const board = {
         vendor: body.vendor,
         speed: body.speed
@@ -41,6 +44,7 @@ export async function addBoard(req, res) {
     try {
         board.owner = loggedinUser
         const addedBoard = await boardService.add(board)
+        console.log("🚀 ~ addBoard ~ addedBoard:", addedBoard)
         res.json(addedBoard)
     } catch (err) {
         logger.error('Failed to add board', err)

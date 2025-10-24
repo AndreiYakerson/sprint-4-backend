@@ -1,0 +1,45 @@
+@BASE_URL_LOCAL = http://localhost:3030
+@USER_ID = 68ce588b5c9d48e910e6d561
+
+
+# GetBoards
+GET  {{BASE_URL_LOCAL}}/api/board/
+# Content-Type: application/json
+
+# {
+#     "username": "aaa",
+#     "password": "111",
+#     "fullname": "dan wei"
+# }
+
+# {
+#     "username": "sss",
+#     "password": "222",
+#     "fullname": "d w"
+# }
+
+
+###
+
+# Login
+POST {{BASE_URL_LOCAL}}/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "aaa",
+    "password": "111"
+}
+
+###
+
+# Logout
+POST {{BASE_URL_LOCAL}}/api/auth/logout
+Content-Type: application/json
+
+{
+    "username": "dandansss",
+    "password": "111"
+}
+
+###
+

@@ -132,8 +132,8 @@ async function removeBoardMsg(boardId, msgId) {
 
 function _buildCriteria(filterBy) {
     const criteria = {
-        vendor: { $regex: filterBy.txt, $options: 'i' },
-        speed: { $gte: filterBy.minSpeed },
+        txt: { $regex: filterBy.txt, $options: 'i' },
+        // speed: { $gte: filterBy.minSpeed },
     }
 
     return criteria
