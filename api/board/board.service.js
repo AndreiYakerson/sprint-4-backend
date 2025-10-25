@@ -81,12 +81,12 @@ async function add(board) {
 }
 
 async function update(board) {
-    const boardToSave = { vendor: board.vendor, speed: board.speed }
+    const boardToSave = { ...board }
 
     try {
         const criteria = { _id: ObjectId.createFromHexString(board._id) }
-
         const collection = await dbService.getCollection('board')
+        delete boardToSave._id
         await collection.updateOne(criteria, { $set: boardToSave })
 
         return board

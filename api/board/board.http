@@ -1,45 +1,294 @@
 @BASE_URL_LOCAL = http://localhost:3030
-@USER_ID = 68ce588b5c9d48e910e6d561
+@BOARD_ID = 68fca460d9cdadbaab55abde
 
 
-# GetBoards
-GET  {{BASE_URL_LOCAL}}/api/board/
+# Get Boards
+GET  {{BASE_URL_LOCAL}}/api/Board
+
+###  
+# Get Board By Id
+
+GET  {{BASE_URL_LOCAL}}/api/Board/{{BOARD_ID}}
+
+### 
+
+# Post Board
+POST   {{BASE_URL_LOCAL}}/api/Board/
+Content-Type: application/json
+
+{
+  "title": "aa new Board",
+  "privacy": "main",
+  "managingType": "item",
+  "isStarred": false,
+  "createdAt": "2025-10-25T07:32:23.000Z",
+  "priorities": [
+    {
+      "id": "critical",
+      "txt": "Critical",
+      "cssVar": "--primary-text-color",
+      "count": 1,
+      "percentage": 50,
+      "msg": "Critical 1/2 50%"
+    },
+    {
+      "id": "high",
+      "txt": "High",
+      "cssVar": "--group-title-clr7"
+    },
+    {
+      "id": "medium",
+      "txt": "Medium",
+      "cssVar": "--group-title-clr8"
+    },
+    {
+      "id": "low",
+      "txt": "Low",
+      "cssVar": "--group-title-clr9"
+    },
+    {
+      "id": "default",
+      "txt": "",
+      "cssVar": "--group-title-clr18",
+      "count": 1,
+      "percentage": 50,
+      "msg": " 1/2 50%"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "done",
+      "txt": "Done",
+      "cssVar": "--group-title-clr2"
+    },
+    {
+      "id": "working",
+      "txt": "Working on it",
+      "cssVar": " --group-title-clr16"
+    },
+    {
+      "id": "stuck",
+      "txt": "Stuck",
+      "cssVar": "--group-title-clr12"
+    },
+    {
+      "id": "Not Started",
+      "txt": "Not Started",
+      "cssVar": "--group-title-clr18",
+      "count": 2,
+      "percentage": 100,
+      "msg": "Not Started 2/2 100%"
+    }
+  ],
+  "cmpOrder": [
+    "members",
+    "date",
+    "priority",
+    "file"
+  ],
+  "members": [
+    {
+      "_id": "1Kmz9V",
+      "fullname": "Liam OConnell",
+      "password": "user 1",
+      "profession": "Solar Panel Installer",
+      "tags": [
+        "member"
+      ],
+      "imgUrl": "/img/demoUsers/user1.png"
+    },
+    {
+      "_id": "5YmKDA",
+      "fullname": "Sofia Fernandez",
+      "password": "user 2",
+      "profession": "Urban Planner",
+      "tags": [
+        "member"
+      ],
+      "imgUrl": "/img/demoUsers/user2.png"
+    },
+    {
+      "_id": "6ZGf9o",
+      "fullname": "Kai Nakamura",
+      "password": "user 3",
+      "profession": "Head Chef",
+      "tags": [
+      ],
+      "imgUrl": "/img/demoUsers/user3.png"
+    },
+    {
+      "_id": "ahLGxE",
+      "fullname": "Chloe Davies",
+      "password": "user 4",
+      "profession": "Financial Analyst",
+      "tags": [
+        "member"
+      ],
+      "imgUrl": "/img/demoUsers/user4.png"
+    },
+    {
+      "_id": "qBfABY",
+      "fullname": "Elijah Vance",
+      "password": "user 5",
+      "profession": "Data Scientist",
+      "tags": [
+        "member"
+      ],
+      "imgUrl": "/img/demoUsers/user5.png"
+    }
+  ],
+  "groups": [
+    {
+      "id": "KqOtUS",
+      "title": "New group 2",
+      "createdAt": 1761253173933,
+      "isCollapsed": false,
+      "tasks": [],
+      "style": {
+        "--group-color": "#fa6237"
+      }
+    },
+    {
+      "id": "H9mdSW",
+      "title": "Group 1",
+      "createdAt": 1761253164615,
+      "isCollapsed": false,
+      "tasks": [
+        {
+          "id": "BOuRds",
+          "title": "Item 1",
+          "createdAt": 1761253164615,
+          "memberIds": [],
+          "priority": {
+            "txt": "Default Label",
+            "cssVar": "--group-title-clr18",
+            "id": "default"
+          },
+          "status": {
+            "txt": "Not Started",
+            "cssVar": "--group-title-clr18",
+            "id": "Not Started"
+          },
+          "updates": []
+        },
+        {
+          "id": "us5pYw",
+          "title": "Item 2",
+          "createdAt": 1761253164615,
+          "memberIds": [],
+          "priority": {
+            "id": "critical",
+            "txt": "Critical",
+            "cssVar": "--primary-text-color",
+            "updatedAt": 1761253208723
+          },
+          "status": {
+            "txt": "Not Started",
+            "cssVar": "--group-title-clr18",
+            "id": "Not Started"
+          },
+          "updates": [],
+          "dueDate": {
+            "date": 1760043600000,
+            "isTimeShow": false
+          }
+        }
+      ],
+      "style": {
+        "--group-color": "#9d4edb"
+      }
+    },
+    {
+      "id": "AY76Mw",
+      "title": "New group",
+      "createdAt": 1761253386989,
+      "isCollapsed": false,
+      "tasks": [],
+      "style": {
+        "--group-color": "#f9aa47"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "gGWKmh",
+      "title": "Changed due date to Oct 10",
+      "createdAt": 1761253202086,
+      "byMember": {
+        "_id": "UDCz8",
+        "fullname": "Andrei Yakerson",
+        "imgUrl": "https://res.cloudinary.com/dy972hmba/image/upload/v1761253146/gs1tx0k9e9o6sqmoaouj.jpg"
+      },
+      "group": {
+        "id": "H9mdSW",
+        "title": "Group 1"
+      },
+      "task": {
+        "id": "us5pYw",
+        "title": "Item 2"
+      }
+    },
+    {
+      "id": "uifGjD",
+      "title": "Changed due priority to Critical",
+      "createdAt": 1761253209225,
+      "byMember": {
+        "_id": "UDCz8",
+        "fullname": "Andrei Yakerson",
+        "imgUrl": "https://res.cloudinary.com/dy972hmba/image/upload/v1761253146/gs1tx0k9e9o6sqmoaouj.jpg"
+      },
+      "group": {
+        "id": "H9mdSW",
+        "title": "Group 1"
+      },
+      "task": {
+        "id": "us5pYw",
+        "title": "Item 2"
+      }
+    }
+  ]
+}
+
+###
+
+# Put Board
+PUT {{BASE_URL_LOCAL}}/api/Board/{{BOARD_ID}}
+Content-Type: application/json
+
+{
+  "_id":"{{BOARD_ID}}",
+  "title": "ard",
+  "privacy": "main",
+  "managingType": "item",
+  "isStarred": true,
+  "priorities": ["ccc"]
+}
+
+###
+# Delete Board
+
+DELETE  {{BASE_URL_LOCAL}}/api/Board/{{BOARD_ID}}
+
+###
+
+
+// Board Msg Api's
+
+# Post Msg To Board
+# POST {{BASE_URL_LOCAL}}/api/Board/68c017003fbd8cbb8b2e494f/msg
 # Content-Type: application/json
 
 # {
-#     "username": "aaa",
-#     "password": "111",
-#     "fullname": "dan wei"
+#     "sendFrom":"username",
+#     "msg":"xxx",
+#     "createdAt":"222"
 # }
 
-# {
-#     "username": "sss",
-#     "password": "222",
-#     "fullname": "d w"
-# }
-
-
 ###
 
-# Login
-POST {{BASE_URL_LOCAL}}/api/auth/login
-Content-Type: application/json
+# # Delete Msg To Board
 
-{
-    "username": "aaa",
-    "password": "111"
-}
+# DELETE {{BASE_URL_LOCAL}}/api/Board/{{BOARD_ID}}/msg/DblhH
 
-###
-
-# Logout
-POST {{BASE_URL_LOCAL}}/api/auth/logout
-Content-Type: application/json
-
-{
-    "username": "dandansss",
-    "password": "111"
-}
-
-###
+# ##
 
