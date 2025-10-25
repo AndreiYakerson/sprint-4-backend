@@ -533,6 +533,105 @@
 25.10.2025, 13:42:13 - INFO - Server is running on port: 3030
 25.10.2025, 13:43:19 - INFO - Server is running on port: 3030
 25.10.2025, 13:43:29 - INFO - /api/Board | GET |  | {}
+25.10.2025, 18:17:30 - INFO - Server is running on port: 3030
+25.10.2025, 18:17:32 - INFO - /api/board | GET |  | {"id":"gsecd3"}
+25.10.2025, 18:17:32 - ERROR - while finding board gsecd3 | BSONError: hex string must be 24 characters
+25.10.2025, 18:17:32 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+25.10.2025, 18:18:04 - INFO - /api/board | GET |  | {"id":"andrei123"}
+25.10.2025, 18:18:04 - ERROR - while finding board andrei123 | BSONError: hex string must be 24 characters
+25.10.2025, 18:18:04 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+25.10.2025, 18:18:32 - INFO - Server is running on port: 3030
+25.10.2025, 18:19:38 - INFO - Server is running on port: 3030
+25.10.2025, 18:19:40 - INFO - Server is running on port: 3030
+25.10.2025, 18:19:54 - INFO - Server is running on port: 3030
+25.10.2025, 18:19:56 - INFO - /api/board | GET |  | {"id":"andrei123"}
+25.10.2025, 18:19:56 - ERROR - while finding board andrei123 | BSONError: hex string must be 24 characters
+25.10.2025, 18:19:56 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+25.10.2025, 18:20:08 - INFO - /api/board | GET |  | {"id":"andrei123"}
+25.10.2025, 18:20:08 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+25.10.2025, 18:20:08 - ERROR - while finding board andrei123 | BSONError: hex string must be 24 characters
+25.10.2025, 18:20:20 - INFO - Server is running on port: 3030
+25.10.2025, 18:20:43 - INFO - Server is running on port: 3030
+25.10.2025, 18:20:46 - INFO - /api/board | GET |  | {"id":"andrei123"}
+25.10.2025, 18:20:46 - ERROR - while finding board andrei123 | BSONError: hex string must be 24 characters
+25.10.2025, 18:20:46 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+25.10.2025, 18:21:04 - INFO - Server is running on port: 3030
+25.10.2025, 18:21:10 - INFO - /api/board | GET |  | {"id":"andrei123"}
+25.10.2025, 18:21:10 - ERROR - while finding board andrei123 | BSONError: hex string must be 24 characters
+25.10.2025, 18:21:10 - ERROR - Failed to get board | BSONError: hex string must be 24 characters
+25.10.2025, 18:22:22 - INFO - Server is running on port: 3030
+25.10.2025, 18:22:25 - INFO - /api/board | GET |  | {}
+25.10.2025, 18:23:20 - INFO - Server is running on port: 3030
+25.10.2025, 18:23:32 - INFO - Server is running on port: 3030
+25.10.2025, 18:23:42 - INFO - Server is running on port: 3030
+25.10.2025, 18:25:29 - INFO - Server is running on port: 3030
+25.10.2025, 18:28:48 - INFO - Server is running on port: 3030
+25.10.2025, 18:28:49 - INFO - Server is running on port: 3030
+25.10.2025, 18:30:11 - INFO - Server is running on port: 3030
+25.10.2025, 18:40:17 - INFO - Server is running on port: 3030
+25.10.2025, 18:40:49 - INFO - Server is running on port: 3030
+25.10.2025, 18:40:57 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 18:40:57 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 18:42:10 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 18:42:10 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 18:42:19 - INFO - Server is running on port: 3030
+25.10.2025, 18:42:21 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 18:42:21 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 18:43:02 - INFO - Server is running on port: 3030
+25.10.2025, 18:43:10 - INFO - Server is running on port: 3030
+25.10.2025, 18:43:13 - INFO - Server is running on port: 3030
+25.10.2025, 18:43:16 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 18:43:16 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 18:44:53 - INFO - Server is running on port: 3030
+25.10.2025, 18:44:56 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 18:44:56 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 18:45:42 - INFO - Server is running on port: 3030
+25.10.2025, 18:45:44 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 18:45:44 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 18:47:03 - INFO - Server is running on port: 3030
+25.10.2025, 18:47:08 - ERROR - cannot update board [object Object] | ReferenceError: boardToSave is not defined
+25.10.2025, 18:47:08 - ERROR - Failed to update board | ReferenceError: boardToSave is not defined
+25.10.2025, 18:47:23 - INFO - Server is running on port: 3030
+25.10.2025, 18:47:30 - ERROR - cannot update board [object Object] | MongoInvalidArgumentError: Selector must be a valid JavaScript object
+25.10.2025, 18:47:30 - ERROR - Failed to update board | MongoInvalidArgumentError: Selector must be a valid JavaScript object
+25.10.2025, 18:48:19 - INFO - Server is running on port: 3030
+25.10.2025, 18:50:25 - INFO - Server is running on port: 3030
+25.10.2025, 18:54:20 - INFO - Server is running on port: 3030
+25.10.2025, 18:54:25 - ERROR - cannot update board [object Object] | MongoServerError: unknown operator: $oid
+25.10.2025, 18:54:25 - ERROR - Failed to update board | MongoServerError: unknown operator: $oid
+25.10.2025, 18:54:50 - INFO - Server is running on port: 3030
+25.10.2025, 18:56:59 - INFO - Server is running on port: 3030
+25.10.2025, 18:57:08 - ERROR - cannot update board [object Object] | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+25.10.2025, 18:57:08 - ERROR - Failed to update board | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+25.10.2025, 18:57:33 - INFO - Server is running on port: 3030
+25.10.2025, 18:57:35 - ERROR - Failed to update board | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+25.10.2025, 18:57:35 - ERROR - cannot update board [object Object] | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+25.10.2025, 18:58:39 - INFO - Server is running on port: 3030
+25.10.2025, 18:58:41 - ERROR - cannot update board [object Object] | BSONError: Argument passed in does not match the accepted types
+25.10.2025, 18:58:41 - ERROR - Failed to update board | BSONError: Argument passed in does not match the accepted types
+25.10.2025, 18:58:59 - INFO - Server is running on port: 3030
+25.10.2025, 18:59:40 - INFO - Server is running on port: 3030
+25.10.2025, 18:59:52 - INFO - Server is running on port: 3030
+25.10.2025, 18:59:54 - ERROR - Failed to update board | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+25.10.2025, 18:59:54 - ERROR - cannot update board [object Object] | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+25.10.2025, 19:01:57 - INFO - Server is running on port: 3030
+25.10.2025, 19:03:14 - INFO - Server is running on port: 3030
+25.10.2025, 19:03:22 - ERROR - cannot update board [object Object] | BSONError: hex string must be 24 characters
+25.10.2025, 19:03:22 - ERROR - Failed to update board | BSONError: hex string must be 24 characters
+25.10.2025, 19:03:30 - INFO - Server is running on port: 3030
+25.10.2025, 19:04:11 - INFO - Server is running on port: 3030
+25.10.2025, 19:04:49 - INFO - Server is running on port: 3030
+25.10.2025, 19:05:03 - INFO - Server is running on port: 3030
+25.10.2025, 19:05:14 - INFO - Server is running on port: 3030
+25.10.2025, 19:06:02 - INFO - Server is running on port: 3030
+25.10.2025, 19:08:04 - INFO - Server is running on port: 3030
+25.10.2025, 19:10:46 - INFO - Server is running on port: 3030
+25.10.2025, 19:11:31 - INFO - Server is running on port: 3030
+25.10.2025, 19:12:00 - INFO - Server is running on port: 3030
+25.10.2025, 19:12:03 - INFO - /api/board | POST | {"title":"New Board 999","privacy":"main","managingType":"item","isStarred":false,"createdAt":{"$numberLong":"1761253164614"},"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color","count":1,"percentage":50,"msg":"Critical 1/2 50%"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18","count":1,"percentage":50,"msg":" 1/2 50%"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18","count":2,"percentage":100,"msg":"Not Started 2/2 100%"}],"cmpOrder":["members","date","priority","file"],"members":[{"_id":"1Kmz9V","fullname":"Liam OConnell","password":"user 1","profession":"Solar Panel Installer","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"5YmKDA","fullname":"Sofia Fernandez","password":"user 2","profession":"Urban Planner","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"6ZGf9o","fullname":"Kai Nakamura","password":"user 3","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"ahLGxE","fullname":"Chloe Davies","password":"user 4","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"qBfABY","fullname":"Elijah Vance","password":"user 5","profession":"Data Scientist","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"KqOtUS","title":"New group 2","createdAt":{"$numberLong":"1761253173933"},"isCollapsed":false,"tasks":[],"style":{"--group-color":"#fa6237"}},{"id":"H9mdSW","title":"Group 1","createdAt":{"$numberLong":"1761253164615"},"isCollapsed":false,"tasks":[{"id":"BOuRds","title":"Item 1","createdAt":{"$numberLong":"1761253164615"},"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"us5pYw","title":"Item 2","createdAt":{"$numberLong":"1761253164615"},"memberIds":[],"priority":{"id":"critical","txt":"Critical","cssVar":"--primary-text-color","updatedAt":{"$numberLong":"1761253208723"}},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[],"dueDate":{"date":{"$numberLong":"1760043600000"},"isTimeShow":false}}],"style":{"--group-color":"#9d4edb"}},{"id":"AY76Mw","title":"New group","createdAt":{"$numberLong":"1761253386989"},"isCollapsed":false,"tasks":[],"style":{"--group-color":"#f9aa47"}}],"activities":[{"id":"gGWKmh","title":"Changed due date to Oct 10","createdAt":{"$numberLong":"1761253202086"},"byMember":{"_id":"UDCz8","fullname":"Andrei Yakerson","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1761253146/gs1tx0k9e9o6sqmoaouj.jpg"},"group":{"id":"H9mdSW","title":"Group 1"},"task":{"id":"us5pYw","title":"Item 2"}},{"id":"uifGjD","title":"Changed due priority to Critical","createdAt":{"$numberLong":"1761253209225"},"byMember":{"_id":"UDCz8","fullname":"Andrei Yakerson","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1761253146/gs1tx0k9e9o6sqmoaouj.jpg"},"group":{"id":"H9mdSW","title":"Group 1"},"task":{"id":"us5pYw","title":"Item 2"}}]} | {}
+25.10.2025, 19:12:17 - INFO - Server is running on port: 3030
+25.10.2025, 19:13:35 - INFO - Server is running on port: 3030
+25.10.2025, 19:13:53 - INFO - /api/board | POST | {"title":"Added board","privacy":"main","managingType":"item","isStarred":false,"createdAt":{"$numberLong":"1761253164614"},"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color","count":1,"percentage":50,"msg":"Critical 1/2 50%"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18","count":1,"percentage":50,"msg":" 1/2 50%"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18","count":2,"percentage":100,"msg":"Not Started 2/2 100%"}],"cmpOrder":["members","date","priority","file"],"members":[{"_id":"1Kmz9V","fullname":"Liam OConnell","password":"user 1","profession":"Solar Panel Installer","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"5YmKDA","fullname":"Sofia Fernandez","password":"user 2","profession":"Urban Planner","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"6ZGf9o","fullname":"Kai Nakamura","password":"user 3","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"ahLGxE","fullname":"Chloe Davies","password":"user 4","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"qBfABY","fullname":"Elijah Vance","password":"user 5","profession":"Data Scientist","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"KqOtUS","title":"New group 2","createdAt":{"$numberLong":"1761253173933"},"isCollapsed":false,"tasks":[],"style":{"--group-color":"#fa6237"}},{"id":"H9mdSW","title":"Group 1","createdAt":{"$numberLong":"1761253164615"},"isCollapsed":false,"tasks":[{"id":"BOuRds","title":"Item 1","createdAt":{"$numberLong":"1761253164615"},"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"us5pYw","title":"Item 2","createdAt":{"$numberLong":"1761253164615"},"memberIds":[],"priority":{"id":"critical","txt":"Critical","cssVar":"--primary-text-color","updatedAt":{"$numberLong":"1761253208723"}},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[],"dueDate":{"date":{"$numberLong":"1760043600000"},"isTimeShow":false}}],"style":{"--group-color":"#9d4edb"}},{"id":"AY76Mw","title":"New group","createdAt":{"$numberLong":"1761253386989"},"isCollapsed":false,"tasks":[],"style":{"--group-color":"#f9aa47"}}],"activities":[{"id":"gGWKmh","title":"Changed due date to Oct 10","createdAt":{"$numberLong":"1761253202086"},"byMember":{"_id":"UDCz8","fullname":"Andrei Yakerson","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1761253146/gs1tx0k9e9o6sqmoaouj.jpg"},"group":{"id":"H9mdSW","title":"Group 1"},"task":{"id":"us5pYw","title":"Item 2"}},{"id":"uifGjD","title":"Changed due priority to Critical","createdAt":{"$numberLong":"1761253209225"},"byMember":{"_id":"UDCz8","fullname":"Andrei Yakerson","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1761253146/gs1tx0k9e9o6sqmoaouj.jpg"},"group":{"id":"H9mdSW","title":"Group 1"},"task":{"id":"us5pYw","title":"Item 2"}}]} | {}
 25.10.2025, 13:44:10 - INFO - /api/Board | GET |  | {}
 25.10.2025, 13:44:25 - INFO - /api/Board | GET |  | {}
 25.10.2025, 13:45:14 - INFO - /api/Board | GET |  | {}

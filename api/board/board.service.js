@@ -69,6 +69,7 @@ async function remove(boardId) {
 }
 
 async function add(board) {
+    
     try {
         const collection = await dbService.getCollection('board')
         await collection.insertOne(board)
@@ -81,14 +82,13 @@ async function add(board) {
 }
 
 async function update(board) {
-    const boardToSave = { ...board }
+    const { _id, ...boardToSave } = board
 
     try {
-        const criteria = { _id: ObjectId.createFromHexString(board._id) }
+        const criteria = { _id: new ObjectId(board._id.$oid) }
         const collection = await dbService.getCollection('board')
         delete boardToSave._id
         await collection.updateOne(criteria, { $set: boardToSave })
-
         return board
     } catch (err) {
         logger.error(`cannot update board ${board._id}`, err)

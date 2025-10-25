@@ -13,7 +13,7 @@ const router = express.Router()
 router.get('/', log, getBoards)
 router.get('/:id', log, getBoardById)
 router.post('/', log, requireAuth, addBoard)
-router.put('/:id', requireAuth, updateBoard)
+router.put('/', requireAuth, updateBoard)
 router.delete('/:id', requireAuth, removeBoard)
 
 // router.delete('/:id', requireAuth, requireAdmin, removeBoard)
