@@ -18,6 +18,8 @@ export const boardService = {
     // group
     addGroup,
     removeGroup,
+    // task details
+    getTaskById,
     // task
     addTask,
     duplicateTask,
@@ -174,7 +176,51 @@ async function removeGroup(boardId, groupId) {
     }
 }
 
-// task
+// task details
+
+async function getTaskById(boardId, taskId) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const pipeline = [
+            { $match: { _id: ObjectId.createFromHexString(boardId) } },
+            { $unwind: '$groups' },
+            { $unwind: '$groups.tasks' },
+            { $match: { 'groups.tasks.id': taskId } },
+            {
+                $project: {
+                    _id: 0,
+                    id: '$groups.tasks.id',
+                    title: '$groups.tasks.title',
+                    groupId: '$groups.id',
+                    createdAt: '$groups.tasks.createdAt',
+                    updates: '$groups.tasks.updates',
+
+                    activities: {
+                        $filter: {
+                            input: '$activities',
+                            as: 'activity',
+                            cond: { $eq: ['$$activity.task.id', taskId] }
+                        }
+                    }
+                }
+            },
+            { $sort: { 'activities.createdAt': -1 } }
+        ]
+
+        const result = await collection.aggregate(pipeline).toArray();
+
+        if (!result.length) throw new Error(`Task ${taskId} not found`);
+
+        return result[0]
+
+    } catch (err) {
+        console.error('cannot get task', err);
+        throw err;
+    }
+}
+
+/// task 
 
 async function addTask(boardId, groupId, task, method = 'push') {
     try {

@@ -143,6 +143,22 @@ export async function removeGroup(req, res) {
     }
 }
 
+// task
+
+export async function getTaskById(req, res) {
+    const { boardId, taskId } = req.params
+    const { loggedinUser } = req
+
+    try {
+        const taskDetails = await boardService.getTaskById(boardId, taskId)
+
+        console.log("🚀 ~ taskDetails:", taskDetails)
+        res.json(taskDetails)
+    } catch (err) {
+        logger.error('Failed to get task', err)
+        res.status(400).send({ err: 'Failed to get task' })
+    }
+}
 
 // task
 

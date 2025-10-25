@@ -6,7 +6,8 @@ import { log } from '../../middlewares/logger.middleware.js'
 import {
     getBoards, getBoardById, addBoard, updateBoard, removeBoard, addBoardMsg, removeBoardMsg,
     removeGroup, addGroup,
-    addTask, updateTask, removeTask, duplicateTask
+    getTaskById,
+    addTask, updateTask, removeTask, duplicateTask,
 } from './board.controller.js'
 
 
@@ -24,6 +25,9 @@ router.delete('/:id', requireAuth, removeBoard)
 // group
 router.post('/:boardId', requireAuth, addGroup)
 router.delete('/:boardId/:groupId', requireAuth, removeGroup)
+
+//task details
+router.get('/:boardId/task/:taskId', requireAuth, getTaskById)
 
 //task
 router.post('/:boardId/:groupId', requireAuth, addTask)
