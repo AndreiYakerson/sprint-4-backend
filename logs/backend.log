@@ -667,3 +667,28 @@
 25.10.2025, 19:54:06 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object
 25.10.2025, 19:54:54 - INFO - Server is running on port: 3030
 25.10.2025, 19:55:55 - INFO - Server is running on port: 3030
+25.10.2025, 21:59:12 - INFO - Server is running on port: 3030
+25.10.2025, 21:59:15 - INFO - New connected socket [id: d-0yfd0RepWHRyLMAAAB]
+25.10.2025, 21:59:15 - INFO - Setting socket.userId = UDCz8 for socket [id: d-0yfd0RepWHRyLMAAAB]
+25.10.2025, 22:00:14 - INFO - Server is running on port: 3030
+25.10.2025, 22:00:15 - INFO - Server is running on port: 3030
+25.10.2025, 22:00:16 - INFO - New connected socket [id: w10ccdKWJTXYbChCAAAB]
+25.10.2025, 22:00:30 - ERROR - Failed to remove group | TypeError: boardService.removeGroup is not a function
+25.10.2025, 22:06:01 - INFO - Server is running on port: 3030
+25.10.2025, 22:06:02 - INFO - New connected socket [id: LAz_zsNMLi7ZhIa0AAAB]
+25.10.2025, 22:06:04 - INFO - Server is running on port: 3030
+25.10.2025, 22:06:06 - INFO - New connected socket [id: ept88guOArZgPloQAAAB]
+25.10.2025, 22:06:22 - INFO - Server is running on port: 3030
+25.10.2025, 22:06:25 - INFO - New connected socket [id: SeLSLjjp_FvN2oyHAAAB]
+25.10.2025, 22:07:07 - INFO - Server is running on port: 3030
+25.10.2025, 22:07:09 - INFO - New connected socket [id: 0oOCJAC5DtRTzxT_AAAB]
+25.10.2025, 22:07:16 - INFO - Server is running on port: 3030
+25.10.2025, 22:07:18 - INFO - New connected socket [id: Ghqp697dMx46FWdbAAAB]
+25.10.2025, 22:09:05 - INFO - Server is running on port: 3030
+25.10.2025, 22:09:07 - INFO - New connected socket [id: Lnjj1RQnAXFoA2GfAAAB]
+25.10.2025, 22:10:50 - INFO - Server is running on port: 3030
+25.10.2025, 22:10:52 - INFO - New connected socket [id: PqcOIzm0Y09ArqpkAAAB]
+25.10.2025, 22:11:10 - INFO - Server is running on port: 3030
+25.10.2025, 22:11:11 - INFO - New connected socket [id: jT8hUiEzx1XRHRaxAAAB]
+25.10.2025, 22:11:18 - INFO - Server is running on port: 3030
+25.10.2025, 22:11:19 - INFO - New connected socket [id: qx_aXqw8sU18leSfAAAB]

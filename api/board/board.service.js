@@ -15,6 +15,7 @@ export const boardService = {
     update,
     addBoardMsg,
     removeBoardMsg,
+    removeGroup,
 }
 
 async function query(filterBy = { txt: '' }) {
@@ -121,6 +122,24 @@ async function removeBoardMsg(boardId, msgId) {
         return msgId
     } catch (err) {
         logger.error(`cannot remove board msg ${boardId}`, err)
+        throw err
+    }
+}
+
+async function removeGroup(boardId, groupId) {
+    try {
+        const criteria = { _id: ObjectId.createFromHexString(boardId) }
+
+        const collection = await dbService.getCollection('board')
+        const updatedBoard = await collection.findOneAndUpdate(
+            criteria,
+            { $pull: { groups: { id: groupId } } },
+            { returnDocument: 'after' }
+        )
+
+        return updatedBoard
+    } catch (err) {
+        logger.error(`cannot remove group ${groupId} from board ${boardId}`, err)
         throw err
     }
 }

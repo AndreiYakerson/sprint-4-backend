@@ -34,24 +34,14 @@ export async function getBoardById(req, res) {
 
 
 export async function addBoard(req, res) {
-<<<<<<< Updated upstream
-    const { loggedinUser, body } = req
-    const board = { ...body }
-=======
     const { loggedinUser, body: board } = req
 
->>>>>>> Stashed changes
     try {
         board.owner = loggedinUser
 
         console.log(board);
         
         const addedBoard = await boardService.add(board)
-<<<<<<< Updated upstream
-=======
-
-        console.log("🚀 ~ addBoard ~ addedBoard:", addedBoard)
->>>>>>> Stashed changes
         res.json(addedBoard)
     } catch (err) {
         logger.error('Failed to add board', err)
@@ -61,16 +51,9 @@ export async function addBoard(req, res) {
 
 export async function updateBoard(req, res) {
     const { loggedinUser, body: board } = req
-<<<<<<< Updated upstream
-    console.log("🚀 ~ updateBoard ~ board:", board)
-    console.log("🚀 ~ updateBoard ~ loggedinUser:", loggedinUser)
-    const { _id: userId, isAdmin } = loggedinUser
-
-=======
 
     // const { _id: userId, isAdmin } = loggedinUser
 
->>>>>>> Stashed changes
     // if (!isAdmin && board.owner._id !== userId) {
     //     res.status(403).send('Not your board...')
     //     return
@@ -123,5 +106,18 @@ export async function removeBoardMsg(req, res) {
     } catch (err) {
         logger.error('Failed to remove board msg', err)
         res.status(400).send({ err: 'Failed to remove board msg' })
+    }
+}
+
+export async function removeGroup(req, res) {
+    
+    try {
+        const { boardId, groupId } = req.params
+
+        const updatedBoard = await boardService.removeGroup(boardId, groupId)
+        res.json(updatedBoard)
+    } catch (err) {
+        logger.error('Failed to remove group', err)
+        res.status(400).send({ err: 'Failed to remove group' })
     }
 }
