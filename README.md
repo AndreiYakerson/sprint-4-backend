@@ -77,7 +77,6 @@ middlewares/
   username: String,
   password: String,
   fullname: String,
-  score: Number,
   isAdmin: Boolean
 }
 ```

@@ -1,0 +1,33 @@
+@BASE_URL_LOCAL = http://localhost:3030
+@USER_ID = 68fc8cbf97aaaa8e6f6d4a81
+
+# Get Users
+GET {{BASE_URL_LOCAL}}/api/user
+
+###
+# Get User By Id
+
+GET {{BASE_URL_LOCAL}}/api/user/{{USER_ID}}
+
+###
+
+# Update User
+
+Put {{BASE_URL_LOCAL}}/api/user/{{USER_ID}}
+Content-Type: application/json
+
+{
+ "_id": "{{USER_ID}}",
+  "username": "dd",
+  "fullname": "ssss",
+  "isAdmin": "false",
+  "imgUrl": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
+}
+
+###
+# Remove User
+
+Delete {{BASE_URL_LOCAL}}/api/user/{{USER_ID}}
+
+###
+

@@ -379,3 +379,111 @@
 25.10.2025, 1:49:20 - INFO - Server is running on port: 3030
 25.10.2025, 10:06:22 - INFO - Server is running on port: 3030
 25.10.2025, 10:06:30 - INFO - Server is running on port: 3030
+25.10.2025, 11:14:44 - ERROR - Failed to get user | ReferenceError: reviewService is not defined | 68ce874d551f31653aab3598
+25.10.2025, 11:14:44 - ERROR - while finding user by id: 68fc86be5e55d6e8c17f2f61 | ReferenceError: reviewService is not defined | 68ce874d551f31653aab3598
+25.10.2025, 11:14:56 - ERROR - while finding user by id: 68fc86be5e55d6e8c17f2f61 | ReferenceError: reviewService is not defined | 68ce874d551f31653aab3598
+25.10.2025, 11:14:56 - ERROR - Failed to get user | ReferenceError: reviewService is not defined | 68ce874d551f31653aab3598
+25.10.2025, 11:15:15 - ERROR - while finding user by id: '68fc86be5e55d6e8c17f2f61' | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:15:15 - ERROR - Failed to get user | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:15:29 - ERROR - while finding user by id: {68fc86be5e55d6e8c17f2f61} | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:15:29 - ERROR - Failed to get user | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:15:43 - ERROR - while finding user by id: {68fc86be5e55d6e8c17f2f61} | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:15:43 - ERROR - Failed to get user | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:15:57 - ERROR - while finding user by id: 68fc86be5e55d6e8c17f2f61 | ReferenceError: reviewService is not defined | 68ce874d551f31653aab3598
+25.10.2025, 11:15:57 - ERROR - Failed to get user | ReferenceError: reviewService is not defined | 68ce874d551f31653aab3598
+25.10.2025, 11:16:23 - INFO - Server is running on port: 3030
+25.10.2025, 11:16:27 - ERROR - while finding user by id: 68fc86be5e55d6e8c17f2f61 | TypeError: Cannot read properties of undefined (reading 'map') | 68ce874d551f31653aab3598
+25.10.2025, 11:16:27 - ERROR - Failed to get user | TypeError: Cannot read properties of undefined (reading 'map') | 68ce874d551f31653aab3598
+25.10.2025, 11:17:05 - INFO - Server is running on port: 3030
+25.10.2025, 11:22:21 - INFO - Server is running on port: 3030
+25.10.2025, 11:24:36 - INFO - Server is running on port: 3030
+25.10.2025, 11:25:10 - INFO - Server is running on port: 3030
+25.10.2025, 11:25:14 - INFO - Server is running on port: 3030
+25.10.2025, 11:26:11 - INFO - Server is running on port: 3030
+25.10.2025, 11:26:43 - ERROR - cannot update user undefined | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:26:43 - ERROR - Failed to update user | BSONError: hex string must be 24 characters | 68ce874d551f31653aab3598
+25.10.2025, 11:27:27 - INFO - Server is running on port: 3030
+25.10.2025, 11:30:38 - INFO - Server is running on port: 3030
+25.10.2025, 11:31:05 - INFO - Server is running on port: 3030
+25.10.2025, 11:32:52 - WARN - dan weiattempted to perform admin action | 68ce874d551f31653aab3598
+25.10.2025, 11:33:09 - INFO - Server is running on port: 3030
+25.10.2025, 11:33:11 - WARN - dan weiattempted to perform admin action | 68ce874d551f31653aab3598
+25.10.2025, 11:33:54 - DEBUG - auth.service - signup with username: aaa, fullname: dan wei | 68ce874d551f31653aab3598
+25.10.2025, 11:33:54 - DEBUG - auth.route - new account created: {"username":"aaa","password":"$2b$10$dHhaOPcu4EyP4xk6.gf5auVvZYqkrLRkkxZOz3S.UH4jQPeuyL9r2","fullname":"dan wei","score":100,"_id":"68fc8b726185bf840b8137ec"} | 68ce874d551f31653aab3598
+25.10.2025, 11:33:54 - DEBUG - auth.service - login with username: aaa | 68ce874d551f31653aab3598
+25.10.2025, 11:33:54 - INFO - User signup: | {"_id":"68fc8b726185bf840b8137ec","username":"aaa","fullname":"dan wei","imgUrl":null,"isAdmin":null,"score":100} | 68ce874d551f31653aab3598
+25.10.2025, 11:34:48 - DEBUG - auth.service - signup with username: aaa, fullname: dan wei
+25.10.2025, 11:34:48 - ERROR - Failed to signup Username already taken
+25.10.2025, 11:34:56 - DEBUG - auth.service - signup with username: aaaa, fullname: dan wei
+25.10.2025, 11:34:56 - DEBUG - auth.route - new account created: {"username":"aaaa","password":"$2b$10$iqNw5P9eU/s/t5H5OaQxFu5mKc7aM/VHs/CAXGSGufxWvwS2sdjWq","fullname":"dan wei","isAdmin":"true","score":100,"_id":"68fc8bb06185bf840b8137ed"}
+25.10.2025, 11:34:56 - DEBUG - auth.service - login with username: aaaa
+25.10.2025, 11:34:56 - INFO - User signup: | {"_id":"68fc8bb06185bf840b8137ed","username":"aaaa","fullname":"dan wei","imgUrl":null,"isAdmin":"true","score":100}
+25.10.2025, 11:35:53 - INFO - Server is running on port: 3030
+25.10.2025, 11:36:25 - ERROR - cannot remove user {68fc8b726185bf840b8137ec} | BSONError: hex string must be 24 characters
+25.10.2025, 11:36:25 - ERROR - Failed to delete user | BSONError: hex string must be 24 characters
+25.10.2025, 11:37:31 - DEBUG - auth.service - signup with username: aaaa, fullname: dan wei
+25.10.2025, 11:37:31 - DEBUG - auth.route - new account created: {"username":"aaaa","password":"$2b$10$.w46S3D1PVGsLd8Tc/7DT.Vb3i4/10cF3ER5zvNyQcILbGmWBklCq","fullname":"dan wei","isAdmin":"true","score":100,"_id":"68fc8c4ba42cc6848db2030e"}
+25.10.2025, 11:37:31 - DEBUG - auth.service - login with username: aaaa
+25.10.2025, 11:37:31 - INFO - User signup: | {"_id":"68fc8c4ba42cc6848db2030e","username":"aaaa","fullname":"dan wei","imgUrl":null,"isAdmin":"true","score":100}
+25.10.2025, 11:37:52 - DEBUG - auth.service - login with username: aaaa
+25.10.2025, 11:37:52 - INFO - User login:  | {"_id":"68fc8c4ba42cc6848db2030e","username":"aaaa","fullname":"dan wei","imgUrl":null,"isAdmin":"true","score":100}
+25.10.2025, 11:38:00 - DEBUG - auth.service - login with username: aaaa
+25.10.2025, 11:38:00 - INFO - User login:  | {"_id":"68fc8c4ba42cc6848db2030e","username":"aaaa","fullname":"dan wei","imgUrl":null,"isAdmin":"true","score":100}
+25.10.2025, 11:38:31 - INFO - Server is running on port: 3030
+25.10.2025, 11:38:42 - INFO - Server is running on port: 3030
+25.10.2025, 11:38:52 - INFO - Server is running on port: 3030
+25.10.2025, 11:39:18 - DEBUG - auth.service - login with username: aaaa
+25.10.2025, 11:39:18 - INFO - User login:  | {"_id":"68fc8c4ba42cc6848db2030e","username":"aaaa","fullname":"dan wei","imgUrl":null,"isAdmin":"true","score":100}
+25.10.2025, 11:39:26 - DEBUG - auth.service - signup with username: ccc, fullname: dan wei
+25.10.2025, 11:39:27 - DEBUG - auth.route - new account created: {"username":"ccc","password":"$2b$10$PaUdJy76MVuAjF7aL5QgkOTomgWibE4erlpTWiCM9MoKStTgLO3bi","fullname":"dan wei","isAdmin":"true","_id":"68fc8cbf97aaaa8e6f6d4a81"}
+25.10.2025, 11:39:27 - DEBUG - auth.service - login with username: ccc
+25.10.2025, 11:39:27 - INFO - User signup: | {"_id":"68fc8cbf97aaaa8e6f6d4a81","username":"ccc","fullname":"dan wei","imgUrl":null,"isAdmin":"true"}
+25.10.2025, 11:39:40 - DEBUG - auth.service - login with username: ccc
+25.10.2025, 11:39:40 - INFO - User login:  | {"_id":"68fc8cbf97aaaa8e6f6d4a81","username":"ccc","fullname":"dan wei","imgUrl":null,"isAdmin":"true"}
+25.10.2025, 11:39:46 - DEBUG - auth.service - login with username: ccc
+25.10.2025, 11:39:46 - INFO - User login:  | {"_id":"68fc8cbf97aaaa8e6f6d4a81","username":"ccc","fullname":"dan wei","imgUrl":null,"isAdmin":"true"}
+25.10.2025, 11:40:16 - DEBUG - auth.service - signup with username: ccc, fullname: dan wei
+25.10.2025, 11:40:16 - ERROR - Failed to signup Username already taken
+25.10.2025, 11:44:48 - INFO - Server is running on port: 3030
+25.10.2025, 11:49:54 - INFO - Server is running on port: 3030
+25.10.2025, 11:50:00 - INFO - Server is running on port: 3030
+25.10.2025, 11:53:23 - INFO - Server is running on port: 3030
+25.10.2025, 11:56:39 - INFO - Server is running on port: 3030
+25.10.2025, 11:57:40 - INFO - Server is running on port: 3030
+25.10.2025, 11:57:42 - INFO - Server is running on port: 3030
+25.10.2025, 11:57:50 - INFO - Server is running on port: 3030
+25.10.2025, 11:58:43 - INFO - Server is running on port: 3030
+25.10.2025, 11:59:25 - INFO - Server is running on port: 3030
+25.10.2025, 12:01:06 - INFO - Server is running on port: 3030
+25.10.2025, 12:01:31 - INFO - Server is running on port: 3030
+25.10.2025, 12:03:50 - INFO - Server is running on port: 3030
+25.10.2025, 12:05:51 - INFO - Server is running on port: 3030
+25.10.2025, 12:06:42 - INFO - Server is running on port: 3030
+25.10.2025, 12:07:19 - INFO - Server is running on port: 3030
+25.10.2025, 12:07:41 - INFO - Server is running on port: 3030
+25.10.2025, 12:07:53 - INFO - Server is running on port: 3030
+25.10.2025, 12:07:56 - INFO - Server is running on port: 3030
+25.10.2025, 12:14:03 - DEBUG - auth.service - login with username: ccc
+25.10.2025, 12:14:03 - ERROR - Failed to Login Invalid username or password
+25.10.2025, 12:15:02 - DEBUG - auth.service - signup with username: ccc, fullname: dan wei
+25.10.2025, 12:15:02 - DEBUG - auth.route - new account created: {"username":"ccc","password":"$2b$10$b8EXTMWEOWumVTjdNFndDur./iiNE54zf1QIXYyfV1VpPJzDpsp3a","fullname":"dan wei","isAdmin":"false","_id":"68fc95161650718a1a877741"}
+25.10.2025, 12:15:02 - DEBUG - auth.service - login with username: ccc
+25.10.2025, 12:15:02 - INFO - User signup: | {"_id":"68fc95161650718a1a877741","username":"ccc","fullname":"dan wei","imgUrl":null,"isAdmin":"false"}
+25.10.2025, 12:16:00 - DEBUG - auth.service - signup with username: c, fullname: dan wei
+25.10.2025, 12:16:00 - DEBUG - auth.route - new account created: {"username":"c","password":"$2b$10$lAZhygbI7rU2B1LSK7RTmuuTP165KUbUNB3PjZ1kynt/IHavBm7Fy","fullname":"dan wei","isAdmin":"false","_id":"68fc95501650718a1a877742"}
+25.10.2025, 12:16:00 - DEBUG - auth.service - login with username: c
+25.10.2025, 12:16:00 - INFO - User signup: | {"_id":"68fc95501650718a1a877742","username":"c","fullname":"dan wei","imgUrl":null,"isAdmin":"false"}
+25.10.2025, 12:16:09 - DEBUG - auth.service - signup with username: ccccc, fullname: dan wei
+25.10.2025, 12:16:09 - DEBUG - auth.route - new account created: {"username":"ccccc","password":"$2b$10$ELWdEt3h6z79X9Hebr7APOX0kW1hGy.t.QPDPi0xagsWcp16XuRVS","fullname":"dan wei","isAdmin":"true","_id":"68fc95591650718a1a877743"}
+25.10.2025, 12:16:09 - DEBUG - auth.service - login with username: ccccc
+25.10.2025, 12:16:09 - INFO - User signup: | {"_id":"68fc95591650718a1a877743","username":"ccccc","fullname":"dan wei","imgUrl":null,"isAdmin":"true"}
+25.10.2025, 12:17:43 - INFO - Server is running on port: 3030
+25.10.2025, 12:17:50 - INFO - Server is running on port: 3030
+25.10.2025, 12:18:30 - INFO - Server is running on port: 3030
+25.10.2025, 12:19:06 - INFO - Server is running on port: 3030
+25.10.2025, 12:19:19 - INFO - Server is running on port: 3030
+25.10.2025, 12:19:33 - INFO - Server is running on port: 3030
+25.10.2025, 12:19:42 - INFO - Server is running on port: 3030
+25.10.2025, 12:19:50 - INFO - Server is running on port: 3030
+25.10.2025, 12:19:52 - INFO - Server is running on port: 3030
+25.10.2025, 12:24:40 - INFO - Server is running on port: 3030

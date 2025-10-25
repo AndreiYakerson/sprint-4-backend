@@ -40,13 +40,13 @@ async function getById(userId) {
 
         criteria = { byUserId: userId }
 
-        user.givenReviews = await reviewService.query(criteria)
-        // console.log(user.givenReviews)
+        // user.givenReviews = await reviewService.query(criteria)
+        // // console.log(user.givenReviews)
 
-        user.givenReviews = user.givenReviews.map(review => {
-            delete review.byUser
-            return review
-        })
+        // user.givenReviews = user.givenReviews.map(review => {
+        //     delete review.byUser
+        //     return review
+        // })
 
         return user
     } catch (err) {
@@ -84,7 +84,10 @@ async function update(user) {
         const userToSave = {
             _id: ObjectId.createFromHexString(user._id), // needed for the returnd obj
             fullname: user.fullname,
-            score: user.score,
+            username: user.username,
+            imgUrl: user.imgUrl,
+            isAdmin: user.isAdmin,
+
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -104,7 +107,6 @@ async function add(user) {
             fullname: user.fullname,
             imgUrl: user.imgUrl,
             isAdmin: user.isAdmin,
-            score: 100,
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
@@ -127,9 +129,6 @@ function _buildCriteria(filterBy) {
                 fullname: txtCriteria,
             },
         ]
-    }
-    if (filterBy.minBalance) {
-        criteria.score = { $gte: filterBy.minBalance }
     }
     return criteria
 }
