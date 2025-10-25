@@ -18,6 +18,8 @@ export const boardService = {
     // group
     addGroup,
     removeGroup,
+    // task
+    addTask
 }
 
 async function query(filterBy = { txt: '' }) {
@@ -165,6 +167,25 @@ async function removeGroup(boardId, groupId) {
         throw err
     }
 }
+
+// task
+
+async function addTask(boardId, groupId, task) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const criteria = { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId }
+        const add = { $push: { 'groups.$.tasks': task } }
+
+        await collection.updateOne(criteria, add)
+
+        return task
+    } catch (err) {
+        console.error('cannot add task', err)
+        throw err
+    }
+}
+
 
 function _buildCriteria(filterBy) {
     const criteria = {
