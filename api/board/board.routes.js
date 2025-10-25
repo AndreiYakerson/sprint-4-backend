@@ -3,7 +3,7 @@ import express from 'express'
 import { requireAuth } from '../../middlewares/requireAuth.middleware.js'
 import { log } from '../../middlewares/logger.middleware.js'
 
-import { getBoards, getBoardById, addBoard, updateBoard, removeBoard, addBoardMsg, removeBoardMsg, removeGroup, addGroup, addTask } from './board.controller.js'
+import { getBoards, getBoardById, addBoard, updateBoard, removeBoard, addBoardMsg, removeBoardMsg, removeGroup, addGroup, addTask, removeTask } from './board.controller.js'
 
 
 const router = express.Router()
@@ -22,6 +22,7 @@ router.post('/:boardId', requireAuth, addGroup)
 router.delete('/:boardId/:groupId', requireAuth, removeGroup)
 //task
 router.post('/:boardId/:groupId', requireAuth, addTask)
+router.delete('/:boardId/:groupId/:taskId', requireAuth, removeTask)
 
 // router.delete('/:id', requireAuth, requireAdmin, removeBoard)
 

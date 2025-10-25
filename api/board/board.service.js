@@ -19,7 +19,8 @@ export const boardService = {
     addGroup,
     removeGroup,
     // task
-    addTask
+    addTask,
+    removeTask
 }
 
 async function query(filterBy = { txt: '' }) {
@@ -183,6 +184,35 @@ async function addTask(boardId, groupId, task) {
         await collection.updateOne(criteria, add)
 
         return task
+    } catch (err) {
+        console.error('cannot add task', err)
+        throw err
+    }
+}
+
+async function removeTask(boardId, groupId, task) {
+    try {
+        const criteria = {
+            _id: ObjectId.createFromHexString(boardId),
+            'groups.id': groupId 
+        };
+
+        const collection = await dbService.getCollection('board');
+        const updatedBoard = await collection.findOneAndUpdate(
+            criteria,
+            { $pull: { 'groups.$.tasks': { id: taskId } } }, 
+            { returnDocument: 'before' } 
+        );
+
+        if (!updatedBoard.value) {
+            throw new Error(`Board with id ${boardId} or group with id ${groupId} not found`);
+        }
+
+
+        const group = updatedBoard.groups.find(group => group.id === groupId);
+        const deletedTask = group.tasks.find(task => task.id === taskId);
+
+        return deletedTask;
     } catch (err) {
         console.error('cannot add task', err)
         throw err

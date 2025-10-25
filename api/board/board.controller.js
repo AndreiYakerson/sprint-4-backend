@@ -164,3 +164,16 @@ export async function addTask(req, res) {
         res.status(400).send({ err: 'Failed to add group' })
     }
 }
+
+export async function removeTask(req, res) {
+    const { boardId, groupId, taskId } = req.params
+    const { loggedinUser } = req
+
+    try {
+        const deletedTask = await boardService.removeTask(boardId, groupId, task)
+        res.json(deletedTask)
+    } catch (err) {
+        logger.error('Failed to add group', err)
+        res.status(400).send({ err: 'Failed to add group' })
+    }
+}
