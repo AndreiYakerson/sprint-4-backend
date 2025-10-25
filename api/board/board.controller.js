@@ -40,7 +40,7 @@ export async function addBoard(req, res) {
         board.owner = loggedinUser
 
         console.log(board);
-        
+
         const addedBoard = await boardService.add(board)
         res.json(addedBoard)
     } catch (err) {
@@ -109,8 +109,29 @@ export async function removeBoardMsg(req, res) {
     }
 }
 
+// groups
+
+export async function addGroup(req, res) {
+    const { boardId } = req.params
+    const { loggedinUser, body: group } = req
+
+    try {
+        group.owner = loggedinUser
+
+        console.log(group);
+
+        const addedGroup = await boardService.addGroup(boardId, group)
+
+        console.log("🚀 ~ addedGroup:", addedGroup)
+        res.json(addedGroup)
+    } catch (err) {
+        logger.error('Failed to add group', err)
+        res.status(400).send({ err: 'Failed to add group' })
+    }
+}
+
 export async function removeGroup(req, res) {
-    
+
     try {
         const { boardId, groupId } = req.params
 

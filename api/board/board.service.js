@@ -15,6 +15,8 @@ export const boardService = {
     update,
     addBoardMsg,
     removeBoardMsg,
+    // group
+    addGroup,
     removeGroup,
 }
 
@@ -70,7 +72,7 @@ async function remove(boardId) {
 }
 
 async function add(board) {
-    
+
     try {
         const collection = await dbService.getCollection('board')
         await collection.insertOne(board)
@@ -122,6 +124,26 @@ async function removeBoardMsg(boardId, msgId) {
         return msgId
     } catch (err) {
         logger.error(`cannot remove board msg ${boardId}`, err)
+        throw err
+    }
+}
+
+/// groups functions
+
+export async function addGroup(boardId, newGroup) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const criteria = { _id: ObjectId.createFromHexString(boardId) }
+
+        const add = { $push: { groups: newGroup } }
+
+        await collection.updateOne(criteria, add)
+
+        return newGroup
+
+    } catch (err) {
+        console.error('Failed to add group to board', err)
         throw err
     }
 }
