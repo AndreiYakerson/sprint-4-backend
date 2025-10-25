@@ -27,6 +27,7 @@ router.delete('/:boardId/:groupId', requireAuth, removeGroup)
 
 //task
 router.post('/:boardId/:groupId', requireAuth, addTask)
+router.post('/:boardId/:groupId/:method', requireAuth, addTask)
 router.post('/:boardId/:groupId/duplicate/:taskCopyIdx', requireAuth, duplicateTask)
 router.put('/:boardId/:groupId/:taskId', requireAuth, updateTask)
 router.delete('/:boardId/:groupId/:taskId', requireAuth, removeTask)

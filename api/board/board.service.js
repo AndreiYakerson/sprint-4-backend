@@ -176,12 +176,25 @@ async function removeGroup(boardId, groupId) {
 
 // task
 
-async function addTask(boardId, groupId, task) {
+async function addTask(boardId, groupId, task, method = 'push') {
     try {
         const collection = await dbService.getCollection('board')
 
         const criteria = { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId }
-        const add = { $push: { 'groups.$.tasks': task } }
+
+        let add
+        if (method === 'unshift') {
+            add = {
+                $push: {
+                    'groups.$.tasks': {
+                        $each: [task],
+                        $position: 0
+                    }
+                }
+            }
+        } else {
+            add = { $push: { 'groups.$.tasks': task } }
+        }
 
         await collection.updateOne(criteria, add)
 

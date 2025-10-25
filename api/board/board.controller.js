@@ -147,7 +147,7 @@ export async function removeGroup(req, res) {
 // task
 
 export async function addTask(req, res) {
-    const { boardId, groupId } = req.params
+    const { boardId, groupId, method } = req.params
     const { loggedinUser, body: task } = req
 
     try {
@@ -155,7 +155,7 @@ export async function addTask(req, res) {
 
         console.log(task);
 
-        const addedTask = await boardService.addTask(boardId, groupId, task)
+        const addedTask = await boardService.addTask(boardId, groupId, task, method)
 
         console.log("🚀 ~ addedTask:", addedTask)
         res.json(addedTask)
