@@ -137,7 +137,9 @@ async function removeGroup(boardId, groupId) {
             { returnDocument: 'after' }
         )
 
-        return updatedBoard
+        const deletedGroup = updatedBoard.value.groups.find(group => group.id === groupId);
+
+        return deletedGroup
     } catch (err) {
         logger.error(`cannot remove group ${groupId} from board ${boardId}`, err)
         throw err
