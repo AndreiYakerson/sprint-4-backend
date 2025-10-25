@@ -156,12 +156,13 @@ async function removeGroup(boardId, groupId) {
         const updatedBoard = await collection.findOneAndUpdate(
             criteria,
             { $pull: { groups: { id: groupId } } },
-            { returnDocument: 'after' }
+            { returnDocument: 'before' }
         )
 
-        const deletedGroup = updatedBoard.value.groups.find(group => group.id === groupId);
+        const deletedGroup = updatedBoard.groups.find(group => group.id === groupId);
+        const miniDeletedGroup = { id: deletedGroup.id, title: deletedGroup.title }
 
-        return deletedGroup
+        return miniDeletedGroup
     } catch (err) {
         logger.error(`cannot remove group ${groupId} from board ${boardId}`, err)
         throw err

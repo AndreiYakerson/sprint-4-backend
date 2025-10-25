@@ -732,3 +732,33 @@
 25.10.2025, 23:15:53 - INFO - New connected socket [id: 1RpjcPp5D9DdA40NAAAB]
 25.10.2025, 23:15:54 - INFO - Server is running on port: 3030
 25.10.2025, 23:15:55 - INFO - New connected socket [id: 4Lk-LMhG4wdiksMMAAAB]
+25.10.2025, 23:18:31 - INFO - Socket disconnected [id: undefined]
+25.10.2025, 23:19:56 - INFO - Server is running on port: 3030
+25.10.2025, 23:19:58 - INFO - New connected socket [id: yZ3BoG95ZAZPIloRAAAB]
+25.10.2025, 23:19:58 - INFO - Setting socket.userId = UDCz8 for socket [id: yZ3BoG95ZAZPIloRAAAB]
+25.10.2025, 23:20:37 - ERROR - cannot remove group H9mdSW from board 68fcf6d3c15c928f1629d04a | TypeError: Cannot read properties of undefined (reading 'groups')
+25.10.2025, 23:20:37 - ERROR - Failed to remove group | TypeError: Cannot read properties of undefined (reading 'groups')
+25.10.2025, 23:21:41 - INFO - Server is running on port: 3030
+25.10.2025, 23:21:42 - INFO - New connected socket [id: -rMso0xftUejspxZAAAB]
+25.10.2025, 23:21:43 - ERROR - cannot remove group H9mdSW from board 68fcf6d3c15c928f1629d04a | TypeError: Cannot read properties of undefined (reading 'groups')
+25.10.2025, 23:21:43 - ERROR - Failed to remove group | TypeError: Cannot read properties of undefined (reading 'groups')
+25.10.2025, 23:22:24 - INFO - Server is running on port: 3030
+25.10.2025, 23:22:25 - INFO - New connected socket [id: j5cE_W9xADeSwKhBAAAB]
+25.10.2025, 23:22:48 - INFO - Server is running on port: 3030
+25.10.2025, 23:22:49 - INFO - New connected socket [id: yzCD-4kg4YYA94l3AAAB]
+25.10.2025, 23:23:06 - ERROR - cannot remove group KqOtUS from board 68fcf6d3c15c928f1629d04a | ReferenceError: Cannot access 'deletedGroup' before initialization
+25.10.2025, 23:23:06 - ERROR - Failed to remove group | ReferenceError: Cannot access 'deletedGroup' before initialization
+25.10.2025, 23:23:21 - INFO - Server is running on port: 3030
+25.10.2025, 23:23:23 - INFO - New connected socket [id: TCe0XyWojkT_8C2CAAAB]
+25.10.2025, 23:26:13 - INFO - Server is running on port: 3030
+25.10.2025, 23:26:14 - INFO - New connected socket [id: v8dMlJ2m42onRMl2AAAB]
+25.10.2025, 23:28:58 - INFO - Server is running on port: 3030
+25.10.2025, 23:28:59 - INFO - New connected socket [id: pC6NZEbbWjwxaXGvAAAB]
+25.10.2025, 23:30:11 - INFO - Server is running on port: 3030
+25.10.2025, 23:30:13 - INFO - New connected socket [id: Jx-izajv3kyKOi7qAAAB]
+25.10.2025, 23:30:27 - INFO - Server is running on port: 3030
+25.10.2025, 23:30:29 - INFO - New connected socket [id: a96Az7sSsCFLP7ICAAAB]
+25.10.2025, 23:31:28 - INFO - Server is running on port: 3030
+25.10.2025, 23:31:29 - INFO - New connected socket [id: 54Ina0bABiuMlfJmAAAB]
+25.10.2025, 23:31:29 - INFO - Server is running on port: 3030
+25.10.2025, 23:31:30 - INFO - New connected socket [id: 3f3Tfd0gXboickcUAAAB]
