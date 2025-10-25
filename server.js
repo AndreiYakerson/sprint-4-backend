@@ -26,7 +26,8 @@ if (process.env.NODE_ENV === 'production') {
             'http://127.0.0.1:3000',
             'http://localhost:3000',
             'http://127.0.0.1:5173',
-            'http://localhost:5173'
+            'http://localhost:5173',
+            'http://localhost:5174'
         ],
         credentials: true
     }
@@ -48,6 +49,7 @@ setupSocketAPI(server)
 app.get('/*all', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
+
 
 import { logger } from './services/logger.service.js'
 const port = process.env.PORT || 3030

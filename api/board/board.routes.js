@@ -15,6 +15,7 @@ router.get('/:id', log, getBoardById)
 router.post('/', log, requireAuth, addBoard)
 router.put('/:id', requireAuth, updateBoard)
 router.delete('/:id', requireAuth, removeBoard)
+
 // router.delete('/:id', requireAuth, requireAdmin, removeBoard)
 
 router.post('/:id/msg', requireAuth, addBoardMsg)

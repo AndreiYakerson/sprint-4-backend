@@ -536,3 +536,20 @@
 25.10.2025, 13:44:10 - INFO - /api/Board | GET |  | {}
 25.10.2025, 13:44:25 - INFO - /api/Board | GET |  | {}
 25.10.2025, 13:45:14 - INFO - /api/Board | GET |  | {}
+25.10.2025, 18:41:03 - INFO - Server is running on port: 3030
+25.10.2025, 18:41:03 - INFO - New connected socket [id: 2u_WGkzmhO3stnV8AAAB]
+25.10.2025, 18:41:42 - INFO - user-watch from socket [id: 2u_WGkzmhO3stnV8AAAB], on user 68fcdea80104c262e10a4334
+25.10.2025, 18:46:23 - INFO - Socket disconnected [id: undefined]
+25.10.2025, 18:46:24 - INFO - New connected socket [id: dKBXXB8MdvytdMt3AAAD]
+25.10.2025, 18:46:24 - INFO - Setting socket.userId = 68fcdea80104c262e10a4334 for socket [id: dKBXXB8MdvytdMt3AAAD]
+25.10.2025, 18:46:24 - INFO - user-watch from socket [id: dKBXXB8MdvytdMt3AAAD], on user 68fcdea80104c262e10a4334
+25.10.2025, 18:46:35 - INFO - Socket disconnected [id: undefined]
+25.10.2025, 18:46:36 - INFO - New connected socket [id: JM77JgjhwkP3sM2dAAAF]
+25.10.2025, 18:46:36 - INFO - Setting socket.userId = 68fcdea80104c262e10a4334 for socket [id: JM77JgjhwkP3sM2dAAAF]
+25.10.2025, 18:47:29 - INFO - New connected socket [id: s0t961TyWjCCJMO4AAAH]
+25.10.2025, 18:47:29 - INFO - Setting socket.userId = 68fcdea80104c262e10a4334 for socket [id: s0t961TyWjCCJMO4AAAH]
+25.10.2025, 18:47:30 - INFO - Socket disconnected [id: undefined]
+25.10.2025, 18:47:30 - INFO - Socket disconnected [id: undefined]
+25.10.2025, 18:47:31 - INFO - New connected socket [id: OmCNm7Uj-os7kXPwAAAJ]
+25.10.2025, 18:47:31 - INFO - Setting socket.userId = 68fcdea80104c262e10a4334 for socket [id: OmCNm7Uj-os7kXPwAAAJ]
+25.10.2025, 18:48:12 - INFO - Socket disconnected [id: undefined]
