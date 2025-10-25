@@ -553,3 +553,18 @@
 25.10.2025, 18:47:31 - INFO - New connected socket [id: OmCNm7Uj-os7kXPwAAAJ]
 25.10.2025, 18:47:31 - INFO - Setting socket.userId = 68fcdea80104c262e10a4334 for socket [id: OmCNm7Uj-os7kXPwAAAJ]
 25.10.2025, 18:48:12 - INFO - Socket disconnected [id: undefined]
+25.10.2025, 18:48:50 - INFO - Server is running on port: 3030
+25.10.2025, 18:54:19 - INFO - Server is running on port: 3030
+25.10.2025, 19:16:05 - INFO - Server is running on port: 3030
+25.10.2025, 19:53:15 - DEBUG - auth.service - signup with username: ccccc, fullname: dan wei
+25.10.2025, 19:53:15 - DEBUG - auth.route - new account created: {"username":"ccccc","password":"$2b$10$szHPCTZpWMthLVSHjQDiteKg3Zi2DxDz2/PhN7Mxt/eAOxXuu3zga","fullname":"dan wei","isAdmin":"true","_id":"68fd007b1fd1807cf9d0772a"}
+25.10.2025, 19:53:15 - DEBUG - auth.service - login with username: ccccc
+25.10.2025, 19:53:15 - INFO - User signup: | {"_id":"68fd007b1fd1807cf9d0772a","username":"ccccc","fullname":"dan wei","imgUrl":null,"isAdmin":"true"}
+25.10.2025, 19:53:23 - DEBUG - auth.service - login with username: dd
+25.10.2025, 19:53:23 - ERROR - Failed to Login Invalid username or password
+25.10.2025, 19:53:41 - DEBUG - auth.service - login with username: ccccc
+25.10.2025, 19:53:41 - INFO - User login:  | {"_id":"68fd007b1fd1807cf9d0772a","username":"ccccc","fullname":"dan wei","imgUrl":null,"isAdmin":"true"}
+25.10.2025, 19:54:06 - ERROR - while finding user by id: 68fc8cbf97aaaa8e6f6d4a81 | TypeError: Cannot convert undefined or null to object
+25.10.2025, 19:54:06 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object
+25.10.2025, 19:54:54 - INFO - Server is running on port: 3030
+25.10.2025, 19:55:55 - INFO - Server is running on port: 3030

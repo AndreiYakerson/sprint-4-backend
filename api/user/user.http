@@ -1,5 +1,5 @@
 @BASE_URL_LOCAL = http://localhost:3030
-@USER_ID = 68fc8cbf97aaaa8e6f6d4a81
+@USER_ID = 68fcde970104c262e10a4333
 
 # Get Users
 GET {{BASE_URL_LOCAL}}/api/user

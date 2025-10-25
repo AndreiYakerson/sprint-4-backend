@@ -20,8 +20,8 @@ POST {{BASE_URL_LOCAL}}/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "dd",
-    "password": "2"
+    "username": "ccccc",
+    "password": "1"
 }
 
 ###
@@ -29,9 +29,10 @@ Content-Type: application/json
 # Logout
 POST {{BASE_URL_LOCAL}}/api/auth/logout
 Content-Type: application/json
+
 {
-    "username": "ccc",
-    "password": "2"
+    "username": "cccc",
+    "password": "1"
 }
 
 ###
