@@ -20,6 +20,7 @@ export const boardService = {
     removeGroup,
     // task
     addTask,
+    duplicateTask,
     updateTask,
     removeTask
 }
@@ -191,6 +192,31 @@ async function addTask(boardId, groupId, task) {
     }
 }
 
+async function duplicateTask(boardId, groupId, taskCopy, taskCopyIdx) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const criteria = { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId }
+        const addCopy = {
+            $push: {
+                'groups.$.tasks': {
+                    $each: [taskCopy],
+                    $position: +taskCopyIdx
+                }
+            }
+        }
+
+        const result = await collection.updateOne(criteria, addCopy)
+
+        if (!result.matchedCount) throw new Error(`Board ${boardId} or group ${groupId} not found`)
+
+        return taskCopy
+
+    } catch (err) {
+        throw err
+    }
+}
+
 async function updateTask(boardId, groupId, taskId, task) {
     try {
         const collection = await dbService.getCollection('board')
@@ -226,14 +252,14 @@ async function removeTask(boardId, groupId, task) {
     try {
         const criteria = {
             _id: ObjectId.createFromHexString(boardId),
-            'groups.id': groupId 
+            'groups.id': groupId
         };
 
         const collection = await dbService.getCollection('board');
         const updatedBoard = await collection.findOneAndUpdate(
             criteria,
-            { $pull: { 'groups.$.tasks': { id: taskId } } }, 
-            { returnDocument: 'before' } 
+            { $pull: { 'groups.$.tasks': { id: taskId } } },
+            { returnDocument: 'before' }
         );
 
         if (!updatedBoard.value) {

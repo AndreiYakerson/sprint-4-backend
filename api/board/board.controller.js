@@ -165,6 +165,25 @@ export async function addTask(req, res) {
     }
 }
 
+export async function duplicateTask(req, res) {
+    const { boardId, groupId, taskCopyIdx } = req.params
+    const { loggedinUser, body: taskCopy } = req
+
+    try {
+        taskCopy.owner = loggedinUser
+
+        console.log(taskCopy);
+
+        const duplicatedTask = await boardService.duplicateTask(boardId, groupId, taskCopy, taskCopyIdx)
+
+        console.log("🚀 ~ duplicatedTask:", duplicatedTask)
+        res.json(duplicatedTask)
+    } catch (err) {
+        logger.error('Failed to duplicate task', err)
+        res.status(400).send({ err: 'Failed to duplicate task' })
+    }
+}
+
 export async function updateTask(req, res) {
     const { boardId, groupId, taskId } = req.params
     const { loggedinUser, body: task } = req
