@@ -20,6 +20,7 @@ export const boardService = {
     removeGroup,
     // task
     addTask,
+    updateTask,
     removeTask
 }
 
@@ -189,6 +190,37 @@ async function addTask(boardId, groupId, task) {
         throw err
     }
 }
+
+async function updateTask(boardId, groupId, taskId, task) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const criteria = { _id: ObjectId.createFromHexString(boardId) }
+        const update = {
+            $set: Object.fromEntries(
+                Object.entries(task).map(([key, value]) => [
+                    `groups.$[g].tasks.$[t].${key}`,
+                    value
+                ])
+            )
+        }
+        const options = {
+            arrayFilters: [
+                { 'g.id': groupId },
+                { 't.id': taskId }
+            ],
+            returnDocument: 'after'
+        }
+
+        await collection.findOneAndUpdate(criteria, update, options)
+
+        return task
+    } catch (err) {
+        console.error('cannot update task', err)
+        throw err
+    }
+}
+
 
 async function removeTask(boardId, groupId, task) {
     try {

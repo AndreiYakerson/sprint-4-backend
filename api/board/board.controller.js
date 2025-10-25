@@ -160,8 +160,26 @@ export async function addTask(req, res) {
         console.log("🚀 ~ addedTask:", addedTask)
         res.json(addedTask)
     } catch (err) {
-        logger.error('Failed to add group', err)
-        res.status(400).send({ err: 'Failed to add group' })
+        logger.error('Failed to add task', err)
+        res.status(400).send({ err: 'Failed to add task' })
+    }
+}
+
+export async function updateTask(req, res) {
+    const { boardId, groupId, taskId } = req.params
+    const { loggedinUser, body: task } = req
+
+    try {
+        delete task.id
+        console.log(task);
+
+        const updatedTask = await boardService.updateTask(boardId, groupId, taskId, task)
+
+        console.log("🚀 ~ updatedTask:", updatedTask)
+        res.json(updatedTask)
+    } catch (err) {
+        logger.error('Failed to update task', err)
+        res.status(400).send({ err: 'Failed to update task' })
     }
 }
 
