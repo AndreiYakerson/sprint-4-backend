@@ -379,3 +379,8 @@
 25.10.2025, 1:49:20 - INFO - Server is running on port: 3030
 25.10.2025, 10:06:22 - INFO - Server is running on port: 3030
 25.10.2025, 10:06:30 - INFO - Server is running on port: 3030
+25.10.2025, 10:07:33 - INFO - /api/board | GET |  | {}
+25.10.2025, 10:24:28 - INFO - Server is running on port: 3030
+25.10.2025, 10:29:01 - INFO - /api/board | GET |  | {}
+25.10.2025, 10:42:29 - INFO - /api/board | GET |  | {}
+25.10.2025, 10:54:33 - INFO - /api/board | GET |  | {}
