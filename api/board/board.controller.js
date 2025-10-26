@@ -230,3 +230,19 @@ export async function removeTask(req, res) {
         res.status(400).send({ err: 'Failed to add group' })
     }
 }
+
+/// Dashboard
+
+export async function getDashboardData(req, res) {
+    const { loggedinUser } = req
+
+    try {
+        const dashboardData = await boardService.getDashboardData()
+
+        console.log("🚀 ~ dashboardData:", dashboardData)
+        res.json(dashboardData)
+    } catch (err) {
+        logger.error('Failed to get dashboard data', err)
+        res.status(400).send({ err: 'Failed to get dashboard data' })
+    }
+}

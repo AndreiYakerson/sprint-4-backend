@@ -24,7 +24,9 @@ export const boardService = {
     addTask,
     duplicateTask,
     updateTask,
-    removeTask
+    removeTask,
+    // dashboard
+    getDashboardData
 }
 
 async function query(filterBy = { txt: '' }) {
@@ -166,7 +168,7 @@ async function removeGroup(boardId, groupId) {
             { returnDocument: 'before' }
         )
 
-        const deletedGroup = updatedBoard.groups.find(group => group.id === groupId);
+        const deletedGroup = updatedBoard.groups.find(group => group.id === groupId)
         const miniDeletedGroup = { id: deletedGroup.id, title: deletedGroup.title }
 
         return miniDeletedGroup
@@ -208,15 +210,15 @@ async function getTaskById(boardId, taskId) {
             { $sort: { 'activities.createdAt': -1 } }
         ]
 
-        const result = await collection.aggregate(pipeline).toArray();
+        const result = await collection.aggregate(pipeline).toArray()
 
-        if (!result.length) throw new Error(`Task ${taskId} not found`);
+        if (!result.length) throw new Error(`Task ${taskId} not found`)
 
         return result[0]
 
     } catch (err) {
-        console.error('cannot get task', err);
-        throw err;
+        console.error('cannot get task', err)
+        throw err
     }
 }
 
@@ -312,30 +314,155 @@ async function removeTask(boardId, groupId, task) {
         const criteria = {
             _id: ObjectId.createFromHexString(boardId),
             'groups.id': groupId
-        };
+        }
 
-        const collection = await dbService.getCollection('board');
+        const collection = await dbService.getCollection('board')
         const updatedBoard = await collection.findOneAndUpdate(
             criteria,
             { $pull: { 'groups.$.tasks': { id: taskId } } },
             { returnDocument: 'before' }
-        );
+        )
 
         if (!updatedBoard.value) {
-            throw new Error(`Board with id ${boardId} or group with id ${groupId} not found`);
+            throw new Error(`Board with id ${boardId} or group with id ${groupId} not found`)
         }
 
 
-        const group = updatedBoard.groups.find(group => group.id === groupId);
-        const deletedTask = group.tasks.find(task => task.id === taskId);
+        const group = updatedBoard.groups.find(group => group.id === groupId)
+        const deletedTask = group.tasks.find(task => task.id === taskId)
 
-        return deletedTask;
+        return deletedTask
     } catch (err) {
         console.error('cannot add task', err)
         throw err
     }
 }
 
+//// dashboard
+
+export async function getDashboardData(filterBy = {}) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const pipeline = [
+            { $unwind: '$groups' },
+            { $unwind: '$groups.tasks' },
+
+
+            {
+                $project: {
+                    status: '$groups.tasks.status',
+                    memberIds: '$groups.tasks.memberIds'
+                }
+            },
+
+            {
+                $addFields: {
+                    memberIds: {
+                        $map: {
+                            input: '$memberIds',
+                            as: 'id',
+                            in: {
+                                $cond: {
+                                    if: { $regexMatch: { input: '$$id', regex: /^[0-9a-fA-F]{24}$/ } },
+                                    then: { $toObjectId: '$$id' },
+                                    else: '$$id'
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+
+
+            {
+                $facet: {
+
+                    tasksCount: [{ $count: 'total' }],
+
+
+                    byStatus: [
+                        {
+                            $group: {
+                                _id: '$status.id',
+                                txt: { $first: '$status.txt' },
+                                cssVar: { $first: '$status.cssVar' },
+                                tasksCount: { $sum: 1 }
+                            }
+                        }
+                    ],
+
+
+                    byMember: [
+                        { $unwind: { path: '$memberIds', preserveNullAndEmptyArrays: false } },
+                        {
+                            $group: {
+                                _id: '$memberIds',
+                                tasksCount: { $sum: 1 }
+                            }
+                        }
+                    ]
+                }
+            },
+
+
+            { $unwind: { path: '$byMember', preserveNullAndEmptyArrays: true } },
+
+
+            {
+                $lookup: {
+                    from: 'user',
+                    localField: 'byMember._id',
+                    foreignField: '_id',
+                    as: 'byMember.userInfo'
+                }
+            },
+
+
+            {
+                $set: {
+                    'byMember.userInfo': { $arrayElemAt: ['$byMember.userInfo', 0] }
+                }
+            },
+
+
+            {
+                $group: {
+                    _id: null,
+                    tasksCount: { $first: '$tasksCount' },
+                    byStatus: { $first: '$byStatus' },
+                    byMember: { $push: '$byMember' }
+                }
+            }
+        ]
+
+        const [result] = await collection.aggregate(pipeline).toArray()
+
+        const tasksCount = result?.tasksCount?.[0]?.total || 0
+
+        const byStatus = result.byStatus.map(s => ({
+            id: s._id,
+            txt: s.txt,
+            cssVar: s.cssVar,
+            tasksCount: s.tasksCount,
+            tasksPercentage: parseFloat(((s.tasksCount / tasksCount) * 100).toFixed(1))
+        }))
+
+        const byMember = result.byMember.map(m => ({
+            memberId: m._id,
+            fullname: m.userInfo?.fullname || 'Unknown',
+            imgUrl: m.userInfo?.imgUrl || '',
+            tasksCount: m.tasksCount,
+            tasksPercentage: parseFloat(((m.tasksCount / tasksCount) * 100).toFixed(1))
+        }))
+
+        return { tasksCount, byStatus, byMember }
+
+    } catch (err) {
+        console.error('Failed to build dashboard data:', err)
+        throw err
+    }
+}
 
 function _buildCriteria(filterBy) {
     const criteria = {

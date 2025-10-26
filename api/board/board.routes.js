@@ -8,6 +8,7 @@ import {
     removeGroup, addGroup,
     getTaskById,
     addTask, updateTask, removeTask, duplicateTask,
+    getDashboardData,
 } from './board.controller.js'
 
 
@@ -17,6 +18,7 @@ const router = express.Router()
 // router.use(requireAuth)
 
 router.get('/', log, getBoards)
+router.get('/dashboard', log, getDashboardData)
 router.get('/:id', log, getBoardById)
 router.post('/', log, requireAuth, addBoard)
 router.put('/', requireAuth, updateBoard)
@@ -35,6 +37,8 @@ router.post('/:boardId/:groupId/:method', requireAuth, addTask)
 router.post('/:boardId/:groupId/duplicate/:taskCopyIdx', requireAuth, duplicateTask)
 router.put('/:boardId/:groupId/:taskId', requireAuth, updateTask)
 router.delete('/:boardId/:groupId/:taskId', requireAuth, removeTask)
+
+
 
 // router.delete('/:id', requireAuth, requireAdmin, removeBoard)
 
