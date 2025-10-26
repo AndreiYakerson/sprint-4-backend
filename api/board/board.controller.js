@@ -122,7 +122,6 @@ export async function addGroup(req, res) {
 
         const addedGroup = await boardService.addGroup(boardId, group)
 
-        console.log("🚀 ~ addedGroup:", addedGroup)
         res.json(addedGroup)
     } catch (err) {
         logger.error('Failed to add group', err)
@@ -152,7 +151,6 @@ export async function getTaskById(req, res) {
     try {
         const taskDetails = await boardService.getTaskById(boardId, taskId)
 
-        console.log("🚀 ~ taskDetails:", taskDetails)
         res.json(taskDetails)
     } catch (err) {
         logger.error('Failed to get task', err)
@@ -173,7 +171,6 @@ export async function addTask(req, res) {
 
         const addedTask = await boardService.addTask(boardId, groupId, task, method)
 
-        console.log("🚀 ~ addedTask:", addedTask)
         res.json(addedTask)
     } catch (err) {
         logger.error('Failed to add task', err)
@@ -192,7 +189,6 @@ export async function duplicateTask(req, res) {
 
         const duplicatedTask = await boardService.duplicateTask(boardId, groupId, taskCopy, taskCopyIdx)
 
-        console.log("🚀 ~ duplicatedTask:", duplicatedTask)
         res.json(duplicatedTask)
     } catch (err) {
         logger.error('Failed to duplicate task', err)
@@ -210,7 +206,6 @@ export async function updateTask(req, res) {
 
         const updatedTask = await boardService.updateTask(boardId, groupId, taskId, task)
 
-        console.log("🚀 ~ updatedTask:", updatedTask)
         res.json(updatedTask)
     } catch (err) {
         logger.error('Failed to update task', err)

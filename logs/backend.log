@@ -890,3 +890,93 @@
 26.10.2025, 1:28:30 - INFO - Server is running on port: 3030
 26.10.2025, 1:28:38 - INFO - Server is running on port: 3030
 26.10.2025, 1:28:43 - INFO - Server is running on port: 3030
+26.10.2025, 11:09:10 - INFO - Server is running on port: 3030
+26.10.2025, 11:09:10 - INFO - New connected socket [id: hnXqi6GY_aDwgrPmAAAB]
+26.10.2025, 11:09:55 - INFO - Server is running on port: 3030
+26.10.2025, 11:09:56 - INFO - /api/board | GET |  | {"id":"68fdca98c82d30de8ee78caf"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:09:56 - INFO - /api/board | GET |  | {"id":"68fdca98c82d30de8ee78caf"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:09:58 - INFO - New connected socket [id: 3bzi6mhTGCv9qzRdAAAB]
+26.10.2025, 11:09:58 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 3bzi6mhTGCv9qzRdAAAB]
+26.10.2025, 11:09:58 - INFO - /api/board | GET |  | {"id":"68fdca98c82d30de8ee78caf"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:09:58 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:09:58 - INFO - /api/board | GET |  | {"id":"68fdca98c82d30de8ee78caf"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:09:58 - INFO - /api/board | GET |  | {"id":"68fdca98c82d30de8ee78caf"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:22:47 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:22:47 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:23:14 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:23:15 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:24:19 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:24:19 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:24:30 - INFO - Socket disconnected [id: undefined]
+26.10.2025, 11:24:31 - INFO - New connected socket [id: veO9QHJamTOvBXp3AAAD]
+26.10.2025, 11:24:31 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: veO9QHJamTOvBXp3AAAD]
+26.10.2025, 11:24:31 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:24:31 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:24:32 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:28:59 - INFO - Removing socket.userId for socket [id: veO9QHJamTOvBXp3AAAD]
+26.10.2025, 11:30:53 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: veO9QHJamTOvBXp3AAAD]
+26.10.2025, 11:30:54 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:30:54 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:30:55 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:30:55 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:31:04 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:31:04 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:31:04 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:31:20 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:31:20 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:31:20 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:32:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:32:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:32:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:33:02 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:33:02 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:33:03 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:36:40 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:36:40 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:37:26 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:01 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:01 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:01 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:01 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:09 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:09 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:32 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:32 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:32 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:32 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:51 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:51 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:52 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:40:52 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:41:04 - INFO - Socket disconnected [id: undefined]
+26.10.2025, 11:41:05 - INFO - New connected socket [id: sayJGlAiC0pi03Z3AAAF]
+26.10.2025, 11:41:05 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: sayJGlAiC0pi03Z3AAAF]
+26.10.2025, 11:41:06 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:41:06 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:41:06 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:41:06 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:07 - INFO - /api/board | GET |  | {"id":"68fdc8c8c82d30de8ee78cab"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:07 - INFO - /api/board | GET |  | {"id":"68fdc8c8c82d30de8ee78cab"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:07 - INFO - /api/board | GET |  | {"id":"68fdc8c8c82d30de8ee78cab"} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:23 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:27 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761471867177,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"0quYdr","fullname":"Liam OConnell","password":"user 1","profession":"Technical Writer","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"vnK7S2","fullname":"Sofia Fernandez","password":"user 2","profession":"UX Designer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"9UL1Kn","fullname":"Kai Nakamura","password":"user 3","profession":"Registered Nurse (RN)","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"y3CZho","fullname":"Chloe Davies","password":"user 4","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"WLlZRh","fullname":"Elijah Vance","password":"user 5","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"8a9uem","title":"Group 1","createdAt":1761471867177,"isCollapsed":false,"tasks":[{"id":"RFptev","title":"Item 1","createdAt":1761471867177,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"7DckeK","title":"Item 2","createdAt":1761471867177,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#db2a4d"}}],"activities":[]} | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:46 - INFO - Socket disconnected [id: undefined]
+26.10.2025, 11:44:47 - INFO - New connected socket [id: DP2LU5XXwz7DR3MTAAAH]
+26.10.2025, 11:44:47 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: DP2LU5XXwz7DR3MTAAAH]
+26.10.2025, 11:44:51 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: DP2LU5XXwz7DR3MTAAAH]
+26.10.2025, 11:44:51 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:51 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:44:55 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761471895783,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"O26agG","fullname":"Liam OConnell","password":"user 1","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"qZ5xeZ","fullname":"Sofia Fernandez","password":"user 2","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"i2jbzD","fullname":"Kai Nakamura","password":"user 3","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"eyQGmS","fullname":"Chloe Davies","password":"user 4","profession":"Elementary School Teacher","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"y03q3v","fullname":"Elijah Vance","password":"user 5","profession":"UX Designer","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"faV3Vf","title":"Group 1","createdAt":1761471895784,"isCollapsed":false,"tasks":[{"id":"KQVjWa","title":"Item 1","createdAt":1761471895784,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"eZFeBP","title":"Item 2","createdAt":1761471895784,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#5f9bf9"}}],"activities":[]} | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:45:50 - INFO - Socket disconnected [id: undefined]
+26.10.2025, 11:45:51 - INFO - New connected socket [id: wP80joJlrSQhIw0wAAAJ]
+26.10.2025, 11:45:51 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: wP80joJlrSQhIw0wAAAJ]
+26.10.2025, 11:45:55 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: wP80joJlrSQhIw0wAAAJ]
+26.10.2025, 11:45:56 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:45:56 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:46:01 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761471961306,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"Bq2GEY","fullname":"Liam OConnell","password":"user 1","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"uTrU2k","fullname":"Sofia Fernandez","password":"user 2","profession":"UX Designer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"PTCC4v","fullname":"Kai Nakamura","password":"user 3","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"SJ9Cg5","fullname":"Chloe Davies","password":"user 4","profession":"Technical Writer","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"9yptqg","fullname":"Elijah Vance","password":"user 5","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"7UsXqj","title":"Group 1","createdAt":1761471961306,"isCollapsed":false,"tasks":[{"id":"SsVzZl","title":"Item 1","createdAt":1761471961306,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"eoEN3T","title":"Item 2","createdAt":1761471961306,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#27c977"}}],"activities":[]} | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:46:28 - INFO - Socket disconnected [id: undefined]
+26.10.2025, 11:47:18 - INFO - Server is running on port: 3030
+26.10.2025, 11:48:05 - INFO - New connected socket [id: spcVIguMga2ltx-yAAAB]
+26.10.2025, 11:48:16 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: spcVIguMga2ltx-yAAAB]
+26.10.2025, 11:48:16 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+26.10.2025, 11:48:16 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
