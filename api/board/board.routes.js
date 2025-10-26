@@ -8,7 +8,7 @@ import {
     removeGroup, addGroup,
     getTaskById,
     addTask, updateTask, removeTask, duplicateTask,
-    getDashboardData,
+    getDashboardData, updateGroup, updateGroupOrder,
 } from './board.controller.js'
 
 
@@ -25,7 +25,11 @@ router.put('/', requireAuth, updateBoard)
 router.delete('/:id', requireAuth, removeBoard)
 
 // group
-router.put('/:boardId', requireAuth, addGroup)
+router.post('/group/:boardId', requireAuth, addGroup)
+router.put('/group/order/:boardId', requireAuth, updateGroupOrder)
+router.put('/group/:boardId/:groupId', requireAuth, updateGroup)
+
+
 router.delete('/:boardId/:groupId', requireAuth, removeGroup)
 
 //task details

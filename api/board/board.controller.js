@@ -114,6 +114,8 @@ export async function removeBoardMsg(req, res) {
 // groups
 
 export async function addGroup(req, res) {
+    console.log('YES');
+
     const { boardId } = req.params
     const { loggedinUser } = asyncLocalStorage.getStore()
     const group = _getEmptyGroup()
@@ -132,6 +134,39 @@ export async function addGroup(req, res) {
         res.status(400).send({ err: 'Failed to add group' })
     }
 }
+
+export async function updateGroup(req, res) {
+    const { boardId } = req.params
+    const group = req.body
+    const { loggedinUser } = asyncLocalStorage.getStore()
+    
+    try {
+        const addedGroup = await boardService.updateGroup(boardId, group)
+
+        res.json(addedGroup)
+    } catch (err) {
+        logger.error('Failed to add group', err)
+        res.status(400).send({ err: 'Failed to add group' })
+    }
+}
+
+export async function updateGroupOrder(req, res) {
+    const { boardId } = req.params
+    const orderedGroups = req.body
+    const { loggedinUser } = asyncLocalStorage.getStore()
+    
+
+    try {
+        
+        const addedGroup = await boardService.updateGroupOrder(boardId, orderedGroups)
+
+        res.json(addedGroup)
+    } catch (err) {
+        logger.error('Failed to add group', err)
+        res.status(400).send({ err: 'Failed to add group' })
+    }
+}
+
 
 export async function removeGroup(req, res) {
 

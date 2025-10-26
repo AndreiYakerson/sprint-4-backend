@@ -18,6 +18,8 @@ export const boardService = {
     // group
     addGroup,
     removeGroup,
+    updateGroup,
+    updateGroupOrder,
     // task details
     getTaskById,
     // task
@@ -153,6 +155,52 @@ export async function addGroup(boardId, newGroup) {
 
     } catch (err) {
         console.error('Failed to add group to board', err)
+        throw err
+    }
+}
+
+export async function updateGroup(boardId, updatedGroup) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const criteria = {
+            _id: ObjectId.createFromHexString(boardId),
+            'groups.id': updatedGroup.id
+        };
+
+
+        const update = {
+            $set: {
+                'groups.$': updatedGroup
+            }
+        };
+
+        await collection.updateOne(criteria, update)
+
+        return updatedGroup
+    } catch (err) {
+        console.error('Failed to add group to board', err)
+        throw err
+    }
+}
+
+export async function updateGroupOrder(boardId, orderedGroups) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const criteria = { _id: ObjectId.createFromHexString(boardId) }
+
+        const update = {
+            $set: {
+                groups: orderedGroups
+            }
+        }
+
+        await collection.updateOne(criteria, update)
+
+        return orderedGroups
+    } catch (err) {
+        console.error('Failed to update group order in board', err)
         throw err
     }
 }
