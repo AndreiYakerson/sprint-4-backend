@@ -25,7 +25,7 @@ router.put('/', requireAuth, updateBoard)
 router.delete('/:id', requireAuth, removeBoard)
 
 // group
-router.post('/:boardId', requireAuth, addGroup)
+router.put('/:boardId', requireAuth, addGroup)
 router.delete('/:boardId/:groupId', requireAuth, removeGroup)
 
 //task details

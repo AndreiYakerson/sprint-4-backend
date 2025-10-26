@@ -1,5 +1,7 @@
 import { logger } from '../../services/logger.service.js'
 import { boardService } from './board.service.js'
+import { asyncLocalStorage } from '../../services/als.service.js'
+import { makeId, getRandomGroupColor, getRandomIntInclusive } from '../../services/util.service.js'
 
 export async function getBoards(req, res) {
     try {
@@ -113,7 +115,9 @@ export async function removeBoardMsg(req, res) {
 
 export async function addGroup(req, res) {
     const { boardId } = req.params
-    const { loggedinUser, body: group } = req
+    const { loggedinUser } = asyncLocalStorage.getStore()
+    const group = _getEmptyGroup()
+
 
     try {
         group.owner = loggedinUser
@@ -139,6 +143,19 @@ export async function removeGroup(req, res) {
     } catch (err) {
         logger.error('Failed to remove group', err)
         res.status(400).send({ err: 'Failed to remove group' })
+    }
+}
+
+function _getEmptyGroup() {
+    return {
+        id: makeId(),
+        title: 'New group',
+        createdAt: Date.now(),
+        isCollapsed: false,
+        tasks: [],
+        style: {
+            '--group-color': getRandomGroupColor(),
+        },
     }
 }
 
