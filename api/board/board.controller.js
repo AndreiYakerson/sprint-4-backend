@@ -282,9 +282,9 @@ export async function updateTasksOrder(req, res) {
 export async function removeTask(req, res) {
     const { boardId, groupId, taskId } = req.params
     const { loggedinUser } = req
-
+    
     try {
-        const deletedTask = await boardService.removeTask(boardId, groupId, task)
+        const deletedTask = await boardService.removeTask(boardId, groupId, taskId)
         res.json(deletedTask)
     } catch (err) {
         logger.error('Failed to add group', err)
