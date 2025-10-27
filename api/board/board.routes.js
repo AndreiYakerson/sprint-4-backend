@@ -21,7 +21,7 @@ const router = express.Router()
 
 router.get('/', log, getBoards)
 router.get('/dashboard', log, getDashboardData)
-router.get('/:id', log, getBoardById)
+router.get('/:boardId/:filterByStr', log, getBoardById)
 router.post('/', log, requireAuth, addBoard)
 router.put('/', requireAuth, updateBoard)
 router.delete('/:id', requireAuth, removeBoard)
