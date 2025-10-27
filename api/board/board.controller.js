@@ -22,8 +22,11 @@ export async function getBoards(req, res) {
 }
 
 export async function getBoardById(req, res) {
+    const boardId = req.params.id
+    const filterBy = req.query || {}
+    console.log(filterBy[`byGroups[]`])
+    
     try {
-        const boardId = req.params.id
         const board = await boardService.getById(boardId)
         res.json(board)
     } catch (err) {
