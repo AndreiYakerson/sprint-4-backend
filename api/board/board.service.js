@@ -274,9 +274,9 @@ async function getTaskById(boardId, taskId) {
 /// task 
 
 async function addTask(boardId, groupId, task, method = 'push') {
-    console.log('METHOD:',method);
-    
-    
+    console.log('METHOD:', method);
+
+
     try {
         const collection = await dbService.getCollection('board')
 
@@ -305,16 +305,26 @@ async function addTask(boardId, groupId, task, method = 'push') {
     }
 }
 
-async function duplicateTask(boardId, groupId, taskCopy, taskCopyIdx) {
+async function duplicateTask(boardId, groupId, taskCopy) {
+
+
     try {
         const collection = await dbService.getCollection('board')
+        const board = await collection.findOne({ _id: ObjectId.createFromHexString(boardId) })
+        const group = board.groups.find(g => g.id === groupId)
+        console.log(group.tasks);
+        
+        const taskCopyIdx = group.tasks.findIndex(t => t.id === taskCopy.id)
+        
+        taskCopy.id = makeId()
+        taskCopy.createdAt = Date.now()
 
         const criteria = { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId }
         const addCopy = {
             $push: {
                 'groups.$.tasks': {
                     $each: [taskCopy],
-                    $position: +taskCopyIdx
+                    $position: +taskCopyIdx + 1
                 }
             }
         }
@@ -372,7 +382,7 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
             { returnDocument: 'after' } // Return the updated document
         )
 
-        const updatedBoard =  result; 
+        const updatedBoard = result;
 
         if (!updatedBoard) {
             throw new Error('Board or group not found for update.')

@@ -228,15 +228,14 @@ export async function addTask(req, res) {
 }
 
 export async function duplicateTask(req, res) {
-    const { boardId, groupId, taskCopyIdx } = req.params
-    const { loggedinUser, body: taskCopy } = req
+    const { boardId, groupId } = req.params
+    const { loggedinUser } = req
+    const { taskCopy } = req.body
+
 
     try {
         taskCopy.owner = loggedinUser
-
-        console.log(taskCopy);
-
-        const duplicatedTask = await boardService.duplicateTask(boardId, groupId, taskCopy, taskCopyIdx)
+        const duplicatedTask = await boardService.duplicateTask(boardId, groupId, taskCopy)
 
         res.json(duplicatedTask)
     } catch (err) {
@@ -282,7 +281,7 @@ export async function updateTasksOrder(req, res) {
 export async function removeTask(req, res) {
     const { boardId, groupId, taskId } = req.params
     const { loggedinUser } = req
-    
+
     try {
         const deletedTask = await boardService.removeTask(boardId, groupId, taskId)
         res.json(deletedTask)
