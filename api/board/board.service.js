@@ -273,6 +273,9 @@ async function getTaskById(boardId, taskId) {
 /// task 
 
 async function addTask(boardId, groupId, task, method = 'push') {
+    console.log('METHOD:',method);
+    
+    
     try {
         const collection = await dbService.getCollection('board')
 

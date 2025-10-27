@@ -139,7 +139,7 @@ export async function updateGroup(req, res) {
     const { boardId } = req.params
     const group = req.body
     const { loggedinUser } = asyncLocalStorage.getStore()
-    
+
     try {
         const addedGroup = await boardService.updateGroup(boardId, group)
 
@@ -154,10 +154,10 @@ export async function updateGroupOrder(req, res) {
     const { boardId } = req.params
     const orderedGroups = req.body
     const { loggedinUser } = asyncLocalStorage.getStore()
-    
+
 
     try {
-        
+
         const addedGroup = await boardService.updateGroupOrder(boardId, orderedGroups)
 
         res.json(addedGroup)
@@ -213,14 +213,12 @@ export async function getTaskById(req, res) {
 // task
 
 export async function addTask(req, res) {
-    const { boardId, groupId, method } = req.params
-    const { loggedinUser, body: task } = req
-
+    const { boardId, groupId } = req.params
+    const { loggedinUser } = req
+    const { title, method } = req.body
+    const task = _getEmptyTask(title)
     try {
         task.owner = loggedinUser
-
-        console.log(task);
-
         const addedTask = await boardService.addTask(boardId, groupId, task, method)
 
         res.json(addedTask)
@@ -275,6 +273,18 @@ export async function removeTask(req, res) {
     } catch (err) {
         logger.error('Failed to add group', err)
         res.status(400).send({ err: 'Failed to add group' })
+    }
+}
+
+function _getEmptyTask(title = 'New Task') {
+    return {
+        id: makeId(),
+        title: title,
+        createdAt: Date.now(),
+        memberIds: [],
+        priority: { txt: 'Default Label', cssVar: '--group-title-clr18', id: 'default' },
+        status: { id: 'default', txt: 'Not Started', cssVar: '--group-title-clr18' },
+        comments: []
     }
 }
 

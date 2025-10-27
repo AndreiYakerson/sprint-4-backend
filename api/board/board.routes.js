@@ -28,18 +28,16 @@ router.delete('/:id', requireAuth, removeBoard)
 router.post('/group/:boardId', requireAuth, addGroup)
 router.put('/group/order/:boardId', requireAuth, updateGroupOrder)
 router.put('/group/:boardId/:groupId', requireAuth, updateGroup)
-
-
 router.delete('/:boardId/:groupId', requireAuth, removeGroup)
 
 //task details
 router.get('/:boardId/task/:taskId', requireAuth, getTaskById)
 
 //task
-router.post('/:boardId/:groupId', requireAuth, addTask)
+router.post('/task/:boardId/:groupId', requireAuth, addTask)
+router.put('/:boardId/:groupId/:taskId', requireAuth, updateTask)
 router.post('/:boardId/:groupId/:method', requireAuth, addTask)
 router.post('/:boardId/:groupId/duplicate/:taskCopyIdx', requireAuth, duplicateTask)
-router.put('/:boardId/:groupId/:taskId', requireAuth, updateTask)
 router.delete('/:boardId/:groupId/:taskId', requireAuth, removeTask)
 
 
