@@ -400,7 +400,7 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
 
 
 
-async function removeTask(boardId, groupId, task) {
+async function removeTask(boardId, groupId, taskId) {
     try {
         const criteria = {
             _id: ObjectId.createFromHexString(boardId),
@@ -414,10 +414,9 @@ async function removeTask(boardId, groupId, task) {
             { returnDocument: 'before' }
         )
 
-        if (!updatedBoard.value) {
+        if (!updatedBoard) {
             throw new Error(`Board with id ${boardId} or group with id ${groupId} not found`)
         }
-
 
         const group = updatedBoard.groups.find(group => group.id === groupId)
         const deletedTask = group.tasks.find(task => task.id === taskId)
