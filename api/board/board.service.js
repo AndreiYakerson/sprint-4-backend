@@ -274,9 +274,9 @@ async function getTaskById(boardId, taskId) {
 /// task 
 
 async function addTask(boardId, groupId, task, method = 'push') {
-    console.log('METHOD:',method);
-    
-    
+    console.log('METHOD:', method);
+
+
     try {
         const collection = await dbService.getCollection('board')
 
@@ -330,14 +330,14 @@ async function duplicateTask(boardId, groupId, taskCopy, taskCopyIdx) {
     }
 }
 
-async function updateTask(boardId, groupId, taskId, task) {
+async function updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle, loggedinUser) {
     try {
         const collection = await dbService.getCollection('board')
 
         const criteria = { _id: ObjectId.createFromHexString(boardId) }
         const update = {
             $set: Object.fromEntries(
-                Object.entries(task).map(([key, value]) => [
+                Object.entries(taskToUpdate).map(([key, value]) => [
                     `groups.$[g].tasks.$[t].${key}`,
                     value
                 ])
@@ -352,9 +352,23 @@ async function updateTask(boardId, groupId, taskId, task) {
             returnDocument: 'after'
         }
 
-        await collection.findOneAndUpdate(criteria, update, options)
 
-        return task
+        const result = await collection.findOneAndUpdate(criteria, update, options)
+        const updatedBoard = result.value || result
+
+        if (!updatedBoard) throw new Error('Board not found for task update.')
+
+
+        const group = updatedBoard.groups.find(g => g.id === groupId)
+        if (!group) throw new Error('group not found after update')
+
+        const taskIdx = group.tasks.findIndex(task => task.id = taskId)
+        const activity = _createActivity(activityTitle, _getMiniUser(loggedinUser),
+            _toMiniGroup(group), _toMiniTask(group.tasks[taskIdx]))
+
+        const savedTask = taskToUpdate
+        return savedTask
+
     } catch (err) {
         console.error('cannot update task', err)
         throw err
@@ -372,7 +386,7 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
             { returnDocument: 'after' } // Return the updated document
         )
 
-        const updatedBoard =  result; 
+        const updatedBoard = result;
 
         if (!updatedBoard) {
             throw new Error('Board or group not found for update.')
@@ -541,6 +555,10 @@ export async function getDashboardData(filterBy = {}) {
     }
 }
 
+
+//////////////////////////////////////////////////////////////////
+// General function 
+
 function _buildCriteria(filterBy) {
     const criteria = {
         title: { $regex: filterBy.txt, $options: 'i' },
@@ -552,4 +570,42 @@ function _buildCriteria(filterBy) {
 function _buildSort(filterBy) {
     if (!filterBy.sortField) return {}
     return { [filterBy.sortField]: filterBy.sortDir }
+}
+
+function _createActivity(activityTitle, miniUser, miniGroup, miniTask) {
+    return {
+        id: makeId(),
+        title: activityTitle,
+        createdAt: Date.now(),
+        byMember: miniUser,
+        group: miniGroup,
+        task: miniTask,
+    }
+}
+
+function _getMiniUser(user) {
+    // const user = getLoggedinUser()
+    if (user) {
+        return {
+            _id: user?._id,
+            fullname: user?.fullname,
+            imgUrl: user?.imgUrl,
+        }
+    } else {
+        return {
+            _id: 'guest',
+            fullname: 'guest',
+            imgUrl: '/img/gray-avatar.svg',
+        }
+    }
+
+}
+
+function _toMiniTask({ id, title }) {
+
+    return { id, title }
+}
+
+function _toMiniGroup({ id, title }) {
+    return { id, title }
 }

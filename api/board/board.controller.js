@@ -247,15 +247,14 @@ export async function duplicateTask(req, res) {
 
 export async function updateTask(req, res) {
     const { boardId, groupId, taskId } = req.params
-    const { loggedinUser, body: task } = req
+    const { loggedinUser } = req
+    const { taskToUpdate, activityTitle } = req.body
 
     try {
-        delete task.id
-        console.log(task);
-
-        const updatedTask = await boardService.updateTask(boardId, groupId, taskId, task)
-
-        res.json(updatedTask)
+        // delete taskToUpdate.id
+        const savedTask = await boardService.updateTask(boardId, groupId, taskId, taskToUpdate,activityTitle,loggedinUser)
+        console.log("🚀 ~ updateTask ~ savedTask:", savedTask)
+        res.json(savedTask)
     } catch (err) {
         logger.error('Failed to update task', err)
         res.status(400).send({ err: 'Failed to update task' })
