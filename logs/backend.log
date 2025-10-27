@@ -3848,3 +3848,431 @@
 27.10.2025, 20:04:41 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
 27.10.2025, 20:04:43 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
 27.10.2025, 20:05:27 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:06:41 - INFO - Server is running on port: 3030
+27.10.2025, 20:06:43 - INFO - New connected socket [id: Z7JHA2qGg0n3UvLtAAAB]
+27.10.2025, 20:06:46 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:06:46 - INFO - New connected socket [id: hxWhcyJ2yuHycllKAAAD]
+27.10.2025, 20:06:46 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: hxWhcyJ2yuHycllKAAAD]
+27.10.2025, 20:06:46 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:06:46 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:06:46 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:06:46 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:06 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:06 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:06 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:06 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:07 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:07:07 - INFO - New connected socket [id: D6Sj3X2Tup7h-ImDAAAF]
+27.10.2025, 20:07:07 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: D6Sj3X2Tup7h-ImDAAAF]
+27.10.2025, 20:07:07 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:07 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:07 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:07:07 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:08:12 - INFO - Server is running on port: 3030
+27.10.2025, 20:08:14 - INFO - New connected socket [id: Wgwc_I_4lYxZKWY0AAAB]
+27.10.2025, 20:08:15 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:08:16 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:08:22 - INFO - Server is running on port: 3030
+27.10.2025, 20:08:23 - INFO - New connected socket [id: AgRwXBWxmnkU_bk2AAAB]
+27.10.2025, 20:09:21 - INFO - Server is running on port: 3030
+27.10.2025, 20:09:22 - INFO - New connected socket [id: gA-C18rQHRM_lT1SAAAB]
+27.10.2025, 20:09:25 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:09:25 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:09:26 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:09:27 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:10:54 - INFO - Server is running on port: 3030
+27.10.2025, 20:10:58 - INFO - New connected socket [id: YCwyJGxcOVo4Zzb3AAAB]
+27.10.2025, 20:11:31 - INFO - Server is running on port: 3030
+27.10.2025, 20:11:32 - INFO - New connected socket [id: vI8zj0132Pe5uRpGAAAB]
+27.10.2025, 20:11:38 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:11:38 - INFO - New connected socket [id: Xo0otmp7rlWzsou0AAAD]
+27.10.2025, 20:11:38 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: Xo0otmp7rlWzsou0AAAD]
+27.10.2025, 20:11:38 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:38 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:38 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:38 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:41 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:11:41 - INFO - New connected socket [id: cZCwT4JpNsf3oKR1AAAF]
+27.10.2025, 20:11:41 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: cZCwT4JpNsf3oKR1AAAF]
+27.10.2025, 20:11:41 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:41 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:41 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:11:41 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:11 - INFO - Server is running on port: 3030
+27.10.2025, 20:12:12 - INFO - Server is running on port: 3030
+27.10.2025, 20:12:13 - INFO - New connected socket [id: erw0N2U9Tl6p-o_WAAAB]
+27.10.2025, 20:12:18 - INFO - Server is running on port: 3030
+27.10.2025, 20:12:19 - INFO - New connected socket [id: 2eaur1wMACwo4LwQAAAB]
+27.10.2025, 20:12:20 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:12:21 - INFO - New connected socket [id: LXoHngRpwybzT-kNAAAD]
+27.10.2025, 20:12:21 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: LXoHngRpwybzT-kNAAAD]
+27.10.2025, 20:12:21 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:21 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:21 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:21 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:51 - INFO - Server is running on port: 3030
+27.10.2025, 20:12:52 - INFO - New connected socket [id: eMNfDBnUMVx2TpOZAAAB]
+27.10.2025, 20:12:54 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:12:54 - INFO - New connected socket [id: 03AZHSrID57XL6tBAAAD]
+27.10.2025, 20:12:54 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 03AZHSrID57XL6tBAAAD]
+27.10.2025, 20:12:54 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:54 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:54 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:12:54 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:26 - INFO - Server is running on port: 3030
+27.10.2025, 20:15:28 - INFO - New connected socket [id: Opl9VDUFHl-XHyYPAAAB]
+27.10.2025, 20:15:31 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:15:31 - INFO - New connected socket [id: lzQ4z1zFyTQBZnEAAAAD]
+27.10.2025, 20:15:31 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: lzQ4z1zFyTQBZnEAAAAD]
+27.10.2025, 20:15:31 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:31 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:31 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:31 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:34 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:35 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:48 - INFO - Server is running on port: 3030
+27.10.2025, 20:15:48 - INFO - New connected socket [id: 6IbrT3YF2a6HlZPkAAAB]
+27.10.2025, 20:15:49 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:15:50 - INFO - New connected socket [id: wvOJIKIjeNvrYJgDAAAD]
+27.10.2025, 20:15:50 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: wvOJIKIjeNvrYJgDAAAD]
+27.10.2025, 20:15:50 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:50 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:50 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:50 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:53 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:15:54 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:11 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:12 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:19:12 - INFO - New connected socket [id: 0jAA3CE-fu1Fx7klAAAF]
+27.10.2025, 20:19:12 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 0jAA3CE-fu1Fx7klAAAF]
+27.10.2025, 20:19:12 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:12 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:12 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:12 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:15 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:18 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:22 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:19:53 - INFO - Server is running on port: 3030
+27.10.2025, 20:19:55 - INFO - New connected socket [id: 8fi-z6OxEAEsYmQSAAAB]
+27.10.2025, 20:20:07 - INFO - Server is running on port: 3030
+27.10.2025, 20:20:09 - INFO - New connected socket [id: aXygzKgDRnp7C8QKAAAB]
+27.10.2025, 20:20:34 - INFO - Server is running on port: 3030
+27.10.2025, 20:20:35 - INFO - New connected socket [id: b6836OF9VALcfOX6AAAB]
+27.10.2025, 20:20:36 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:20:36 - INFO - New connected socket [id: FTVaU-pMgkf4YLvNAAAD]
+27.10.2025, 20:20:36 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: FTVaU-pMgkf4YLvNAAAD]
+27.10.2025, 20:20:36 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:36 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:36 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:37 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:45 - INFO - Server is running on port: 3030
+27.10.2025, 20:20:47 - INFO - Server is running on port: 3030
+27.10.2025, 20:20:47 - INFO - New connected socket [id: L8kxCvifaiVy5NCBAAAB]
+27.10.2025, 20:20:50 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:20:50 - INFO - New connected socket [id: _W6Dcbr3zSidb45xAAAD]
+27.10.2025, 20:20:50 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: _W6Dcbr3zSidb45xAAAD]
+27.10.2025, 20:20:50 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:50 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:50 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:50 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:53 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:20:55 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:08 - INFO - Server is running on port: 3030
+27.10.2025, 20:21:10 - INFO - New connected socket [id: bASp4lRNJipCgZ63AAAB]
+27.10.2025, 20:21:10 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:21:10 - INFO - New connected socket [id: cPooaZRTJ0M1vOQUAAAD]
+27.10.2025, 20:21:10 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: cPooaZRTJ0M1vOQUAAAD]
+27.10.2025, 20:21:10 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:10 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:10 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:10 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:21 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:24 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:24 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:25 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:26 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:27 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:21:28 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:22:06 - INFO - Server is running on port: 3030
+27.10.2025, 20:22:07 - INFO - New connected socket [id: ieGhzfqCaP8HwDJOAAAB]
+27.10.2025, 20:32:16 - INFO - Server is running on port: 3030
+27.10.2025, 20:32:18 - INFO - New connected socket [id: 6KDwa0ZqvponO-BHAAAB]
+27.10.2025, 20:32:28 - INFO - Server is running on port: 3030
+27.10.2025, 20:32:29 - INFO - New connected socket [id: dH8GYbyt7IMCDa6TAAAB]
+27.10.2025, 20:32:54 - INFO - Server is running on port: 3030
+27.10.2025, 20:32:54 - INFO - New connected socket [id: aqWmEnC4kXKCdQGTAAAB]
+27.10.2025, 20:32:56 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:32:56 - INFO - New connected socket [id: m4ekKGcvT2Z4yhCYAAAD]
+27.10.2025, 20:32:56 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: m4ekKGcvT2Z4yhCYAAAD]
+27.10.2025, 20:32:56 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:32:56 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:32:56 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:32:56 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:32:58 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:32:59 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:33:01 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:33:01 - INFO - New connected socket [id: jcmQEh5BcTffL2kpAAAF]
+27.10.2025, 20:33:01 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: jcmQEh5BcTffL2kpAAAF]
+27.10.2025, 20:33:01 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:33:01 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:33:01 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:33:01 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:33:38 - INFO - Server is running on port: 3030
+27.10.2025, 20:33:39 - INFO - New connected socket [id: 5yzrWs-xIrtE1LEeAAAB]
+27.10.2025, 20:36:10 - INFO - Server is running on port: 3030
+27.10.2025, 20:36:11 - INFO - New connected socket [id: bcQAM_6cJkCiEWfCAAAB]
+27.10.2025, 20:37:53 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:37:53 - INFO - New connected socket [id: FR_lCKnN89SRXu_-AAAD]
+27.10.2025, 20:37:53 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: FR_lCKnN89SRXu_-AAAD]
+27.10.2025, 20:37:53 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:37:53 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:37:54 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:37:54 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:29 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 20:49:29 - INFO - New connected socket [id: 1CoR3VdeKl3SI9k8AAAF]
+27.10.2025, 20:49:29 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 1CoR3VdeKl3SI9k8AAAF]
+27.10.2025, 20:49:29 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:29 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:29 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:29 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:41 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:42 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:48 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:49:49 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:50:25 - INFO - Server is running on port: 3030
+27.10.2025, 20:50:27 - INFO - New connected socket [id: UErwP_d_hQMJLSaeAAAB]
+27.10.2025, 20:51:19 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:23 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:24 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:25 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:26 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:27 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:27 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:28 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:29 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:51:30 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:53:37 - INFO - Server is running on port: 3030
+27.10.2025, 20:53:38 - INFO - New connected socket [id: ZNeu8aMLSer9250wAAAB]
+27.10.2025, 20:53:39 - INFO - Server is running on port: 3030
+27.10.2025, 20:53:40 - INFO - New connected socket [id: nP9EpQepGZ9jBUwWAAAB]
+27.10.2025, 20:53:42 - INFO - Server is running on port: 3030
+27.10.2025, 20:53:42 - INFO - New connected socket [id: TSUMhYLmKLMUmimXAAAB]
+27.10.2025, 20:54:40 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:54:42 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:55:37 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:55:38 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:08 - INFO - Server is running on port: 3030
+27.10.2025, 20:59:09 - INFO - New connected socket [id: 7a5HmgqmbtlYYc_jAAAB]
+27.10.2025, 20:59:16 - INFO - Server is running on port: 3030
+27.10.2025, 20:59:17 - INFO - New connected socket [id: Gpe9U9xanfZzl_O0AAAB]
+27.10.2025, 20:59:19 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:19 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:19 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:27 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:27 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:27 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:47 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:47 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:47 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:48 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:48 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:48 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:48 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:48 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:48 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:49 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:49 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 20:59:49 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:07 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:07 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:07 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:08 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:08 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:08 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:09 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:09 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:09 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:09 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:09 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:09 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:10 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:10 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:10 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:10 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:10 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:10 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:11 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:11 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:11 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:12 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:12 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:12 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:35:17 - INFO - New connected socket [id: MKcAXhzHZWnR_gYgAAAD]
+27.10.2025, 21:35:17 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: MKcAXhzHZWnR_gYgAAAD]
+27.10.2025, 21:35:18 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:36:29 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: MKcAXhzHZWnR_gYgAAAD]
+27.10.2025, 21:36:29 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:36:29 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:36:42 - INFO - New connected socket [id: TfLSxIXej6mrOKafAAAF]
+27.10.2025, 21:36:42 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: TfLSxIXej6mrOKafAAAF]
+27.10.2025, 21:36:42 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:37:37 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: TfLSxIXej6mrOKafAAAF]
+27.10.2025, 21:37:37 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:37:37 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:37:57 - INFO - New connected socket [id: _HF3vfiowTA7X0asAAAH]
+27.10.2025, 21:37:57 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: _HF3vfiowTA7X0asAAAH]
+27.10.2025, 21:37:57 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:38:53 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: _HF3vfiowTA7X0asAAAH]
+27.10.2025, 21:38:53 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:38:53 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:39:31 - INFO - New connected socket [id: 1zam6pJJx8a8dH0oAAAJ]
+27.10.2025, 21:39:31 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 1zam6pJJx8a8dH0oAAAJ]
+27.10.2025, 21:39:31 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:39:51 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 1zam6pJJx8a8dH0oAAAJ]
+27.10.2025, 21:39:52 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:39:52 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761594033132,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"rJ8Wh2","fullname":"Liam OConnell","password":"user 1","profession":"Registered Nurse (RN)","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"C7xYdc","fullname":"Sofia Fernandez","password":"user 2","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"TAb3pi","fullname":"Kai Nakamura","password":"user 3","profession":"Urban Planner","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"sskM8h","fullname":"Chloe Davies","password":"user 4","profession":"Solar Panel Installer","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"DeZma2","fullname":"Elijah Vance","password":"user 5","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"3d3fnr","title":"Group 1","createdAt":1761594033132,"isCollapsed":false,"tasks":[{"id":"zMVdcz","title":"Item 1","createdAt":1761594033132,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"KWMajq","title":"Item 2","createdAt":1761594033132,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#5f9bf9"}}],"activities":[]} | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - INFO - /api/board | GET |  | {"id":"68ffcab1f2514d92631c17dc"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - ERROR - while finding board 68ffcab1f2514d92631c17dc | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - INFO - /api/board | GET |  | {"id":"68ffcab1f2514d92631c17dc"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - ERROR - while finding board 68ffcab1f2514d92631c17dc | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - INFO - /api/board | GET |  | {"id":"68ffcab1f2514d92631c17dc"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - ERROR - while finding board 68ffcab1f2514d92631c17dc | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:33 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761594036036,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"H00RTq","fullname":"Liam OConnell","password":"user 1","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"gqWvJR","fullname":"Sofia Fernandez","password":"user 2","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"seofjs","fullname":"Kai Nakamura","password":"user 3","profession":"Technical Writer","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"AkYkaj","fullname":"Chloe Davies","password":"user 4","profession":"Registered Nurse (RN)","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"quVe8i","fullname":"Elijah Vance","password":"user 5","profession":"Elementary School Teacher","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"hw3N0L","title":"Group 1","createdAt":1761594036036,"isCollapsed":false,"tasks":[{"id":"2oS4lb","title":"Item 1","createdAt":1761594036036,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"h0yiLl","title":"Item 2","createdAt":1761594036036,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#c4c4c4"}}],"activities":[]} | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - INFO - /api/board | GET |  | {"id":"68ffcab4f2514d92631c17dd"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - ERROR - while finding board 68ffcab4f2514d92631c17dd | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - INFO - /api/board | GET |  | {"id":"68ffcab4f2514d92631c17dd"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - ERROR - while finding board 68ffcab4f2514d92631c17dd | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:36 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761594038419,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"t0LfAl","fullname":"Liam OConnell","password":"user 1","profession":"Data Scientist","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"HATmLL","fullname":"Sofia Fernandez","password":"user 2","profession":"Technical Writer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"VK3ljX","fullname":"Kai Nakamura","password":"user 3","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"z1J2EN","fullname":"Chloe Davies","password":"user 4","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"pqPQdO","fullname":"Elijah Vance","password":"user 5","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"qhPtMM","title":"Group 1","createdAt":1761594038419,"isCollapsed":false,"tasks":[{"id":"Wqcm52","title":"Item 1","createdAt":1761594038419,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"bfkgio","title":"Item 2","createdAt":1761594038419,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#1e7eb3"}}],"activities":[]} | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - INFO - /api/board | GET |  | {"id":"68ffcab6f2514d92631c17de"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - ERROR - while finding board 68ffcab6f2514d92631c17de | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - INFO - /api/board | GET |  | {"id":"68ffcab6f2514d92631c17de"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:38 - ERROR - while finding board 68ffcab6f2514d92631c17de | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761594040774,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"D04Y29","fullname":"Liam OConnell","password":"user 1","profession":"Elementary School Teacher","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"AwkrHn","fullname":"Sofia Fernandez","password":"user 2","profession":"Technical Writer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"KV0lO3","fullname":"Kai Nakamura","password":"user 3","profession":"Urban Planner","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"mViYXo","fullname":"Chloe Davies","password":"user 4","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"NC3XVJ","fullname":"Elijah Vance","password":"user 5","profession":"Registered Nurse (RN)","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"Gju0mZ","title":"Group 1","createdAt":1761594040774,"isCollapsed":false,"tasks":[{"id":"hu9K3h","title":"Item 1","createdAt":1761594040774,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"Jza1pB","title":"Item 2","createdAt":1761594040774,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#fb57c3"}}],"activities":[]} | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - INFO - /api/board | GET |  | {"id":"68ffcab8f2514d92631c17df"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - ERROR - while finding board 68ffcab8f2514d92631c17df | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - INFO - /api/board | GET |  | {"id":"68ffcab8f2514d92631c17df"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - ERROR - while finding board 68ffcab8f2514d92631c17df | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:40 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:42 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761594054163,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"GPjmAq","fullname":"Liam OConnell","password":"user 1","profession":"Elementary School Teacher","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"fPcxEf","fullname":"Sofia Fernandez","password":"user 2","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"EKrHdx","fullname":"Kai Nakamura","password":"user 3","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"WyoxI9","fullname":"Chloe Davies","password":"user 4","profession":"Data Scientist","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"gpB7im","fullname":"Elijah Vance","password":"user 5","profession":"Solar Panel Installer","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"MjkNNf","title":"Group 1","createdAt":1761594054163,"isCollapsed":false,"tasks":[{"id":"do1Cx7","title":"Item 1","createdAt":1761594054164,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"4xRHSj","title":"Item 2","createdAt":1761594054164,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#17804d"}}],"activities":[]} | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:40:54 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:32 - INFO - /api/board | GET |  | {"id":"68ffcab1f2514d92631c17dc"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:32 - ERROR - while finding board 68ffcab1f2514d92631c17dc | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:32 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:32 - INFO - /api/board | GET |  | {"id":"68ffcab1f2514d92631c17dc"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:32 - ERROR - while finding board 68ffcab1f2514d92631c17dc | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:32 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:33 - INFO - /api/board | GET |  | {"id":"68ffcab4f2514d92631c17dd"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:33 - ERROR - while finding board 68ffcab4f2514d92631c17dd | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:33 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:33 - INFO - /api/board | GET |  | {"id":"68ffcab4f2514d92631c17dd"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:33 - ERROR - while finding board 68ffcab4f2514d92631c17dd | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:33 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - INFO - /api/board | GET |  | {"id":"68ffcab6f2514d92631c17de"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - while finding board 68ffcab6f2514d92631c17de | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - INFO - /api/board | GET |  | {"id":"68ffcab6f2514d92631c17de"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - while finding board 68ffcab6f2514d92631c17de | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - INFO - /api/board | GET |  | {"id":"68ffcab8f2514d92631c17df"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - while finding board 68ffcab8f2514d92631c17df | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - INFO - /api/board | GET |  | {"id":"68ffcab8f2514d92631c17df"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - while finding board 68ffcab8f2514d92631c17df | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:34 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:35 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:35 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:41:35 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:05 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:05 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:05 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:05 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:05 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:05 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:12 - INFO - Server is running on port: 3030
+27.10.2025, 21:42:12 - INFO - New connected socket [id: XUiOlyHGPMZsLcZ4AAAB]
+27.10.2025, 21:42:52 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:42:53 - INFO - New connected socket [id: AfMbsxwQCoqvjkCSAAAD]
+27.10.2025, 21:42:53 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: AfMbsxwQCoqvjkCSAAAD]
+27.10.2025, 21:42:53 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - INFO - /api/board | GET |  | {"id":"68ffa96f2d160708c2521c0c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - ERROR - while finding board 68ffa96f2d160708c2521c0c | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:53 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:55 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:55 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:55 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:55 - INFO - /api/board | GET |  | {"id":"68ffcac6f2514d92631c17e0"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:55 - ERROR - while finding board 68ffcac6f2514d92631c17e0 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:42:55 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761594186119,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"imQZZt","fullname":"Liam OConnell","password":"user 1","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"bYxla1","fullname":"Sofia Fernandez","password":"user 2","profession":"Elementary School Teacher","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"wooxKT","fullname":"Kai Nakamura","password":"user 3","profession":"Urban Planner","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"MgqoHk","fullname":"Chloe Davies","password":"user 4","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"R72TJc","fullname":"Elijah Vance","password":"user 5","profession":"Data Scientist","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"DQuRRW","title":"Group 1","createdAt":1761594186119,"isCollapsed":false,"tasks":[{"id":"B5rwKF","title":"Item 1","createdAt":1761594186119,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"azvPak","title":"Item 2","createdAt":1761594186119,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#9d4edb"}}],"activities":[]} | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:43:06 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:10 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:44:11 - INFO - New connected socket [id: mjTW4Z9hCxTFBdeRAAAF]
+27.10.2025, 21:44:11 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: mjTW4Z9hCxTFBdeRAAAF]
+27.10.2025, 21:44:11 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:11 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:44:14 - INFO - New connected socket [id: cTrvGRwVeUSXUPu7AAAH]
+27.10.2025, 21:44:14 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: cTrvGRwVeUSXUPu7AAAH]
+27.10.2025, 21:44:14 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:14 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 21:44:29 - INFO - New connected socket [id: j3ZBVNbFrdAB0OTsAAAJ]
+27.10.2025, 21:44:29 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: j3ZBVNbFrdAB0OTsAAAJ]
+27.10.2025, 21:44:29 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - INFO - /api/board | GET |  | {"id":"68ffcb4ac494b8d506e60a89"} | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - ERROR - while finding board 68ffcb4ac494b8d506e60a89 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+27.10.2025, 21:44:29 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79

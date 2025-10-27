@@ -48,7 +48,14 @@ async function query(filterBy = { txt: '' }) {
     }
 }
 
-async function getById(boardId) {
+function _getFormattedFilterBy(filterBy) {
+    
+
+    return formattedFilterBy
+}
+
+async function getById(boardId, filterBy = {}) {
+
     try {
         const criteria = { _id: ObjectId.createFromHexString(boardId) }
 
@@ -56,6 +63,92 @@ async function getById(boardId) {
         const board = await collection.findOne(criteria)
 
         board.createdAt = board._id.getTimestamp()
+
+        filterBy = _getFormattedFilterBy(filterBy)
+        console.log(filterBy);
+        
+
+        if (filterBy?.byGroups.length > 0) {
+            board.groups = board.groups.filter(g => filterBy.byGroups.includes(g.id))
+        }
+
+        if (filterBy?.byNames?.length > 0) {
+            board.groups = board.groups.filter(g => {
+                g.tasks = g.tasks.filter(t => filterBy.byNames.includes(t.title))
+                return g?.tasks?.length > 0
+            })
+        }
+
+
+        if (filterBy?.byStatuses?.length > 0) {
+            board.groups = board.groups.filter(g => {
+                g.tasks = g.tasks.filter(t => filterBy.byStatuses.includes(t?.status?.id))
+                return g?.tasks?.length > 0
+            })
+        }
+
+        if (filterBy?.byPriorities?.length > 0) {
+            board.groups = board.groups.filter(g => {
+                g.tasks = g.tasks.filter(t => filterBy.byPriorities.includes(t?.priority?.id))
+                return g?.tasks?.length > 0
+            })
+        }
+
+        if (filterBy?.byMembers?.length > 0) {
+            board.groups = board.groups.filter(g => {
+                g.tasks = g.tasks.filter(t => {
+                    return filterBy.byMembers.some(m => t?.memberIds.includes(m))
+                })
+                return g?.tasks?.length > 0
+            })
+        }
+
+        if (filterBy?.byDueDateOp?.length > 0) {
+            const now = DateTime.local()
+            const ops = filterBy.byDueDateOp
+
+            board.groups = board.groups
+                .filter(g => {
+                    g.tasks = g.tasks.filter(t => {
+                        if (!t?.dueDate?.date) return false
+
+                        const dueDate = DateTime.fromMillis(t.dueDate.date)
+                        const isDone = t?.status?.id === "done"
+                        const updatedAt = t?.status?.updatedAt
+                            ? DateTime.fromMillis(t.status.updatedAt)
+                            : null
+
+                        return (
+                            (ops.includes("today") && dueDate.hasSame(now, "day")) ||
+                            (ops.includes("tomorrow") && dueDate.hasSame(now.plus({ days: 1 }), "day")) ||
+                            (ops.includes("yesterday") && dueDate.hasSame(now.minus({ days: 1 }), "day")) ||
+
+                            (ops.includes("this week") && dueDate.hasSame(now, "week")) ||
+                            (ops.includes("last week") && dueDate.hasSame(now.minus({ weeks: 1 }), "week")) ||
+                            (ops.includes("next week") && dueDate.hasSame(now.plus({ weeks: 1 }), "week")) ||
+
+                            (ops.includes("this month") && dueDate.hasSame(now, "month")) ||
+                            (ops.includes("last month") && dueDate.hasSame(now.minus({ months: 1 }), "month")) ||
+                            (ops.includes("next month") && dueDate.hasSame(now.plus({ months: 1 }), "month")) ||
+
+                            (ops.includes("overdue") && !isDone && dueDate.startOf("day") < now.startOf("day")) ||
+                            (ops.includes("done on time") && isDone && updatedAt && updatedAt <= dueDate) ||
+                            (ops.includes("done overdue") && isDone && updatedAt && updatedAt > dueDate)
+                        )
+                    })
+                    return g => g.tasks.length > 0
+                })
+        }
+
+        /// Filter by specific user as opposed to a list of users ids from person filter
+
+        if (filterBy?.byPerson) {
+            board.groups = board.groups.filter(g => {
+                g.tasks = g.tasks.filter(t => t?.memberIds.includes(filterBy.byPerson))
+                return g?.tasks?.length > 0
+            })
+        }
+
         return board
     } catch (err) {
         logger.error(`while finding board ${boardId}`, err)
