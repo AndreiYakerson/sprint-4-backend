@@ -10,6 +10,7 @@ import {
     addTask, updateTask, removeTask, duplicateTask,
     getDashboardData, updateGroup, updateGroupOrder,
     updateTasksOrder,
+    addUpdate,
 } from './board.controller.js'
 
 
@@ -37,6 +38,7 @@ router.get('/:boardId/task/:taskId', requireAuth, getTaskById)
 //task
 router.post('/task/:boardId/:groupId', requireAuth, addTask)
 router.put('/:boardId/:groupId/orderedTasks', requireAuth, updateTasksOrder)
+router.put('/:boardId/:groupId/:taskId/addUpdate', requireAuth, addUpdate)
 router.put('/:boardId/:groupId/:taskId', requireAuth, updateTask)
 router.post('/:boardId/:groupId/:method', requireAuth, addTask)
 router.post('/:boardId/:groupId/duplicate/:taskCopyIdx', requireAuth, duplicateTask)

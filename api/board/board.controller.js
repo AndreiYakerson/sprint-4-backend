@@ -209,7 +209,6 @@ export async function getTaskById(req, res) {
     }
 }
 
-// task
 
 export async function addTask(req, res) {
     const { boardId, groupId } = req.params
@@ -257,6 +256,20 @@ export async function updateTask(req, res) {
     } catch (err) {
         logger.error('Failed to update task', err)
         res.status(400).send({ err: 'Failed to update task' })
+    }
+}
+
+export async function addUpdate(req, res) {
+    const { boardId, groupId, taskId } = req.params
+    const { loggedinUser, body: UpdateTitle } = req
+
+    try {
+        const updatedTask = await boardService.addUpdate(boardId, groupId, taskId, UpdateTitle, loggedinUser)
+        res.json(updatedTask)
+        
+    } catch (err) {
+        logger.error('Failed to add update to task', err)
+        res.status(400).send({ err: 'Failed to add update to task' })
     }
 }
 

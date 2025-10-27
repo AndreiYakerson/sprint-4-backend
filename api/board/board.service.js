@@ -27,6 +27,7 @@ export const boardService = {
     duplicateTask,
     updateTask,
     updateTaskOrder,
+    addUpdate,
     removeTask,
     // dashboard
     getDashboardData
@@ -375,6 +376,55 @@ async function updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle,
     }
 }
 
+async function addUpdate(boardId, groupId, taskId, updateTitle, loggedinUser) {
+
+    try {
+
+        const collection = await dbService.getCollection('board')
+        const criteria = { _id: ObjectId.createFromHexString(boardId) }
+
+        const updateToAdd = _createUpdate(updateTitle, _getMiniUser(loggedinUser))
+
+        const update = {
+            $push: {
+                'groups.$[g].tasks.$[t].updates': {
+                    $each: [updateToAdd],
+                    $position: 0
+                }
+            }
+        }
+
+        const options = {
+            arrayFilters: [
+                { 'g.id': groupId },
+                { 't.id': taskId }
+            ],
+            returnDocument: 'after'
+        }
+
+        const result = await collection.findOneAndUpdate(criteria, update, options)
+        const updatedBoard = result.value || result
+
+        if (!updatedBoard) throw new Error('Board not found for task update.')
+
+        const group = updatedBoard.groups.find(g => g.id === groupId)
+        if (!group) throw new Error(`Group ${groupId} not found`)
+
+        const task = group.tasks.find(t => t.id === taskId)
+        if (task === -1) throw new Error(`Task ${taskId} not found`)
+
+         if (!task) {
+             // Highly unlikely if updatedBoard exists, but good for safety
+            throw new Error('Task not found on addUpdated to task ');
+        }
+
+
+        return task
+    } catch (error) {
+        console.error('cannot add update to task', error)
+        throw error
+    }
+}
 
 export async function updateTaskOrder(boardId, groupId, orderedTasks) {
     try {
@@ -607,4 +657,13 @@ function _toMiniTask({ id, title }) {
 
 function _toMiniGroup({ id, title }) {
     return { id, title }
+}
+
+function _createUpdate(updateTitle, miniUser) {
+    return {
+        id: makeId(),
+        title: updateTitle,
+        createdAt: Date.now(),
+        byMember: miniUser,
+    }
 }
