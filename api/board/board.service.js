@@ -340,14 +340,14 @@ async function duplicateTask(boardId, groupId, taskCopy) {
     }
 }
 
-async function updateTask(boardId, groupId, taskId, task) {
+async function updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle, loggedinUser) {
     try {
         const collection = await dbService.getCollection('board')
 
         const criteria = { _id: ObjectId.createFromHexString(boardId) }
         const update = {
             $set: Object.fromEntries(
-                Object.entries(task).map(([key, value]) => [
+                Object.entries(taskToUpdate).map(([key, value]) => [
                     `groups.$[g].tasks.$[t].${key}`,
                     value
                 ])
@@ -362,9 +362,23 @@ async function updateTask(boardId, groupId, taskId, task) {
             returnDocument: 'after'
         }
 
-        await collection.findOneAndUpdate(criteria, update, options)
 
-        return task
+        const result = await collection.findOneAndUpdate(criteria, update, options)
+        const updatedBoard = result.value || result
+
+        if (!updatedBoard) throw new Error('Board not found for task update.')
+
+
+        const group = updatedBoard.groups.find(g => g.id === groupId)
+        if (!group) throw new Error('group not found after update')
+
+        const taskIdx = group.tasks.findIndex(task => task.id = taskId)
+        const activity = _createActivity(activityTitle, _getMiniUser(loggedinUser),
+            _toMiniGroup(group), _toMiniTask(group.tasks[taskIdx]))
+
+        const savedTask = taskToUpdate
+        return { savedTask, activity }
+
     } catch (err) {
         console.error('cannot update task', err)
         throw err
@@ -550,6 +564,10 @@ export async function getDashboardData(filterBy = {}) {
     }
 }
 
+
+//////////////////////////////////////////////////////////////////
+// General function 
+
 function _buildCriteria(filterBy) {
     const criteria = {
         title: { $regex: filterBy.txt, $options: 'i' },
@@ -561,4 +579,42 @@ function _buildCriteria(filterBy) {
 function _buildSort(filterBy) {
     if (!filterBy.sortField) return {}
     return { [filterBy.sortField]: filterBy.sortDir }
+}
+
+function _createActivity(activityTitle, miniUser, miniGroup, miniTask) {
+    return {
+        id: makeId(),
+        title: activityTitle,
+        createdAt: Date.now(),
+        byMember: miniUser,
+        group: miniGroup,
+        task: miniTask,
+    }
+}
+
+function _getMiniUser(user) {
+    // const user = getLoggedinUser()
+    if (user) {
+        return {
+            _id: user?._id,
+            fullname: user?.fullname,
+            imgUrl: user?.imgUrl,
+        }
+    } else {
+        return {
+            _id: 'guest',
+            fullname: 'guest',
+            imgUrl: '/img/gray-avatar.svg',
+        }
+    }
+
+}
+
+function _toMiniTask({ id, title }) {
+
+    return { id, title }
+}
+
+function _toMiniGroup({ id, title }) {
+    return { id, title }
 }
