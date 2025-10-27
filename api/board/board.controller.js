@@ -54,6 +54,8 @@ export async function addBoard(req, res) {
 export async function updateBoard(req, res) {
     const { loggedinUser, body: board } = req
 
+    
+    
     // const { _id: userId, isAdmin } = loggedinUser
 
     // if (!isAdmin && board.owner._id !== userId) {

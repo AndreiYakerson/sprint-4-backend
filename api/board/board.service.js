@@ -101,7 +101,7 @@ async function update(board) {
     const { _id, ...boardToSave } = board
 
     try {
-        const criteria = { _id: new ObjectId(board._id.$oid) }
+        const criteria = { _id: new ObjectId(board._id) }
         const collection = await dbService.getCollection('board')
         delete boardToSave._id
         await collection.updateOne(criteria, { $set: boardToSave })
@@ -314,9 +314,9 @@ async function duplicateTask(boardId, groupId, taskCopy) {
         const board = await collection.findOne({ _id: ObjectId.createFromHexString(boardId) })
         const group = board.groups.find(g => g.id === groupId)
         console.log(group.tasks);
-        
+
         const taskCopyIdx = group.tasks.findIndex(t => t.id === taskCopy.id)
-        
+
         taskCopy.id = makeId()
         taskCopy.createdAt = Date.now()
 
@@ -423,8 +423,8 @@ async function addUpdate(boardId, groupId, taskId, updateTitle, loggedinUser) {
         const task = group.tasks.find(t => t.id === taskId)
         if (task === -1) throw new Error(`Task ${taskId} not found`)
 
-         if (!task) {
-             // Highly unlikely if updatedBoard exists, but good for safety
+        if (!task) {
+            // Highly unlikely if updatedBoard exists, but good for safety
             throw new Error('Task not found on addUpdated to task ');
         }
 
