@@ -33,7 +33,7 @@ router.put('/group/:boardId/:groupId', requireAuth, updateGroup)
 router.delete('/:boardId/:groupId', requireAuth, removeGroup)
 
 //task details
-router.get('/:boardId/task/:taskId', requireAuth, getTaskById)
+router.get('/taskDetails/:boardId/:taskId', requireAuth, getTaskById)
 
 //task
 router.post('/task/:boardId/:groupId', requireAuth, addTask)

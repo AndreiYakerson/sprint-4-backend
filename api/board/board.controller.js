@@ -23,7 +23,8 @@ export async function getBoards(req, res) {
 
 export async function getBoardById(req, res) {
     const {boardId, filterByStr} = req.params
-    const filterBy = filterByStr ? JSON.parse(filterByStr) : null
+    const filterBy = !filterByStr ? JSON.parse(filterByStr) : null
+    
     
     try {
         const board = await boardService.getById(boardId, filterBy)
@@ -203,7 +204,8 @@ function _getEmptyGroup() {
 export async function getTaskById(req, res) {
     const { boardId, taskId } = req.params
     const { loggedinUser } = req
-
+    console.log('YESSSSSSSSS');
+    
     try {
         const taskDetails = await boardService.getTaskById(boardId, taskId)
         res.json(taskDetails)
