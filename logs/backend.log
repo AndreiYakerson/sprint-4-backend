@@ -2162,3 +2162,534 @@
 26.10.2025, 23:50:32 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
 26.10.2025, 23:50:32 - INFO - /api/board | GET |  | {"id":"68fe972f01b52ba9d68cf13c"} | 68fe62e984b5fa7140477e79
 26.10.2025, 23:50:32 - INFO - /api/board | GET |  | {"id":"68fe972f01b52ba9d68cf13c"} | 68fe62e984b5fa7140477e79
+27.10.2025, 7:51:52 - INFO - Server is running on port: 3030
+27.10.2025, 7:51:56 - INFO - New connected socket [id: quoWAFrxxlF2mAxkAAAB]
+27.10.2025, 7:51:56 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: quoWAFrxxlF2mAxkAAAB]
+27.10.2025, 7:53:45 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 7:53:46 - INFO - New connected socket [id: yo_VSsC_LGp74RJ6AAAD]
+27.10.2025, 7:53:46 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: yo_VSsC_LGp74RJ6AAAD]
+27.10.2025, 7:53:46 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:53:46 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:53:51 - INFO - /api/board | GET |  | {"id":"68fdf8430197e755574f432c"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:53:51 - INFO - /api/board | GET |  | {"id":"68fdf8430197e755574f432c"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:53:51 - INFO - /api/board | GET |  | {"id":"68fdf8430197e755574f432c"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:54:38 - INFO - Server is running on port: 3030
+27.10.2025, 7:54:38 - INFO - New connected socket [id: Sj9GBqWvYLTZyijsAAAB]
+27.10.2025, 7:54:46 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:54:48 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:54:48 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:54:48 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:05 - INFO - Server is running on port: 3030
+27.10.2025, 7:55:06 - INFO - New connected socket [id: gKPEaFyJTjKhG7ATAAAB]
+27.10.2025, 7:55:07 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:08 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:08 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:08 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:19 - INFO - Server is running on port: 3030
+27.10.2025, 7:55:19 - INFO - New connected socket [id: N7Vjzsj1kitTTcR4AAAB]
+27.10.2025, 7:55:21 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:23 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:24 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:55:24 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:56:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:56:13 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:56:13 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:56:13 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 7:56:44 - INFO - Server is running on port: 3030
+27.10.2025, 7:56:44 - INFO - New connected socket [id: QMN1MwCkTFS8Lpt8AAAB]
+27.10.2025, 8:02:53 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:02:54 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:02:54 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:02:54 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 8:02:55 - INFO - New connected socket [id: NPtfziVNpHbVCMPoAAAD]
+27.10.2025, 8:02:55 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: NPtfziVNpHbVCMPoAAAD]
+27.10.2025, 8:02:56 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:02:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:02:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:02:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:13:18 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:13:19 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:13:19 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:13:19 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:13:44 - INFO - Server is running on port: 3030
+27.10.2025, 8:13:45 - INFO - New connected socket [id: HWfeBjjXpqmyHEp-AAAB]
+27.10.2025, 8:16:26 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 8:16:27 - INFO - New connected socket [id: zSSSg6BfTZQdN92dAAAD]
+27.10.2025, 8:16:27 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: zSSSg6BfTZQdN92dAAAD]
+27.10.2025, 8:16:28 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:16:28 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:16:28 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:16:28 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:16:36 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:17:36 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:17:41 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:17:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:17:58 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:19:57 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:19:57 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:19:57 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:19:57 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:19:58 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:01 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:02 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:02 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:02 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:02 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:11 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:11 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:11 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:11 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:15 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:27 - INFO - Server is running on port: 3030
+27.10.2025, 8:20:28 - INFO - New connected socket [id: BwIISpkLiZoPZUyCAAAB]
+27.10.2025, 8:20:36 - INFO - Server is running on port: 3030
+27.10.2025, 8:20:37 - INFO - New connected socket [id: f8_fe18QxPMLpfCUAAAB]
+27.10.2025, 8:20:38 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 8:20:40 - INFO - New connected socket [id: P7t1hppKyZ6CVwNhAAAD]
+27.10.2025, 8:20:40 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: P7t1hppKyZ6CVwNhAAAD]
+27.10.2025, 8:20:40 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:41 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:41 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:41 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:41 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:42 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:20:55 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:13 - INFO - Server is running on port: 3030
+27.10.2025, 8:24:13 - INFO - New connected socket [id: YcJZcFAk4N009geJAAAB]
+27.10.2025, 8:24:17 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:24 - INFO - Server is running on port: 3030
+27.10.2025, 8:24:24 - INFO - New connected socket [id: EjYMlq0xGBjgGC7RAAAB]
+27.10.2025, 8:24:29 - INFO - Server is running on port: 3030
+27.10.2025, 8:24:29 - INFO - New connected socket [id: hqawbusRq1RFZ2JTAAAB]
+27.10.2025, 8:24:32 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 8:24:33 - INFO - New connected socket [id: 9NZ52FwEHaiMGU4FAAAD]
+27.10.2025, 8:24:33 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 9NZ52FwEHaiMGU4FAAAD]
+27.10.2025, 8:24:33 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:34 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:34 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:34 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:34 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:24:35 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:25:15 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:25:15 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:25:15 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:25:15 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:27:00 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:27:00 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:27:00 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:27:00 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:28:49 - INFO - Server is running on port: 3030
+27.10.2025, 8:28:50 - INFO - New connected socket [id: uyVHxSuhYTao9C9fAAAB]
+27.10.2025, 8:29:25 - INFO - Server is running on port: 3030
+27.10.2025, 8:29:25 - INFO - New connected socket [id: V3t4qnrBDVmjKmPLAAAB]
+27.10.2025, 8:34:21 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:21 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:22 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:22 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:22 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:38 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 8:34:39 - INFO - New connected socket [id: sEZwhyWp9TmEpCmCAAAD]
+27.10.2025, 8:34:39 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: sEZwhyWp9TmEpCmCAAAD]
+27.10.2025, 8:34:39 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:39 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:40 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:40 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:40 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:41 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:44 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:34:52 - INFO - Server is running on port: 3030
+27.10.2025, 8:34:52 - INFO - New connected socket [id: E6WDZqEO3D-qRvjjAAAB]
+27.10.2025, 8:35:16 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:17 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:17 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:17 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:18 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:23 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:27 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:28 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:28 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:28 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:31 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:31 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:31 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:32 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:35:32 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:39:26 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:39:26 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:39:26 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:39:26 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:42:57 - INFO - Server is running on port: 3030
+27.10.2025, 8:43:00 - INFO - New connected socket [id: 7IDobzUrkSQYYBvOAAAB]
+27.10.2025, 8:43:02 - INFO - Server is running on port: 3030
+27.10.2025, 8:43:02 - INFO - New connected socket [id: fvHZpjBp-95Xo-13AAAB]
+27.10.2025, 8:43:16 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:43:25 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:43:25 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:43:25 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:43:26 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:43:28 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:44:00 - INFO - Server is running on port: 3030
+27.10.2025, 8:44:00 - INFO - New connected socket [id: wpfjSIDJlotofo6kAAAB]
+27.10.2025, 8:44:02 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:44:33 - INFO - Server is running on port: 3030
+27.10.2025, 8:44:34 - INFO - New connected socket [id: dTCE7zIvDfdXhCwLAAAB]
+27.10.2025, 8:44:37 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:50:02 - INFO - Server is running on port: 3030
+27.10.2025, 8:50:03 - INFO - New connected socket [id: RHjDxXAABZVXGUw4AAAB]
+27.10.2025, 8:51:01 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:51:03 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:54:36 - INFO - Server is running on port: 3030
+27.10.2025, 8:54:36 - INFO - New connected socket [id: U309bmVLLSiDJVibAAAB]
+27.10.2025, 8:54:39 - INFO - Server is running on port: 3030
+27.10.2025, 8:54:39 - INFO - New connected socket [id: AMNOK7OkIz4aRNJDAAAB]
+27.10.2025, 8:54:55 - ERROR - Failed to update task | ReferenceError: task is not defined | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:55:23 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:55:24 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:55:24 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:55:24 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:55:34 - ERROR - Failed to update task | ReferenceError: task is not defined | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:56:50 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:56:50 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:56:50 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:56:51 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:56:54 - ERROR - Failed to update task | ReferenceError: task is not defined | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 8:57:33 - ERROR - Failed to update task | ReferenceError: task is not defined | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:18:26 - INFO - Server is running on port: 3030
+27.10.2025, 9:18:26 - INFO - New connected socket [id: xPQ1m6sWMFzUOhp4AAAB]
+27.10.2025, 9:19:08 - INFO - Server is running on port: 3030
+27.10.2025, 9:19:09 - INFO - New connected socket [id: Cl43CJ0BDOkHpHJ1AAAB]
+27.10.2025, 9:22:18 - INFO - Server is running on port: 3030
+27.10.2025, 9:22:19 - INFO - New connected socket [id: sQwPm1C1lb1dYT32AAAB]
+27.10.2025, 9:23:13 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:23:23 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:25:17 - INFO - Server is running on port: 3030
+27.10.2025, 9:25:18 - INFO - New connected socket [id: q1k1D5AefR1Zgu7rAAAB]
+27.10.2025, 9:25:20 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:25:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:25:27 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:25:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:25:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:25:29 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:26:30 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:20 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:21 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:21 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:21 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:24 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:38 - INFO - Server is running on port: 3030
+27.10.2025, 9:28:38 - INFO - New connected socket [id: VkxFWqx_djoTKMIXAAAB]
+27.10.2025, 9:28:40 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:28:53 - INFO - Server is running on port: 3030
+27.10.2025, 9:28:53 - INFO - New connected socket [id: nqFv2JHKWIpFAEdOAAAB]
+27.10.2025, 9:29:05 - INFO - Server is running on port: 3030
+27.10.2025, 9:29:05 - INFO - New connected socket [id: vPgAyGDpXKQfBiPrAAAB]
+27.10.2025, 9:29:15 - ERROR - Failed to update task | TypeError: Cannot convert undefined or null to object | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:29:46 - INFO - Server is running on port: 3030
+27.10.2025, 9:29:47 - INFO - New connected socket [id: hqV2TaisrCLqIIRYAAAB]
+27.10.2025, 9:34:01 - INFO - Server is running on port: 3030
+27.10.2025, 9:34:01 - INFO - New connected socket [id: teTPgSvEExqTWT36AAAB]
+27.10.2025, 9:34:11 - INFO - Server is running on port: 3030
+27.10.2025, 9:34:12 - INFO - New connected socket [id: nZFC10dveug-VpvDAAAB]
+27.10.2025, 9:34:19 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:26 - INFO - Server is running on port: 3030
+27.10.2025, 9:34:26 - INFO - New connected socket [id: 3loW3GpTjCrhWlYLAAAB]
+27.10.2025, 9:34:28 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 9:34:30 - INFO - New connected socket [id: emsBZWRsk30Vzc5VAAAD]
+27.10.2025, 9:34:30 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: emsBZWRsk30Vzc5VAAAD]
+27.10.2025, 9:34:30 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:30 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:30 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:30 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:40 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:54 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:54 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:54 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:55 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:55 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:55 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:55 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:34:56 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:35:16 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:35:16 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:35:16 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:35:16 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:35:23 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:14 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:14 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:14 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:14 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:49 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:49 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:49 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:36:49 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:38:05 - INFO - Server is running on port: 3030
+27.10.2025, 9:38:06 - INFO - New connected socket [id: kkiqmiDp9H1cfeXlAAAB]
+27.10.2025, 9:38:36 - INFO - Server is running on port: 3030
+27.10.2025, 9:38:36 - INFO - New connected socket [id: Y0idO5HEyiFrwsRjAAAB]
+27.10.2025, 9:38:38 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:38:56 - INFO - Server is running on port: 3030
+27.10.2025, 9:38:56 - INFO - New connected socket [id: xLPLHW40XD0FL7P0AAAB]
+27.10.2025, 9:39:46 - INFO - Server is running on port: 3030
+27.10.2025, 9:39:46 - INFO - New connected socket [id: HJZM2ylGkw4OeoOSAAAB]
+27.10.2025, 9:39:49 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:40:00 - INFO - Server is running on port: 3030
+27.10.2025, 9:40:00 - INFO - New connected socket [id: Ivq4voMMXKlWaN6zAAAB]
+27.10.2025, 9:40:01 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:41:38 - INFO - Server is running on port: 3030
+27.10.2025, 9:41:39 - INFO - New connected socket [id: 6eYfoEc34JcRUcarAAAB]
+27.10.2025, 9:41:44 - ERROR - Failed to update task | BSONError: hex string must be 24 characters | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:42:28 - INFO - Server is running on port: 3030
+27.10.2025, 9:42:29 - INFO - New connected socket [id: ZVlVXMiwiEGS_kyHAAAB]
+27.10.2025, 9:42:31 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:44:43 - INFO - Server is running on port: 3030
+27.10.2025, 9:44:43 - INFO - New connected socket [id: fIBgA1H29Ko-3qKaAAAB]
+27.10.2025, 9:44:47 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:45:32 - INFO - Server is running on port: 3030
+27.10.2025, 9:45:32 - INFO - New connected socket [id: qT7oRDmZ2ciuqWD1AAAB]
+27.10.2025, 9:45:33 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:46:07 - INFO - Server is running on port: 3030
+27.10.2025, 9:46:08 - INFO - New connected socket [id: Zr7gC_JKPHN-MtcrAAAB]
+27.10.2025, 9:46:30 - INFO - Server is running on port: 3030
+27.10.2025, 9:46:31 - INFO - New connected socket [id: 7s3--d5z0ojgSoFCAAAB]
+27.10.2025, 9:46:38 - INFO - Server is running on port: 3030
+27.10.2025, 9:46:38 - INFO - New connected socket [id: 42O_YCxuc_RyfUrPAAAB]
+27.10.2025, 9:46:40 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 9:46:42 - INFO - New connected socket [id: q2pkU-BAnGRKXIssAAAD]
+27.10.2025, 9:46:42 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: q2pkU-BAnGRKXIssAAAD]
+27.10.2025, 9:46:42 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:46:43 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:46:43 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:46:43 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:46:46 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:07 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:08 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:08 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:08 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:11 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:22 - INFO - Server is running on port: 3030
+27.10.2025, 9:49:22 - INFO - New connected socket [id: GoPl8xLlt3qczggWAAAB]
+27.10.2025, 9:49:25 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 9:49:26 - INFO - New connected socket [id: ewcRe5vq_s1Lyu2CAAAD]
+27.10.2025, 9:49:26 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: ewcRe5vq_s1Lyu2CAAAD]
+27.10.2025, 9:49:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:27 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:27 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:49:34 - INFO - Server is running on port: 3030
+27.10.2025, 9:49:35 - INFO - New connected socket [id: T3PTq7-PoYB6B410AAAB]
+27.10.2025, 9:50:10 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 9:50:11 - INFO - New connected socket [id: tiu65zFeOjmF9rwSAAAD]
+27.10.2025, 9:50:11 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: tiu65zFeOjmF9rwSAAAD]
+27.10.2025, 9:50:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:11 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:14 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:14 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:14 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:46 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 9:50:47 - INFO - New connected socket [id: 5mpjNGY6ngpXluWXAAAF]
+27.10.2025, 9:50:47 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 5mpjNGY6ngpXluWXAAAF]
+27.10.2025, 9:50:50 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 5mpjNGY6ngpXluWXAAAF]
+27.10.2025, 9:50:50 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:50 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:53 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:54 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:50:54 - INFO - /api/board | GET |  | {"id":"68fdf6e40197e755574f4328"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:17 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 9:52:17 - INFO - New connected socket [id: dFUVMbZQwWnEdeYFAAAH]
+27.10.2025, 9:52:18 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: dFUVMbZQwWnEdeYFAAAH]
+27.10.2025, 9:52:18 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:18 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:23 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761551543167,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"aG0cbD","fullname":"Liam OConnell","password":"user 1","profession":"Solar Panel Installer","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"tgTI9i","fullname":"Sofia Fernandez","password":"user 2","profession":"UX Designer","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"yJ0m09","fullname":"Kai Nakamura","password":"user 3","profession":"Financial Analyst","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"4LdbS4","fullname":"Chloe Davies","password":"user 4","profession":"Junior Developer","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"CyQDsu","fullname":"Elijah Vance","password":"user 5","profession":"Urban Planner","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"67SpG1","title":"Group 1","createdAt":1761551543167,"isCollapsed":false,"tasks":[{"id":"cU2esQ","title":"Item 1","createdAt":1761551543167,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"pDeN9F","title":"Item 2","createdAt":1761551543167,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#db2a4d"}}],"activities":[]} | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:52:38 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:53:17 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:53:17 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:53:17 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:53:17 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:53:19 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:56:03 - INFO - Server is running on port: 3030
+27.10.2025, 9:56:03 - INFO - New connected socket [id: hSTr0UzDp6UHl0M8AAAB]
+27.10.2025, 9:56:07 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:56:28 - INFO - Server is running on port: 3030
+27.10.2025, 9:56:28 - INFO - New connected socket [id: EAYTiScbAhRuq6lyAAAB]
+27.10.2025, 9:56:41 - INFO - Server is running on port: 3030
+27.10.2025, 9:56:41 - INFO - New connected socket [id: R_VYGT1X8uPAbpTeAAAB]
+27.10.2025, 9:56:46 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:58:07 - INFO - Server is running on port: 3030
+27.10.2025, 9:58:07 - INFO - New connected socket [id: 5is7DUrkczU8_3wuAAAB]
+27.10.2025, 9:58:10 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 9:59:19 - INFO - Server is running on port: 3030
+27.10.2025, 9:59:19 - INFO - New connected socket [id: hRB6Lv22CeMiglMTAAAB]
+27.10.2025, 9:59:21 - INFO - Server is running on port: 3030
+27.10.2025, 9:59:23 - INFO - Server is running on port: 3030
+27.10.2025, 9:59:23 - INFO - New connected socket [id: XgpqwNOGRvWkFww9AAAB]
+27.10.2025, 9:59:27 - INFO - Server is running on port: 3030
+27.10.2025, 9:59:28 - INFO - New connected socket [id: Lgh61ksH7MtI05tcAAAB]
+27.10.2025, 9:59:35 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:00:26 - INFO - Server is running on port: 3030
+27.10.2025, 10:00:27 - INFO - New connected socket [id: LEeqTBz5QxO75gq3AAAB]
+27.10.2025, 10:07:40 - INFO - Server is running on port: 3030
+27.10.2025, 10:07:41 - INFO - New connected socket [id: QUpbzQhSKNuuvuJAAAAB]
+27.10.2025, 10:07:46 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:12:14 - INFO - Server is running on port: 3030
+27.10.2025, 10:12:15 - INFO - New connected socket [id: L3hIhlIZ4DUuNgBHAAAB]
+27.10.2025, 10:12:17 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:15:36 - INFO - Server is running on port: 3030
+27.10.2025, 10:15:36 - INFO - New connected socket [id: 52sOUtFgkdMWyw7QAAAB]
+27.10.2025, 10:15:38 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:15:55 - INFO - Server is running on port: 3030
+27.10.2025, 10:15:55 - INFO - New connected socket [id: CWROqyHzUH31y7NAAAAB]
+27.10.2025, 10:15:56 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 10:15:58 - INFO - New connected socket [id: 1A4KH62ike17edJ8AAAD]
+27.10.2025, 10:15:58 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 1A4KH62ike17edJ8AAAD]
+27.10.2025, 10:15:58 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:15:58 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:15:59 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:15:59 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:16:05 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:16:50 - INFO - Server is running on port: 3030
+27.10.2025, 10:16:50 - INFO - New connected socket [id: 9liYKARCE210wqucAAAB]
+27.10.2025, 10:22:18 - INFO - Server is running on port: 3030
+27.10.2025, 10:22:18 - INFO - New connected socket [id: 2fypV03ua6ioKzmIAAAB]
+27.10.2025, 10:22:32 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:24:53 - INFO - Server is running on port: 3030
+27.10.2025, 10:24:53 - INFO - New connected socket [id: yoCfAftQlm9mk5VVAAAB]
+27.10.2025, 10:25:29 - INFO - Server is running on port: 3030
+27.10.2025, 10:25:29 - INFO - New connected socket [id: ogERwd8DMxhVNfbOAAAB]
+27.10.2025, 10:25:30 - ERROR - Failed to update task | MongoServerError: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query. | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:26:46 - INFO - Server is running on port: 3030
+27.10.2025, 10:26:46 - INFO - New connected socket [id: lzRHiTmS75n_DJQrAAAB]
+27.10.2025, 10:26:48 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:28:26 - INFO - Server is running on port: 3030
+27.10.2025, 10:28:27 - INFO - New connected socket [id: Ts7zUVWAQCpMISiSAAAB]
+27.10.2025, 10:28:29 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:28:42 - INFO - Server is running on port: 3030
+27.10.2025, 10:28:43 - INFO - New connected socket [id: 3TlAIwuH9y1yWkyPAAAB]
+27.10.2025, 10:28:47 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:31:57 - INFO - Server is running on port: 3030
+27.10.2025, 10:31:57 - INFO - New connected socket [id: bDMP9Mw4V9WM1kaRAAAB]
+27.10.2025, 10:32:05 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 10:32:05 - INFO - New connected socket [id: 8pS_X3re9iT1QcWSAAAD]
+27.10.2025, 10:32:05 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 8pS_X3re9iT1QcWSAAAD]
+27.10.2025, 10:32:06 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:32:06 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:32:06 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:32:06 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:32:08 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:32:51 - INFO - Server is running on port: 3030
+27.10.2025, 10:32:51 - INFO - New connected socket [id: _X5Q1GMAnRGBcjRXAAAB]
+27.10.2025, 10:32:54 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:35:10 - INFO - Server is running on port: 3030
+27.10.2025, 10:35:11 - INFO - New connected socket [id: H9_Q6-z9jBJokxvPAAAB]
+27.10.2025, 10:35:12 - ERROR - Failed to update task | Error: Board or group not found | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:39:42 - INFO - Server is running on port: 3030
+27.10.2025, 10:39:43 - INFO - New connected socket [id: 4-jmJTmIQM5C5MU7AAAB]
+27.10.2025, 10:39:58 - INFO - Server is running on port: 3030
+27.10.2025, 10:39:59 - INFO - New connected socket [id: DgiPyfALdBKxn1qdAAAB]
+27.10.2025, 10:40:40 - INFO - Server is running on port: 3030
+27.10.2025, 10:40:41 - INFO - New connected socket [id: YCbY3gL4B6ErCRNRAAAB]
+27.10.2025, 10:40:43 - INFO - Server is running on port: 3030
+27.10.2025, 10:40:44 - INFO - New connected socket [id: 4E_EoUid7yxhoRlsAAAB]
+27.10.2025, 10:40:45 - ERROR - Failed to update task | TypeError: board.findOne is not a function | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:41:01 - INFO - Server is running on port: 3030
+27.10.2025, 10:41:02 - INFO - New connected socket [id: n1NhInILUz_-wjm6AAAB]
+27.10.2025, 10:41:05 - INFO - Server is running on port: 3030
+27.10.2025, 10:41:05 - INFO - New connected socket [id: c-qYzka2u1xRikf6AAAB]
+27.10.2025, 10:41:07 - ERROR - Failed to update task | TypeError: board.findOne is not a function | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:43:00 - INFO - Server is running on port: 3030
+27.10.2025, 10:43:00 - INFO - New connected socket [id: oOlo7ZhqrpxlrCq5AAAB]
+27.10.2025, 10:43:05 - INFO - Server is running on port: 3030
+27.10.2025, 10:43:05 - INFO - New connected socket [id: 1bgkriPdY3mMI6toAAAB]
+27.10.2025, 10:44:59 - INFO - Server is running on port: 3030
+27.10.2025, 10:44:59 - INFO - New connected socket [id: l30Zlb7ZRb1AA4mlAAAB]
+27.10.2025, 10:45:05 - INFO - Server is running on port: 3030
+27.10.2025, 10:45:06 - INFO - New connected socket [id: tTRc1aRivJ0cgo4wAAAB]
+27.10.2025, 10:45:33 - INFO - Server is running on port: 3030
+27.10.2025, 10:45:33 - INFO - New connected socket [id: mGK1CYH5R3p4lF0IAAAB]
+27.10.2025, 10:45:46 - INFO - Server is running on port: 3030
+27.10.2025, 10:45:46 - INFO - New connected socket [id: j4910u-MN0hHerkuAAAB]
+27.10.2025, 10:46:08 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:09 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:12 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:14 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:16 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:19 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:34 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:46:36 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:47:14 - INFO - Server is running on port: 3030
+27.10.2025, 10:47:14 - INFO - New connected socket [id: j0vj4jd2zpVxkIzuAAAB]
+27.10.2025, 10:47:27 - INFO - Server is running on port: 3030
+27.10.2025, 10:47:27 - INFO - New connected socket [id: nw2douZXiODPx0EJAAAB]
+27.10.2025, 10:48:33 - INFO - Server is running on port: 3030
+27.10.2025, 10:48:33 - INFO - New connected socket [id: ljtpFtpCJMtPgH5TAAAB]
+27.10.2025, 10:49:15 - INFO - Server is running on port: 3030
+27.10.2025, 10:49:16 - INFO - New connected socket [id: WmApK8h_C0wX3xaAAAAB]
+27.10.2025, 10:49:40 - INFO - Server is running on port: 3030
+27.10.2025, 10:49:40 - INFO - New connected socket [id: CmSvA4SvV786lK0jAAAB]
+27.10.2025, 10:50:37 - INFO - Server is running on port: 3030
+27.10.2025, 10:50:38 - INFO - New connected socket [id: 2jTJIEfJ1e7s8Eg-AAAB]
+27.10.2025, 10:50:46 - INFO - Server is running on port: 3030
+27.10.2025, 10:50:46 - INFO - New connected socket [id: FlysdWsNjRq8SD_UAAAB]
+27.10.2025, 10:50:59 - INFO - Server is running on port: 3030
+27.10.2025, 10:51:00 - INFO - New connected socket [id: ucdOOZasFcdYSYKqAAAB]
+27.10.2025, 10:51:15 - INFO - Server is running on port: 3030
+27.10.2025, 10:51:16 - INFO - New connected socket [id: pHmJ7UWL59aps6qkAAAB]
+27.10.2025, 10:53:38 - INFO - Server is running on port: 3030
+27.10.2025, 10:53:38 - INFO - New connected socket [id: rphDCFUuLxaJ0brTAAAB]
+27.10.2025, 10:54:54 - INFO - Socket disconnected [id: undefined]
+27.10.2025, 10:54:55 - INFO - New connected socket [id: HFoQZr3UDx_0K__wAAAD]
+27.10.2025, 10:54:55 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: HFoQZr3UDx_0K__wAAAD]
+27.10.2025, 10:54:55 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:54:55 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:54:55 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 10:54:56 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 11:45:46 - INFO - Server is running on port: 3030
+27.10.2025, 11:45:46 - INFO - New connected socket [id: z8DfbEZfQPu55EHqAAAB]
+27.10.2025, 11:53:31 - INFO - Server is running on port: 3030
+27.10.2025, 11:53:32 - INFO - New connected socket [id: SpTeGEl8uHiLBq4-AAAB]
+27.10.2025, 12:00:05 - ERROR - Failed to update task | TypeError: Cannot read properties of null (reading 'value') | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:00:29 - INFO - Server is running on port: 3030
+27.10.2025, 12:00:29 - INFO - New connected socket [id: 1_SZjVCUgGrQ_RUIAAAB]
+27.10.2025, 12:00:36 - ERROR - Failed to update task | TypeError: Cannot read properties of null (reading 'value') | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:01:06 - INFO - Server is running on port: 3030
+27.10.2025, 12:01:06 - INFO - New connected socket [id: -GITwKG98BWl3kbtAAAB]
+27.10.2025, 12:01:27 - INFO - Server is running on port: 3030
+27.10.2025, 12:01:28 - INFO - New connected socket [id: XEwZ8nGIOHY5WRB0AAAB]
+27.10.2025, 12:01:40 - INFO - Server is running on port: 3030
+27.10.2025, 12:01:40 - INFO - New connected socket [id: 6SwtGi1ffTW9brVYAAAB]
+27.10.2025, 12:01:41 - ERROR - Failed to update task | TypeError: Cannot read properties of null (reading 'value') | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:03:35 - INFO - Server is running on port: 3030
+27.10.2025, 12:03:36 - INFO - New connected socket [id: ZwE7bTxst0Eg8XaaAAAB]
+27.10.2025, 12:03:38 - ERROR - Failed to update task | TypeError: Cannot read properties of null (reading 'value') | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:03:48 - INFO - Server is running on port: 3030
+27.10.2025, 12:03:48 - INFO - New connected socket [id: d35XtX-7Jju4K-JYAAAB]
+27.10.2025, 12:04:52 - INFO - Server is running on port: 3030
+27.10.2025, 12:04:53 - INFO - New connected socket [id: nBHmEdKgYuRQ9IOSAAAB]
+27.10.2025, 12:05:02 - INFO - Server is running on port: 3030
+27.10.2025, 12:05:02 - INFO - New connected socket [id: ct0OMIUc3GCPYqKMAAAB]
+27.10.2025, 12:05:04 - ERROR - Failed to update task | Error: Board or group not found for update. | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:14 - INFO - Server is running on port: 3030
+27.10.2025, 12:05:14 - INFO - New connected socket [id: Med27a0GSvrbAmzPAAAB]
+27.10.2025, 12:05:41 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:42 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:42 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:42 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:42 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:43 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:43 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:05:43 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:06:10 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:06:10 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:06:11 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:07:21 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:07:21 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:07:21 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 12:07:21 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2

@@ -26,6 +26,7 @@ export const boardService = {
     addTask,
     duplicateTask,
     updateTask,
+    updateTaskOrder,
     removeTask,
     // dashboard
     getDashboardData
@@ -339,6 +340,7 @@ async function updateTask(boardId, groupId, taskId, task) {
                 ])
             )
         }
+
         const options = {
             arrayFilters: [
                 { 'g.id': groupId },
@@ -355,6 +357,30 @@ async function updateTask(boardId, groupId, taskId, task) {
         throw err
     }
 }
+
+
+export async function updateTaskOrder(boardId, groupId, orderedTasks) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const result = await collection.findOneAndUpdate(
+            { _id: new ObjectId(boardId), 'groups.id': groupId }, // Find the board and the group's index
+            { $set: { 'groups.$.tasks': orderedTasks } }, // Use $ to target the found group's tasks
+            { returnDocument: 'after' } // Return the updated document
+        )
+
+        const updatedBoard =  result; 
+
+        if (!updatedBoard) {
+            throw new Error('Board or group not found for update.')
+        }
+        return { success: true, board: updatedBoard }
+    } catch (err) {
+        console.error('❌ cannot update task order', err)
+        throw err
+    }
+}
+
 
 
 async function removeTask(boardId, groupId, task) {

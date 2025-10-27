@@ -139,7 +139,7 @@ export async function updateGroup(req, res) {
     const { boardId } = req.params
     const group = req.body
     const { loggedinUser } = asyncLocalStorage.getStore()
-    
+
     try {
         const addedGroup = await boardService.updateGroup(boardId, group)
 
@@ -154,10 +154,10 @@ export async function updateGroupOrder(req, res) {
     const { boardId } = req.params
     const orderedGroups = req.body
     const { loggedinUser } = asyncLocalStorage.getStore()
-    
+
 
     try {
-        
+
         const addedGroup = await boardService.updateGroupOrder(boardId, orderedGroups)
 
         res.json(addedGroup)
@@ -202,7 +202,6 @@ export async function getTaskById(req, res) {
 
     try {
         const taskDetails = await boardService.getTaskById(boardId, taskId)
-
         res.json(taskDetails)
     } catch (err) {
         logger.error('Failed to get task', err)
@@ -265,6 +264,23 @@ export async function updateTask(req, res) {
     }
 }
 
+export async function updateTasksOrder(req, res) {
+    const { boardId, groupId } = req.params
+    const { orderedTasks } = req.body
+
+    try {
+        // delete task.id
+        // console.log(orderedTasks);
+
+        const updatedTaskOrder = await boardService.updateTaskOrder(boardId, groupId, orderedTasks)
+
+        res.json(updatedTaskOrder)
+    } catch (err) {
+        logger.error('Failed to update task', err)
+        res.status(400).send({ err: 'Failed to update task' })
+    }
+}
+
 export async function removeTask(req, res) {
     const { boardId, groupId, taskId } = req.params
     const { loggedinUser } = req
@@ -286,7 +302,6 @@ export async function getDashboardData(req, res) {
     try {
         const dashboardData = await boardService.getDashboardData()
 
-        console.log("🚀 ~ dashboardData:", dashboardData)
         res.json(dashboardData)
     } catch (err) {
         logger.error('Failed to get dashboard data', err)
