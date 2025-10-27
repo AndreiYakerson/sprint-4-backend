@@ -306,16 +306,26 @@ async function addTask(boardId, groupId, task, method = 'push') {
     }
 }
 
-async function duplicateTask(boardId, groupId, taskCopy, taskCopyIdx) {
+async function duplicateTask(boardId, groupId, taskCopy) {
+
+
     try {
         const collection = await dbService.getCollection('board')
+        const board = await collection.findOne({ _id: ObjectId.createFromHexString(boardId) })
+        const group = board.groups.find(g => g.id === groupId)
+        console.log(group.tasks);
+        
+        const taskCopyIdx = group.tasks.findIndex(t => t.id === taskCopy.id)
+        
+        taskCopy.id = makeId()
+        taskCopy.createdAt = Date.now()
 
         const criteria = { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId }
         const addCopy = {
             $push: {
                 'groups.$.tasks': {
                     $each: [taskCopy],
-                    $position: +taskCopyIdx
+                    $position: +taskCopyIdx + 1
                 }
             }
         }
