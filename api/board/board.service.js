@@ -367,7 +367,7 @@ async function updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle,
             _toMiniGroup(group), _toMiniTask(group.tasks[taskIdx]))
 
         const savedTask = taskToUpdate
-        return savedTask
+        return { savedTask, activity }
 
     } catch (err) {
         console.error('cannot update task', err)

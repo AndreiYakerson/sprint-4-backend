@@ -3035,3 +3035,44 @@
 27.10.2025, 13:39:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
 27.10.2025, 13:40:11 - INFO - Server is running on port: 3030
 27.10.2025, 13:40:12 - INFO - New connected socket [id: R4jT77Kzt4yqs6prAAAB]
+27.10.2025, 13:43:20 - INFO - Server is running on port: 3030
+27.10.2025, 13:43:22 - INFO - New connected socket [id: 1te2QTMM8RtZvN09AAAB]
+27.10.2025, 13:43:22 - INFO - Setting socket.userId = 68fdc4fbc82d30de8ee78ca2 for socket [id: 1te2QTMM8RtZvN09AAAB]
+27.10.2025, 13:43:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:43:23 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:43:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:43:24 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:49:51 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:49:51 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:49:51 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:49:52 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:50:20 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:50:20 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:50:20 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:50:20 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:22 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:22 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:23 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:55 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:55 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:55 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:51:55 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:52:13 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:52:13 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:52:13 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:52:13 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:53:57 - INFO - Server is running on port: 3030
+27.10.2025, 13:53:57 - INFO - New connected socket [id: kns-yZZsWcnqG7LRAAAB]
+27.10.2025, 13:53:58 - INFO - Server is running on port: 3030
+27.10.2025, 13:53:59 - INFO - New connected socket [id: Ix1QFLty8za6irP-AAAB]
+27.10.2025, 13:54:08 - INFO - Server is running on port: 3030
+27.10.2025, 13:54:08 - INFO - New connected socket [id: oAZzfTn3rECPvTorAAAB]
+27.10.2025, 13:54:13 - INFO - Server is running on port: 3030
+27.10.2025, 13:54:14 - INFO - New connected socket [id: vmqUSL6mr5RwQrL9AAAB]
+27.10.2025, 13:54:17 - INFO - Server is running on port: 3030
+27.10.2025, 13:54:17 - INFO - New connected socket [id: gKsrqAAMgvBQ-EDPAAAB]
+27.10.2025, 13:54:33 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:54:33 - INFO - /api/board | GET |  | {} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:54:33 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2
+27.10.2025, 13:54:33 - INFO - /api/board | GET |  | {"id":"68ff24b7d0fd9d69f3bae110"} | 68fdc4fbc82d30de8ee78ca2

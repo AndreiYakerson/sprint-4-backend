@@ -252,8 +252,7 @@ export async function updateTask(req, res) {
 
     try {
         // delete taskToUpdate.id
-        const savedTask = await boardService.updateTask(boardId, groupId, taskId, taskToUpdate,activityTitle,loggedinUser)
-        console.log("🚀 ~ updateTask ~ savedTask:", savedTask)
+        const savedTask = await boardService.updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle, loggedinUser)
         res.json(savedTask)
     } catch (err) {
         logger.error('Failed to update task', err)
@@ -281,7 +280,7 @@ export async function updateTasksOrder(req, res) {
 export async function removeTask(req, res) {
     const { boardId, groupId, taskId } = req.params
     const { loggedinUser } = req
-    
+
     try {
         const deletedTask = await boardService.removeTask(boardId, groupId, taskId)
         res.json(deletedTask)
