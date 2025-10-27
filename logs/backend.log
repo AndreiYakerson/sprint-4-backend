@@ -5281,3 +5281,340 @@
 28.10.2025, 0:26:03 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
 28.10.2025, 0:26:12 - INFO - Server is running on port: 3030
 28.10.2025, 0:26:13 - INFO - New connected socket [id: kVb4kHnpdo_PyFyKAAAB]
+28.10.2025, 1:03:16 - INFO - Server is running on port: 3030
+28.10.2025, 1:03:16 - INFO - New connected socket [id: 6C31WcjcwC-FYVp7AAAB]
+28.10.2025, 1:03:19 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:03:19 - INFO - New connected socket [id: SXwhNoIwqTgot5sZAAAD]
+28.10.2025, 1:03:19 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: SXwhNoIwqTgot5sZAAAD]
+28.10.2025, 1:03:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:19 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:20 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:28 - INFO - Server is running on port: 3030
+28.10.2025, 1:03:28 - INFO - New connected socket [id: 8LVVof8XteFuk8ppAAAB]
+28.10.2025, 1:03:29 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:03:29 - INFO - New connected socket [id: pDYw8G1F-Ci2hGprAAAD]
+28.10.2025, 1:03:29 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: pDYw8G1F-Ci2hGprAAAD]
+28.10.2025, 1:03:29 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:29 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:29 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:29 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:32 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:39 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:03:39 - INFO - New connected socket [id: kfiHu4x9toFAFVvEAAAF]
+28.10.2025, 1:03:39 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: kfiHu4x9toFAFVvEAAAF]
+28.10.2025, 1:03:39 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:39 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:39 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:03:39 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:48 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:04:48 - INFO - New connected socket [id: gzcU19K7LzVj0aheAAAH]
+28.10.2025, 1:04:48 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: gzcU19K7LzVj0aheAAAH]
+28.10.2025, 1:04:48 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:48 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:48 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:48 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:53 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:54 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:56 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:57 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\",\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:04:59 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\",\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:01 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:03 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:04 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:45 - INFO - Server is running on port: 3030
+28.10.2025, 1:05:45 - INFO - New connected socket [id: 3WFsojacxsHARCOfAAAB]
+28.10.2025, 1:05:46 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:05:46 - INFO - New connected socket [id: U_DgIKDDj1Hmu8p9AAAD]
+28.10.2025, 1:05:46 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: U_DgIKDDj1Hmu8p9AAAD]
+28.10.2025, 1:05:46 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:46 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:46 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:46 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:46 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:47 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:49 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:05:50 - INFO - New connected socket [id: NwO9cZlIag4GBaIbAAAF]
+28.10.2025, 1:05:50 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: NwO9cZlIag4GBaIbAAAF]
+28.10.2025, 1:05:50 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:50 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:50 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:05:50 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:28 - INFO - Server is running on port: 3030
+28.10.2025, 1:06:28 - INFO - New connected socket [id: NVf1H0oW71FfcLCrAAAB]
+28.10.2025, 1:06:30 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:06:30 - INFO - New connected socket [id: iixaBuH3jVWH25jfAAAD]
+28.10.2025, 1:06:30 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: iixaBuH3jVWH25jfAAAD]
+28.10.2025, 1:06:30 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:30 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:39 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:06:40 - INFO - New connected socket [id: J4I7tMKHbDjs6XVhAAAF]
+28.10.2025, 1:06:40 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: J4I7tMKHbDjs6XVhAAAF]
+28.10.2025, 1:06:40 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:40 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:47 - INFO - Server is running on port: 3030
+28.10.2025, 1:06:48 - INFO - New connected socket [id: etNCHswTFWckhT3vAAAB]
+28.10.2025, 1:06:48 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:06:49 - INFO - New connected socket [id: ADXjdETBlAHdwjAIAAAD]
+28.10.2025, 1:06:49 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: ADXjdETBlAHdwjAIAAAD]
+28.10.2025, 1:06:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:49 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:52 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:55 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:56 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:58 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:06:59 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:11 - INFO - Server is running on port: 3030
+28.10.2025, 1:07:12 - INFO - New connected socket [id: mw0XeW0ixaGDSOkoAAAB]
+28.10.2025, 1:07:12 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:07:13 - INFO - New connected socket [id: 7IV3lxTt5CKVrRRKAAAD]
+28.10.2025, 1:07:13 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 7IV3lxTt5CKVrRRKAAAD]
+28.10.2025, 1:07:13 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:13 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:13 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:13 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:18 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:07:21 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:03 - INFO - Server is running on port: 3030
+28.10.2025, 1:08:04 - INFO - New connected socket [id: QWvGCbT87QPfqdsHAAAB]
+28.10.2025, 1:08:05 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:08:05 - INFO - New connected socket [id: ymNohrF3h499sWuoAAAD]
+28.10.2025, 1:08:05 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: ymNohrF3h499sWuoAAAD]
+28.10.2025, 1:08:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:05 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:06 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:10 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:08:10 - INFO - New connected socket [id: agY2OTSiowDPeJnzAAAF]
+28.10.2025, 1:08:10 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: agY2OTSiowDPeJnzAAAF]
+28.10.2025, 1:08:10 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:10 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:10 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:10 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:35 - INFO - Server is running on port: 3030
+28.10.2025, 1:08:36 - INFO - New connected socket [id: tA0KHCZVJXz9HVabAAAB]
+28.10.2025, 1:08:37 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:08:37 - INFO - New connected socket [id: bPpgBSkaeE2s5Cp6AAAD]
+28.10.2025, 1:08:37 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: bPpgBSkaeE2s5Cp6AAAD]
+28.10.2025, 1:08:37 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:37 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:37 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:37 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:41 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:42 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:08:50 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:14 - INFO - Server is running on port: 3030
+28.10.2025, 1:09:15 - INFO - New connected socket [id: BgnsJHmcIX4K1kP3AAAB]
+28.10.2025, 1:09:15 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:09:15 - INFO - New connected socket [id: H5GmH2MUNY9Z3iBQAAAD]
+28.10.2025, 1:09:16 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: H5GmH2MUNY9Z3iBQAAAD]
+28.10.2025, 1:09:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:16 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:16 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:16 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:17 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:17 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:17 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:18 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:18 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:18 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:09:19 - INFO - New connected socket [id: RJ_moWOdFG79ekTXAAAF]
+28.10.2025, 1:09:19 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: RJ_moWOdFG79ekTXAAAF]
+28.10.2025, 1:09:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:19 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:20 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:20 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:20 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:09:59 - INFO - Server is running on port: 3030
+28.10.2025, 1:10:00 - INFO - New connected socket [id: SKzloQyc49vhnNI6AAAB]
+28.10.2025, 1:10:20 - INFO - Server is running on port: 3030
+28.10.2025, 1:10:20 - INFO - New connected socket [id: PnBY1j1o-zWDYC7TAAAB]
+28.10.2025, 1:10:21 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:10:21 - INFO - New connected socket [id: 3icYIgULB2Lx6htLAAAD]
+28.10.2025, 1:10:21 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 3icYIgULB2Lx6htLAAAD]
+28.10.2025, 1:10:21 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:21 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:21 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:21 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:21 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:21 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:21 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:23 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:23 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:23 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:25 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:10:25 - INFO - New connected socket [id: tvyYFqRY1F35wY54AAAF]
+28.10.2025, 1:10:25 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: tvyYFqRY1F35wY54AAAF]
+28.10.2025, 1:10:25 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:27 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:28 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:29 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:30 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:34 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:34 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:10:34 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:03 - INFO - Server is running on port: 3030
+28.10.2025, 1:11:05 - INFO - New connected socket [id: wYMgujBVqP7wFKPGAAAB]
+28.10.2025, 1:11:05 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:11:05 - INFO - New connected socket [id: GihPHoNddtkk_Su4AAAD]
+28.10.2025, 1:11:05 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: GihPHoNddtkk_Su4AAAD]
+28.10.2025, 1:11:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:05 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:05 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:05 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:05 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:06 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:06 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:06 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:52 - INFO - Server is running on port: 3030
+28.10.2025, 1:11:53 - INFO - New connected socket [id: 9FYy__1T5C9pchPGAAAB]
+28.10.2025, 1:11:54 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:11:54 - INFO - New connected socket [id: 9jzud2C8978obPwGAAAD]
+28.10.2025, 1:11:54 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 9jzud2C8978obPwGAAAD]
+28.10.2025, 1:11:54 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:54 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:54 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:54 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:54 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:55 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:55 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:56 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:56 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:11:56 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:21 - INFO - Server is running on port: 3030
+28.10.2025, 1:12:22 - INFO - New connected socket [id: 20dCb67hQB_NEQSeAAAB]
+28.10.2025, 1:12:24 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:12:25 - INFO - New connected socket [id: xnNFSBGJIBVTEoDzAAAD]
+28.10.2025, 1:12:25 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: xnNFSBGJIBVTEoDzAAAD]
+28.10.2025, 1:12:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:25 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:25 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:25 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:25 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:26 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:26 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:26 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:52 - INFO - Server is running on port: 3030
+28.10.2025, 1:12:52 - INFO - New connected socket [id: qtMGhmgU8RzxhC6sAAAB]
+28.10.2025, 1:12:53 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:12:53 - INFO - New connected socket [id: RnuADSN_6ZXlww2bAAAD]
+28.10.2025, 1:12:53 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:53 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: RnuADSN_6ZXlww2bAAAD]
+28.10.2025, 1:12:53 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:53 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:53 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:53 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:12:54 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:34 - INFO - Server is running on port: 3030
+28.10.2025, 1:13:35 - INFO - New connected socket [id: L2-vg2wElEKnrSY8AAAB]
+28.10.2025, 1:13:35 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:35 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: L2-vg2wElEKnrSY8AAAB]
+28.10.2025, 1:13:35 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:35 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:35 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:35 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:35 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:35 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:37 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:37 - ERROR - Failed to get board | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:13:37 - ERROR - while finding board 68ffe28c00fb234d523e5b80 | TypeError: Cannot read properties of undefined (reading 'length') | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:33 - INFO - Server is running on port: 3030
+28.10.2025, 1:14:34 - INFO - New connected socket [id: 1oBzwKwCqQVbf2ZgAAAB]
+28.10.2025, 1:14:47 - INFO - Server is running on port: 3030
+28.10.2025, 1:14:47 - INFO - New connected socket [id: Ma-eGCilAbQABiEPAAAB]
+28.10.2025, 1:14:48 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:14:49 - INFO - New connected socket [id: wSs9ZRokcJnoyTE7AAAD]
+28.10.2025, 1:14:49 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: wSs9ZRokcJnoyTE7AAAD]
+28.10.2025, 1:14:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:49 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:49 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:50 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:52 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:53 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:55 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:57 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:14:58 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\",\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:00 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\",\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:01 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"working\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:01 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:03 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:15:03 - INFO - New connected socket [id: qzp970POTNdIOYTGAAAF]
+28.10.2025, 1:15:03 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: qzp970POTNdIOYTGAAAF]
+28.10.2025, 1:15:03 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:03 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:03 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:15:03 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:09 - INFO - Server is running on port: 3030
+28.10.2025, 1:16:11 - INFO - New connected socket [id: 1aJxDA8abmn7z42FAAAB]
+28.10.2025, 1:16:11 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:11 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 1aJxDA8abmn7z42FAAAB]
+28.10.2025, 1:16:11 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:11 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:11 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:13 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:14 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:16 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"undefined"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:18 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[\"done\"],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:18 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:19 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:16:20 - INFO - New connected socket [id: yTxNrT-0U2HivibuAAAD]
+28.10.2025, 1:16:20 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: yTxNrT-0U2HivibuAAAD]
+28.10.2025, 1:16:20 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:20 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:20 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:20 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:27 - INFO - Server is running on port: 3030
+28.10.2025, 1:16:28 - INFO - New connected socket [id: mESdBu-6FMe83VOHAAAB]
+28.10.2025, 1:16:29 - INFO - Server is running on port: 3030
+28.10.2025, 1:16:30 - INFO - New connected socket [id: yWg3zP_i8FQTIl-aAAAB]
+28.10.2025, 1:16:31 - INFO - Socket disconnected [id: undefined]
+28.10.2025, 1:16:31 - INFO - New connected socket [id: 67veiClmSVHlGhvWAAAD]
+28.10.2025, 1:16:31 - INFO - Setting socket.userId = 68fe62e984b5fa7140477e79 for socket [id: 67veiClmSVHlGhvWAAAD]
+28.10.2025, 1:16:31 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:31 - INFO - /api/board | GET |  | {} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:31 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79
+28.10.2025, 1:16:31 - INFO - /api/board | GET |  | {"boardId":"68ffe28c00fb234d523e5b80","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fe62e984b5fa7140477e79

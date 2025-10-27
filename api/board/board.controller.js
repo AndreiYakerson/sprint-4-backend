@@ -22,10 +22,10 @@ export async function getBoards(req, res) {
 }
 
 export async function getBoardById(req, res) {
-    const {boardId, filterByStr} = req.params
-    const filterBy = !filterByStr ? JSON.parse(filterByStr) : null
-    
-    
+    const { boardId, filterByStr } = req.params
+    const defaultFilterBy = _getDefaultFilterBy()
+    const filterBy = filterByStr === 'undefined' ? defaultFilterBy : JSON.parse(filterByStr)
+
     try {
         const board = await boardService.getById(boardId, filterBy)
         res.json(board)
@@ -57,8 +57,8 @@ export async function addBoard(req, res) {
 export async function updateBoard(req, res) {
     const { loggedinUser, body: board } = req
 
-    
-    
+
+
     // const { _id: userId, isAdmin } = loggedinUser
 
     // if (!isAdmin && board.owner._id !== userId) {
@@ -205,7 +205,7 @@ export async function getTaskById(req, res) {
     const { boardId, taskId } = req.params
     const { loggedinUser } = req
     console.log('YESSSSSSSSS');
-    
+
     try {
         const taskDetails = await boardService.getTaskById(boardId, taskId)
         res.json(taskDetails)
@@ -271,7 +271,7 @@ export async function addUpdate(req, res) {
     try {
         const updatedTask = await boardService.addUpdate(boardId, groupId, taskId, UpdateTitle, loggedinUser)
         res.json(updatedTask)
-        
+
     } catch (err) {
         logger.error('Failed to add update to task', err)
         res.status(400).send({ err: 'Failed to add update to task' })
@@ -332,5 +332,19 @@ export async function getDashboardData(req, res) {
     } catch (err) {
         logger.error('Failed to get dashboard data', err)
         res.status(400).send({ err: 'Failed to get dashboard data' })
+    }
+}
+
+function _getDefaultFilterBy() {
+    return {
+        byGroups: [],
+        byNames: [],
+        byStatuses: [],
+        byPriorities: [],
+        byMembers: [],
+        byDueDateOp: [],
+        byPerson: '',
+        sortBy: '',
+        dir: -1
     }
 }
