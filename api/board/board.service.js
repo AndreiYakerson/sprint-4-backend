@@ -59,7 +59,7 @@ async function getById(boardId, filterBy = {}) {
         const board = await collection.findOne(criteria)
 
         board.createdAt = board._id.getTimestamp()
-        
+
 
         const filteredBoard = _getFilteredBoard(board, filterBy)
 
@@ -754,7 +754,7 @@ function _getFilteredBoard(board, filterBy) {
                         (ops.includes("done overdue") && isDone && updatedAt && updatedAt > dueDate)
                     )
                 })
-                return g => g.tasks.length > 0
+                return g?.tasks?.length > 0
             })
     }
 
