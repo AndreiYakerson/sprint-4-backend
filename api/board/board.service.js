@@ -60,10 +60,10 @@ async function getById(boardId, filterBy = {}) {
 
         board.createdAt = board._id.getTimestamp()
 
-
+        const filterOptions = _getFilterOptions(board)
         const filteredBoard = _getFilteredBoard(board, filterBy)
 
-        return filteredBoard
+        return { board: filteredBoard, filterOptions }
     } catch (err) {
         logger.error(`while finding board ${boardId}`, err)
         throw err
@@ -803,4 +803,29 @@ function _getFilteredBoard(board, filterBy) {
         }
     }
     return board
+}
+
+
+function _getFilterOptions(board) {
+    const filterOptions = {}
+
+    filterOptions.groups = board.groups.map(g => {
+        return { id: g.id, title: g.title, color: g.style['--group-color'], taskSum: g?.tasks?.length }
+    })
+
+
+    const nameCounts = board.groups.reduce((acc, g) => {
+        g.tasks.forEach(t => {
+            if (acc[t.title]) acc[t.title] += 1
+            else acc[t.title] = 1
+        })
+
+        return acc
+    }, {})
+
+    filterOptions.names = Object.entries(nameCounts).map(([name, count]) => {
+        return { name, count }
+    })
+
+    return filterOptions
 }
