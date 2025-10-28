@@ -59,7 +59,7 @@ async function getById(boardId, filterBy = {}) {
         const board = await collection.findOne(criteria)
 
         board.createdAt = board._id.getTimestamp()
-        
+
 
         const filteredBoard = _getFilteredBoard(board, filterBy)
 
@@ -496,131 +496,147 @@ async function removeTask(boardId, groupId, taskId) {
 }
 
 //// dashboard
-
 export async function getDashboardData(filterBy = {}) {
-    try {
-        const collection = await dbService.getCollection('board')
+  try {
+    const collection = await dbService.getCollection('board')
 
-        const pipeline = [
-            { $unwind: '$groups' },
-            { $unwind: '$groups.tasks' },
+    const pipeline = [
+      { $unwind: '$groups' },
+      { $unwind: '$groups.tasks' },
 
+      {
+        $project: {
+          status: '$groups.tasks.status',
+          priority: '$groups.tasks.priority',
+          memberIds: '$groups.tasks.memberIds'
+        }
+      },
 
-            {
-                $project: {
-                    status: '$groups.tasks.status',
-                    memberIds: '$groups.tasks.memberIds'
+      {
+        $addFields: {
+          memberIds: {
+            $map: {
+              input: '$memberIds',
+              as: 'id',
+              in: {
+                $cond: {
+                  if: { $regexMatch: { input: '$$id', regex: /^[0-9a-fA-F]{24}$/ } },
+                  then: { $toObjectId: '$$id' },
+                  else: '$$id'
                 }
-            },
-
-            {
-                $addFields: {
-                    memberIds: {
-                        $map: {
-                            input: '$memberIds',
-                            as: 'id',
-                            in: {
-                                $cond: {
-                                    if: { $regexMatch: { input: '$$id', regex: /^[0-9a-fA-F]{24}$/ } },
-                                    then: { $toObjectId: '$$id' },
-                                    else: '$$id'
-                                }
-                            }
-                        }
-                    }
-                }
-            },
-
-
-            {
-                $facet: {
-
-                    tasksCount: [{ $count: 'total' }],
-
-
-                    byStatus: [
-                        {
-                            $group: {
-                                _id: '$status.id',
-                                txt: { $first: '$status.txt' },
-                                cssVar: { $first: '$status.cssVar' },
-                                tasksCount: { $sum: 1 }
-                            }
-                        }
-                    ],
-
-
-                    byMember: [
-                        { $unwind: { path: '$memberIds', preserveNullAndEmptyArrays: false } },
-                        {
-                            $group: {
-                                _id: '$memberIds',
-                                tasksCount: { $sum: 1 }
-                            }
-                        }
-                    ]
-                }
-            },
-
-
-            { $unwind: { path: '$byMember', preserveNullAndEmptyArrays: true } },
-
-
-            {
-                $lookup: {
-                    from: 'user',
-                    localField: 'byMember._id',
-                    foreignField: '_id',
-                    as: 'byMember.userInfo'
-                }
-            },
-
-
-            {
-                $set: {
-                    'byMember.userInfo': { $arrayElemAt: ['$byMember.userInfo', 0] }
-                }
-            },
-
-
-            {
-                $group: {
-                    _id: null,
-                    tasksCount: { $first: '$tasksCount' },
-                    byStatus: { $first: '$byStatus' },
-                    byMember: { $push: '$byMember' }
-                }
+              }
             }
-        ]
+          }
+        }
+      },
 
-        const [result] = await collection.aggregate(pipeline).toArray()
+      {
+        $facet: {
+          tasksCount: [{ $count: 'total' }],
 
-        const tasksCount = result?.tasksCount?.[0]?.total || 0
+          // ✅ keep byStatus logic as-is
+          byStatus: [
+            {
+              $group: {
+                _id: { $ifNull: ['$status.id', 'none'] },
+                txt: { $first: { $ifNull: ['$status.txt', 'No Status'] } },
+                cssVar: { $first: { $ifNull: ['$status.cssVar', '--layout-border-color'] } },
+                tasksCount: { $sum: 1 }
+              }
+            }
+          ],
 
-        const byStatus = result.byStatus.map(s => ({
-            id: s._id,
-            txt: s.txt,
-            cssVar: s.cssVar,
-            tasksCount: s.tasksCount,
-            tasksPercentage: parseFloat(((s.tasksCount / tasksCount) * 100).toFixed(1))
-        }))
+          // ✅ NEW byPriority facet (with fallback for missing values)
+          byPriority: [
+            {
+              $group: {
+                _id: { $ifNull: ['$priority.id', 'none'] },
+                txt: { $first: { $ifNull: ['$priority.txt', 'No Priority'] } },
+                cssVar: { $first: { $ifNull: ['$priority.cssVar', '--layout-border-color'] } },
+                tasksCount: { $sum: 1 }
+              }
+            }
+          ],
 
-        const byMember = result.byMember.map(m => ({
-            memberId: m._id,
-            fullname: m.userInfo?.fullname || 'Unknown',
-            imgUrl: m.userInfo?.imgUrl || '',
-            tasksCount: m.tasksCount,
-            tasksPercentage: parseFloat(((m.tasksCount / tasksCount) * 100).toFixed(1))
-        }))
+          byMember: [
+            { $unwind: { path: '$memberIds', preserveNullAndEmptyArrays: false } },
+            {
+              $group: {
+                _id: '$memberIds',
+                tasksCount: { $sum: 1 }
+              }
+            }
+          ]
+        }
+      },
 
-        return { tasksCount, byStatus, byMember }
+      { $unwind: { path: '$byMember', preserveNullAndEmptyArrays: true } },
 
-    } catch (err) {
-        console.error('Failed to build dashboard data:', err)
-        throw err
-    }
+      {
+        $lookup: {
+          from: 'user',
+          localField: 'byMember._id',
+          foreignField: '_id',
+          as: 'byMember.userInfo'
+        }
+      },
+
+      {
+        $set: {
+          'byMember.userInfo': { $arrayElemAt: ['$byMember.userInfo', 0] }
+        }
+      },
+
+      {
+        $group: {
+          _id: null,
+          tasksCount: { $first: '$tasksCount' },
+          byStatus: { $first: '$byStatus' },
+          byPriority: { $first: '$byPriority' },
+          byMember: { $push: '$byMember' }
+        }
+      }
+    ]
+
+    const [result] = await collection.aggregate(pipeline).toArray()
+
+    const tasksCount = result?.tasksCount?.[0]?.total || 0
+
+    // ✅ byStatus summary
+    const byStatus = result.byStatus.map(s => ({
+      id: s._id,
+      txt: s.txt,
+      cssVar: s.cssVar,
+      tasksCount: s.tasksCount,
+      tasksPercentage: parseFloat(((s.tasksCount / tasksCount) * 100).toFixed(1))
+    }))
+
+    // ✅ byPriority summary (new)
+    const byPriority = result.byPriority.map(p => ({
+      id: p._id,
+      txt: p.txt,
+      cssVar: p.cssVar,
+      tasksCount: p.tasksCount,
+      tasksPercentage: parseFloat(((p.tasksCount / tasksCount) * 100).toFixed(1))
+    }))
+
+    // ✅ byMember summary
+    const byMember = result.byMember.map(m => ({
+      memberId: m._id,
+      fullname: m.userInfo?.fullname || 'Unknown',
+      imgUrl: m.userInfo?.imgUrl || '',
+      tasksCount: m.tasksCount,
+      tasksPercentage: parseFloat(((m.tasksCount / tasksCount) * 100).toFixed(1))
+    }))
+
+    // ✅ return all three dimensions
+    return { tasksCount, byStatus, byPriority, byMember }
+
+  } catch (err) {
+    console.error('Failed to build dashboard data:', err)
+    throw err
+  }
 }
-
 
 //////////////////////////////////////////////////////////////////
 // General function 
