@@ -2,6 +2,7 @@ import { logger } from '../../services/logger.service.js'
 import { boardService } from './board.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
 import { makeId, getRandomGroupColor, getRandomIntInclusive } from '../../services/util.service.js'
+import { socketService } from '../../services/socket.service.js'
 
 export async function getBoards(req, res) {
     try {
@@ -255,8 +256,11 @@ export async function updateTask(req, res) {
     const { taskToUpdate, activityTitle } = req.body
 
     try {
-        // delete taskToUpdate.id
+
         const savedTask = await boardService.updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle, loggedinUser)
+
+        socketService.broadcast({ type: 'event-update-task', data: savedTask, room: boardId, userId: loggedinUser?._id })
+
         res.json(savedTask)
     } catch (err) {
         logger.error('Failed to update task', err)
@@ -270,6 +274,7 @@ export async function addUpdate(req, res) {
 
     try {
         const updatedTask = await boardService.addUpdate(boardId, groupId, taskId, UpdateTitle, loggedinUser)
+
         res.json(updatedTask)
 
     } catch (err) {
