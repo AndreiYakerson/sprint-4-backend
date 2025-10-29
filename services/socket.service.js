@@ -14,7 +14,16 @@ export function setupSocketAPI(http) {
         socket.on('disconnect', socket => {
             logger.info(`Socket disconnected [id: ${socket.id}]`)
         })
-        socket.on('chat-set-topic', topic => {
+        // socket.on('chat-set-topic', topic => {
+        //     if (socket.myTopic === topic) return
+        //     if (socket.myTopic) {
+        //         socket.leave(socket.myTopic)
+        //         logger.info(`Socket is leaving topic ${socket.myTopic} [id: ${socket.id}]`)
+        //     }
+        //     socket.join(topic)
+        //     socket.myTopic = topic
+        // })
+        socket.on('set-board-id', topic => {
             if (socket.myTopic === topic) return
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
@@ -71,6 +80,7 @@ async function broadcast({ type, data, room = null, userId }) {
 
     logger.info(`Broadcasting event: ${type}`)
     const excludedSocket = await _getUserSocket(userId)
+    console.log('excludedSocket:', excludedSocket)
     if (room && excludedSocket) {
         logger.info(`Broadcast to room ${room} excluding user: ${userId}`)
         excludedSocket.broadcast.to(room).emit(type, data)

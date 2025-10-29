@@ -60,10 +60,10 @@ async function getById(boardId, filterBy = {}) {
 
         board.createdAt = board._id.getTimestamp()
 
-
+        const filterOptions = _getFilterOptions(board)
         const filteredBoard = _getFilteredBoard(board, filterBy)
 
-        return filteredBoard
+        return { board: filteredBoard, filterOptions }
     } catch (err) {
         logger.error(`while finding board ${boardId}`, err)
         throw err
@@ -341,7 +341,7 @@ async function duplicateTask(boardId, groupId, taskCopy) {
 
         if (!result.matchedCount) throw new Error(`Board ${boardId} or group ${groupId} not found`)
 
-        return taskCopy
+        return { duplicatedTask: taskCopy, taskCopyIdx: taskCopyIdx + 1 }
 
     } catch (err) {
         throw err
@@ -384,11 +384,33 @@ async function updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle,
         const activity = _createActivity(activityTitle, _getMiniUser(loggedinUser),
             _toMiniGroup(group), _toMiniTask(group.tasks[taskIdx]))
 
+        await saveActivity(boardId, activity)
+
         const savedTask = taskToUpdate
         return { savedTask, activity }
 
     } catch (err) {
         console.error('cannot update task', err)
+        throw err
+    }
+}
+
+
+async function saveActivity(boardId, activity) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const result = await collection.updateOne(
+            { _id: ObjectId.createFromHexString(boardId) },
+            { $push: { activities: activity } }
+        )
+
+        if (result.modifiedCount === 0)
+            throw new Error(`Failed to add activity to board ${boardId}`)
+
+        return activity
+    } catch (err) {
+        console.error(' Cannot save activity:', err)
         throw err
     }
 }
@@ -431,7 +453,6 @@ async function addUpdate(boardId, groupId, taskId, updateTitle, loggedinUser) {
         if (task === -1) throw new Error(`Task ${taskId} not found`)
 
         if (!task) {
-            // Highly unlikely if updatedBoard exists, but good for safety
             throw new Error('Task not found on addUpdated to task ');
         }
 
@@ -448,9 +469,9 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
         const collection = await dbService.getCollection('board')
 
         const result = await collection.findOneAndUpdate(
-            { _id: new ObjectId(boardId), 'groups.id': groupId }, // Find the board and the group's index
-            { $set: { 'groups.$.tasks': orderedTasks } }, // Use $ to target the found group's tasks
-            { returnDocument: 'after' } // Return the updated document
+            { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId },
+            { $set: { 'groups.$.tasks': orderedTasks } },
+            { returnDocument: 'after' }
         )
 
         const updatedBoard = result;
@@ -460,7 +481,7 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
         }
         return { success: true, board: updatedBoard }
     } catch (err) {
-        console.error('❌ cannot update task order', err)
+        console.error(' cannot update task order', err)
         throw err
     }
 }
@@ -770,7 +791,7 @@ function _getFilteredBoard(board, filterBy) {
                         (ops.includes("done overdue") && isDone && updatedAt && updatedAt > dueDate)
                     )
                 })
-                return g => g.tasks.length > 0
+                return g?.tasks?.length > 0
             })
     }
 
@@ -819,4 +840,29 @@ function _getFilteredBoard(board, filterBy) {
         }
     }
     return board
+}
+
+
+function _getFilterOptions(board) {
+    const filterOptions = {}
+
+    filterOptions.groups = board.groups.map(g => {
+        return { id: g.id, title: g.title, color: g.style['--group-color'], taskSum: g?.tasks?.length }
+    })
+
+
+    const nameCounts = board.groups.reduce((acc, g) => {
+        g.tasks.forEach(t => {
+            if (acc[t.title]) acc[t.title] += 1
+            else acc[t.title] = 1
+        })
+
+        return acc
+    }, {})
+
+    filterOptions.names = Object.entries(nameCounts).map(([name, count]) => {
+        return { name, count }
+    })
+
+    return filterOptions
 }

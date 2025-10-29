@@ -2,6 +2,7 @@ import { logger } from '../../services/logger.service.js'
 import { boardService } from './board.service.js'
 import { asyncLocalStorage } from '../../services/als.service.js'
 import { makeId, getRandomGroupColor, getRandomIntInclusive } from '../../services/util.service.js'
+import { socketService } from '../../services/socket.service.js'
 
 export async function getBoards(req, res) {
     try {
@@ -204,7 +205,6 @@ function _getEmptyGroup() {
 export async function getTaskById(req, res) {
     const { boardId, taskId } = req.params
     const { loggedinUser } = req
-    console.log('YESSSSSSSSS');
 
     try {
         const taskDetails = await boardService.getTaskById(boardId, taskId)
@@ -225,6 +225,14 @@ export async function addTask(req, res) {
         task.owner = loggedinUser
         const addedTask = await boardService.addTask(boardId, groupId, task, method)
 
+        socketService.broadcast({
+            type: 'event-add-task',
+            data: { addedTask, groupId, method },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
+
         res.json(addedTask)
     } catch (err) {
         logger.error('Failed to add task', err)
@@ -240,7 +248,14 @@ export async function duplicateTask(req, res) {
 
     try {
         taskCopy.owner = loggedinUser
-        const duplicatedTask = await boardService.duplicateTask(boardId, groupId, taskCopy)
+        const { duplicatedTask, taskCopyIdx } = await boardService.duplicateTask(boardId, groupId, taskCopy)
+
+        socketService.broadcast({
+            type: 'event-duplicate-task',
+            data: { groupId, savedTask: duplicatedTask, taskCopyIdx },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
 
         res.json(duplicatedTask)
     } catch (err) {
@@ -255,8 +270,11 @@ export async function updateTask(req, res) {
     const { taskToUpdate, activityTitle } = req.body
 
     try {
-        // delete taskToUpdate.id
+
         const savedTask = await boardService.updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle, loggedinUser)
+
+        socketService.broadcast({ type: 'event-update-task', data: savedTask, room: boardId, userId: loggedinUser?._id })
+
         res.json(savedTask)
     } catch (err) {
         logger.error('Failed to update task', err)
@@ -270,6 +288,14 @@ export async function addUpdate(req, res) {
 
     try {
         const updatedTask = await boardService.addUpdate(boardId, groupId, taskId, UpdateTitle, loggedinUser)
+
+        socketService.broadcast({
+            type: 'event-add-update-msg',
+            data: updatedTask,
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(updatedTask)
 
     } catch (err) {
@@ -281,6 +307,7 @@ export async function addUpdate(req, res) {
 export async function updateTasksOrder(req, res) {
     const { boardId, groupId } = req.params
     const { orderedTasks } = req.body
+    const { loggedinUser } = req
 
     try {
         // delete task.id
@@ -288,10 +315,17 @@ export async function updateTasksOrder(req, res) {
 
         const updatedTaskOrder = await boardService.updateTaskOrder(boardId, groupId, orderedTasks)
 
+        socketService.broadcast({
+            type: 'event-update-tasks-order',
+            data: { groupId, tasks: orderedTasks },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(updatedTaskOrder)
     } catch (err) {
-        logger.error('Failed to update task', err)
-        res.status(400).send({ err: 'Failed to update task' })
+        logger.error('Failed to update task order', err)
+        res.status(400).send({ err: 'Failed to update task order' })
     }
 }
 
@@ -301,6 +335,14 @@ export async function removeTask(req, res) {
 
     try {
         const deletedTask = await boardService.removeTask(boardId, groupId, taskId)
+
+        socketService.broadcast({
+            type: 'event-remove-task',
+            data: { taskId, groupId },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(deletedTask)
     } catch (err) {
         logger.error('Failed to add group', err)
