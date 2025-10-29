@@ -16,7 +16,9 @@ const server = http.createServer(app)
 
 // Express App Config
 app.use(cookieParser())
-app.use(express.json())
+app.use(express.json({ limit: '1mb' }))
+app.use(express.urlencoded({ limit: '1mb', extended: true }))
+
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve('public')))
@@ -33,7 +35,8 @@ if (process.env.NODE_ENV === 'production') {
     }
     app.use(cors(corsOptions))
 }
-app.all('*all', setupAsyncLocalStorage)
+
+app.all('/*all', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)

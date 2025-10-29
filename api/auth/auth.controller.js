@@ -8,8 +8,11 @@ export async function login(req, res) {
         const loginToken = authService.getLoginToken(user)
 
         logger.info('User login: ', user)
-
-        res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+        // Doesn't accept sockets coming from Incognito 
+        // res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+      
+        //this accept!! sockets coming from Incognito 
+        res.cookie('loginToken', loginToken, { sameSite: 'Lax', secure: false })
         res.json(user)
     } catch (err) {
         logger.error('Failed to Login ' + err)
@@ -31,7 +34,12 @@ export async function signup(req, res) {
         logger.info('User signup:', user)
 
         const loginToken = authService.getLoginToken(user)
-        res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+        // do not allow getting cookies From Incognito. 
+        // res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
+
+        // Allows cookies from everywhere 
+        res.cookie('loginToken', loginToken, { sameSite: 'Lax', secure: true })
+
         res.json(user)
     } catch (err) {
         logger.error('Failed to signup ' + err)
