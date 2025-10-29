@@ -469,9 +469,9 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
         const collection = await dbService.getCollection('board')
 
         const result = await collection.findOneAndUpdate(
-            { _id: new ObjectId(boardId), 'groups.id': groupId }, // Find the board and the group's index
-            { $set: { 'groups.$.tasks': orderedTasks } }, // Use $ to target the found group's tasks
-            { returnDocument: 'after' } // Return the updated document
+            { _id: ObjectId.createFromHexString(boardId), 'groups.id': groupId },
+            { $set: { 'groups.$.tasks': orderedTasks } },
+            { returnDocument: 'after' }
         )
 
         const updatedBoard = result;

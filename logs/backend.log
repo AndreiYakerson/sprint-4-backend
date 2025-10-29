@@ -9081,3 +9081,49 @@
 29.10.2025, 5:32:06 - INFO - Broadcast to room 69017b2532df0a7e41d39800 excluding user: 690156cc696b5e7712bddc22 | 690156cc696b5e7712bddc22
 29.10.2025, 5:32:09 - INFO - Broadcasting event: event-update-tasks-order | 690156cc696b5e7712bddc22
 29.10.2025, 5:32:09 - INFO - Broadcast to room 69017b2532df0a7e41d39800 excluding user: 690156cc696b5e7712bddc22 | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - New connected socket [id: Tz9i9Mk629ZIPUBGAAAV]
+29.10.2025, 5:35:10 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: Tz9i9Mk629ZIPUBGAAAV]
+29.10.2025, 5:35:10 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"}
+29.10.2025, 5:35:10 - INFO - /api/board | GET |  | {}
+29.10.2025, 5:35:10 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"}
+29.10.2025, 5:35:10 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"}
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:10 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:35:11 - INFO - New connected socket [id: _QB11li9z6cWakX-AAAX]
+29.10.2025, 5:35:11 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:11 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: _QB11li9z6cWakX-AAAX]
+29.10.2025, 5:35:11 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:11 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:11 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:13 - INFO - Socket is leaving topic 69017b2532df0a7e41d39800 [id: _QB11li9z6cWakX-AAAX]
+29.10.2025, 5:35:14 - INFO - /api/board | GET |  | {"boardId":"69016e404575d7f3727ad95b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:14 - INFO - /api/board | GET |  | {"boardId":"69016e404575d7f3727ad95b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:17 - INFO - Broadcasting event: event-update-tasks-order | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:17 - INFO - Broadcast to room 69016e404575d7f3727ad95b excluding user: 690156cc696b5e7712bddc22 | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:19 - INFO - Broadcasting event: event-add-task | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:19 - INFO - Broadcast to room 69016e404575d7f3727ad95b excluding user: 690156cc696b5e7712bddc22 | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:23 - INFO - Socket is leaving topic 69016e404575d7f3727ad95b [id: _QB11li9z6cWakX-AAAX]
+29.10.2025, 5:35:23 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:23 - INFO - /api/board | GET |  | {"boardId":"69017b2532df0a7e41d39800","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:25 - INFO - Broadcasting event: event-update-tasks-order | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:25 - INFO - Broadcast to room 69017b2532df0a7e41d39800 excluding user: 690156cc696b5e7712bddc22 | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:29 - INFO - Broadcast to room 69017b2532df0a7e41d39800 excluding user: 690156cc696b5e7712bddc22 | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:29 - INFO - Broadcasting event: event-update-tasks-order | 690156cc696b5e7712bddc22
+29.10.2025, 5:35:31 - INFO - Broadcasting event: event-update-task
+29.10.2025, 5:35:31 - INFO - Emit to room: 69017b2532df0a7e41d39800
+29.10.2025, 5:35:35 - INFO - Socket disconnected [id: undefined]
+29.10.2025, 5:39:30 - INFO - Server is running on port: 3030
+29.10.2025, 5:39:31 - INFO - New connected socket [id: lf-dbBzy1aM43JwAAAAB]
+29.10.2025, 5:39:33 - INFO - Server is running on port: 3030
+29.10.2025, 5:39:35 - INFO - Server is running on port: 3030
+29.10.2025, 5:39:35 - INFO - New connected socket [id: bwHmEFwaKzD2px1bAAAB]
+29.10.2025, 5:59:00 - INFO - Server is running on port: 3030
+29.10.2025, 5:59:01 - INFO - New connected socket [id: 2hXaMovnZL9UBQyAAAAB]
