@@ -226,6 +226,14 @@ export async function addTask(req, res) {
         task.owner = loggedinUser
         const addedTask = await boardService.addTask(boardId, groupId, task, method)
 
+        socketService.broadcast({
+            type: 'event-add-task',
+            data: { addedTask, groupId, method },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
+
         res.json(addedTask)
     } catch (err) {
         logger.error('Failed to add task', err)
@@ -313,6 +321,14 @@ export async function removeTask(req, res) {
 
     try {
         const deletedTask = await boardService.removeTask(boardId, groupId, taskId)
+
+        socketService.broadcast({
+            type: 'event-remove-task',
+            data: { taskId, groupId },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(deletedTask)
     } catch (err) {
         logger.error('Failed to add group', err)
