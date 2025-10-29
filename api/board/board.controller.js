@@ -43,11 +43,20 @@ export async function addBoard(req, res) {
     const { loggedinUser, body: board } = req
 
     try {
-        board.owner = loggedinUser
 
+        board.owner = loggedinUser
+        board.members.push(loggedinUser)
         console.log(board);
 
         const addedBoard = await boardService.add(board)
+
+        socketService.broadcast({
+            type: 'event-update-board',
+            data: board,
+            room: board.id,
+            userId: loggedinUser?._id
+        })
+
         res.json(addedBoard)
     } catch (err) {
         logger.error('Failed to add board', err)
@@ -285,6 +294,19 @@ export async function updateTask(req, res) {
 
         const savedTask = await boardService.updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle, loggedinUser)
 
+        if (Array.isArray(taskToUpdate.memberIds)) {
+            taskToUpdate.memberIds.forEach(userId => {
+                socketService.emitToUser({
+                    type: 'event-user-assigned',
+                    data: {
+                        boardId,
+                        taskId,
+                        taskTitle: savedTask.title,
+                    },
+                    userId,
+                })
+            })
+        }
         socketService.broadcast({ type: 'event-update-task', data: savedTask, room: boardId, userId: loggedinUser?._id })
 
         res.json(savedTask)

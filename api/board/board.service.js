@@ -623,7 +623,6 @@ export async function getDashboardData(filterBy = {}) {
 
     const tasksCount = result?.tasksCount?.[0]?.total || 0
 
-    // ✅ byStatus summary
     const byStatus = result.byStatus.map(s => ({
       id: s._id,
       txt: s.txt,
@@ -632,7 +631,6 @@ export async function getDashboardData(filterBy = {}) {
       tasksPercentage: parseFloat(((s.tasksCount / tasksCount) * 100).toFixed(1))
     }))
 
-    // ✅ byPriority summary (new)
     const byPriority = result.byPriority.map(p => ({
       id: p._id,
       txt: p.txt,
@@ -641,7 +639,6 @@ export async function getDashboardData(filterBy = {}) {
       tasksPercentage: parseFloat(((p.tasksCount / tasksCount) * 100).toFixed(1))
     }))
 
-    // ✅ byMember summary
     const byMember = result.byMember.map(m => ({
       memberId: m._id,
       fullname: m.userInfo?.fullname || 'Unknown',
@@ -650,7 +647,7 @@ export async function getDashboardData(filterBy = {}) {
       tasksPercentage: parseFloat(((m.tasksCount / tasksCount) * 100).toFixed(1))
     }))
 
-    // ✅ return all three dimensions
+    
     return { tasksCount, byStatus, byPriority, byMember }
 
   } catch (err) {
