@@ -453,7 +453,6 @@ async function addUpdate(boardId, groupId, taskId, updateTitle, loggedinUser) {
         if (task === -1) throw new Error(`Task ${taskId} not found`)
 
         if (!task) {
-            // Highly unlikely if updatedBoard exists, but good for safety
             throw new Error('Task not found on addUpdated to task ');
         }
 

@@ -275,6 +275,13 @@ export async function addUpdate(req, res) {
     try {
         const updatedTask = await boardService.addUpdate(boardId, groupId, taskId, UpdateTitle, loggedinUser)
 
+        socketService.broadcast({
+            type: 'event-add-update-msg',
+            data: updatedTask,
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(updatedTask)
 
     } catch (err) {
