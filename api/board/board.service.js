@@ -384,11 +384,33 @@ async function updateTask(boardId, groupId, taskId, taskToUpdate, activityTitle,
         const activity = _createActivity(activityTitle, _getMiniUser(loggedinUser),
             _toMiniGroup(group), _toMiniTask(group.tasks[taskIdx]))
 
+        await saveActivity(boardId, activity)
+
         const savedTask = taskToUpdate
         return { savedTask, activity }
 
     } catch (err) {
         console.error('cannot update task', err)
+        throw err
+    }
+}
+
+
+async function saveActivity(boardId, activity) {
+    try {
+        const collection = await dbService.getCollection('board')
+
+        const result = await collection.updateOne(
+            { _id: ObjectId.createFromHexString(boardId) },
+            { $push: { activities: activity } }
+        )
+
+        if (result.modifiedCount === 0)
+            throw new Error(`Failed to add activity to board ${boardId}`)
+
+        return activity
+    } catch (err) {
+        console.error(' Cannot save activity:', err)
         throw err
     }
 }
