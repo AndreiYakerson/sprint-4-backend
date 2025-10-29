@@ -481,7 +481,7 @@ export async function updateTaskOrder(boardId, groupId, orderedTasks) {
         }
         return { success: true, board: updatedBoard }
     } catch (err) {
-        console.error('❌ cannot update task order', err)
+        console.error(' cannot update task order', err)
         throw err
     }
 }

@@ -307,6 +307,7 @@ export async function addUpdate(req, res) {
 export async function updateTasksOrder(req, res) {
     const { boardId, groupId } = req.params
     const { orderedTasks } = req.body
+    const { loggedinUser } = req
 
     try {
         // delete task.id
@@ -314,10 +315,17 @@ export async function updateTasksOrder(req, res) {
 
         const updatedTaskOrder = await boardService.updateTaskOrder(boardId, groupId, orderedTasks)
 
+        socketService.broadcast({
+            type: 'event-update-tasks-order',
+            data: { groupId, tasks: orderedTasks },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(updatedTaskOrder)
     } catch (err) {
-        logger.error('Failed to update task', err)
-        res.status(400).send({ err: 'Failed to update task' })
+        logger.error('Failed to update task order', err)
+        res.status(400).send({ err: 'Failed to update task order' })
     }
 }
 
