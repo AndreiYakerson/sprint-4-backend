@@ -341,7 +341,7 @@ async function duplicateTask(boardId, groupId, taskCopy) {
 
         if (!result.matchedCount) throw new Error(`Board ${boardId} or group ${groupId} not found`)
 
-        return taskCopy
+        return { duplicatedTask: taskCopy, taskCopyIdx: taskCopyIdx + 1 }
 
     } catch (err) {
         throw err

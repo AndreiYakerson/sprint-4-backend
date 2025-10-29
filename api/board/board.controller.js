@@ -205,7 +205,6 @@ function _getEmptyGroup() {
 export async function getTaskById(req, res) {
     const { boardId, taskId } = req.params
     const { loggedinUser } = req
-    console.log('YESSSSSSSSS');
 
     try {
         const taskDetails = await boardService.getTaskById(boardId, taskId)
@@ -249,7 +248,14 @@ export async function duplicateTask(req, res) {
 
     try {
         taskCopy.owner = loggedinUser
-        const duplicatedTask = await boardService.duplicateTask(boardId, groupId, taskCopy)
+        const { duplicatedTask, taskCopyIdx } = await boardService.duplicateTask(boardId, groupId, taskCopy)
+
+        socketService.broadcast({
+            type: 'event-duplicate-task',
+            data: { groupId, savedTask: duplicatedTask, taskCopyIdx },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
 
         res.json(duplicatedTask)
     } catch (err) {
