@@ -58,17 +58,22 @@ export async function addBoard(req, res) {
 export async function updateBoard(req, res) {
     const { loggedinUser, body: board } = req
 
-
-
     // const { _id: userId, isAdmin } = loggedinUser
-
+    const boardId = board.id
     // if (!isAdmin && board.owner._id !== userId) {
     //     res.status(403).send('Not your board...')
     //     return
     // }
-
     try {
         const updatedBoard = await boardService.update(board)
+
+        socketService.broadcast({
+            type: 'event-update-board',
+            data: updatedBoard,
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(updatedBoard)
     } catch (err) {
         logger.error('Failed to update board', err)
@@ -148,6 +153,13 @@ export async function updateGroup(req, res) {
 
     try {
         const addedGroup = await boardService.updateGroup(boardId, group)
+
+        socketService.broadcast({
+            type: 'event-update-group',
+            data: { addedGroup, boardId },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
 
         res.json(addedGroup)
     } catch (err) {
