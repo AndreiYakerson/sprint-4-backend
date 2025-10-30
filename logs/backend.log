@@ -14187,3 +14187,9 @@
 30.10.2025, 18:27:03 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
 30.10.2025, 18:27:04 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
 30.10.2025, 18:27:04 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:31:19 - INFO - Server is running on port: 3030
+30.10.2025, 18:31:20 - INFO - New connected socket [id: kAzuFJbeaF_j5nTnAAAB]
+30.10.2025, 18:31:28 - INFO - Server is running on port: 3030
+30.10.2025, 18:31:29 - INFO - New connected socket [id: I7btM8JWhjNAsHSoAAAB]
+30.10.2025, 18:32:28 - INFO - Server is running on port: 3030
+30.10.2025, 18:32:29 - INFO - New connected socket [id: _qTNG9SYD0TuRsvXAAAB]
