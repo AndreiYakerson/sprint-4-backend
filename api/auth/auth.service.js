@@ -1,5 +1,5 @@
 import Cryptr from 'cryptr'
-import bcrypt from 'bcrypt'
+// import bcrypt from 'bcrypt'
 
 import { userService } from '../user/user.service.js'
 import { logger } from '../../services/logger.service.js'
@@ -37,8 +37,9 @@ async function signup({ username, password, fullname, imgUrl, isAdmin }) {
     const userExist = await userService.getByUsername(username)
     if (userExist) return Promise.reject('Username already taken')
 
-    const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname, imgUrl, isAdmin })
+        // 
+    // const hash = await bcrypt.hash(password, saltRounds)
+    // return userService.add({ username, password: hash, fullname, imgUrl, isAdmin })
 }
 
 function getLoginToken(user) {

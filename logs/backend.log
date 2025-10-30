@@ -14092,3 +14092,87 @@
 30.10.2025, 12:30:50 - INFO - New connected socket [id: gnAYHUjAHEMcSzOcAAAB]
 30.10.2025, 12:31:09 - INFO - Server is running on port: 3030
 30.10.2025, 12:31:11 - INFO - New connected socket [id: nrvzvMdEi38A77UyAAAB]
+30.10.2025, 14:53:50 - INFO - Server is running on port: 3030
+30.10.2025, 14:53:55 - INFO - New connected socket [id: 1o6YEm-gyxdyw0qWAAAB]
+30.10.2025, 14:53:55 - INFO - Setting socket.userId = 69021aeab9008a205304ec5c for socket [id: 1o6YEm-gyxdyw0qWAAAB]
+30.10.2025, 14:58:15 - INFO - Server is running on port: 3030
+30.10.2025, 14:58:16 - INFO - New connected socket [id: lRNak6ChFkvaZ9FgAAAB]
+30.10.2025, 14:58:27 - INFO - Server is running on port: 3030
+30.10.2025, 14:58:29 - INFO - New connected socket [id: Jr4mSaKWp3si0U1pAAAB]
+30.10.2025, 14:58:30 - INFO - Server is running on port: 3030
+30.10.2025, 14:58:32 - INFO - New connected socket [id: DERV8qDaFGuyC645AAAB]
+30.10.2025, 14:58:38 - INFO - Server is running on port: 3030
+30.10.2025, 14:58:39 - INFO - New connected socket [id: notnzgO0X3amrrgKAAAB]
+30.10.2025, 14:59:30 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 14:59:30 - INFO - New connected socket [id: aYq3XnI80PCDF_dzAAAD]
+30.10.2025, 14:59:30 - INFO - Setting socket.userId = 69021aeab9008a205304ec5c for socket [id: aYq3XnI80PCDF_dzAAAD]
+30.10.2025, 14:59:30 - INFO - /api/board | GET |  | {} | 69021aeab9008a205304ec5c
+30.10.2025, 14:59:30 - INFO - /api/board | GET |  | {} | 69021aeab9008a205304ec5c
+30.10.2025, 14:59:45 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69021aeab9008a205304ec5c
+30.10.2025, 14:59:45 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69021aeab9008a205304ec5c
+30.10.2025, 14:59:46 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69021aeab9008a205304ec5c
+30.10.2025, 14:59:52 - INFO - Removing socket.userId for socket [id: aYq3XnI80PCDF_dzAAAD]
+30.10.2025, 14:59:59 - DEBUG - auth.service - login with username: dan | 69021aeab9008a205304ec5c
+30.10.2025, 15:00:00 - INFO - User login:  | {"_id":"69032622b2a1f6e79b018695","username":"dan","fullname":"dan weibren","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false} | 69021aeab9008a205304ec5c
+30.10.2025, 15:00:00 - INFO - Setting socket.userId = 69032622b2a1f6e79b018695 for socket [id: aYq3XnI80PCDF_dzAAAD]
+30.10.2025, 15:00:00 - INFO - /api/board | GET |  | {} | 69032622b2a1f6e79b018695
+30.10.2025, 15:00:00 - INFO - /api/board | GET |  | {} | 69032622b2a1f6e79b018695
+30.10.2025, 15:00:02 - INFO - Removing socket.userId for socket [id: aYq3XnI80PCDF_dzAAAD]
+30.10.2025, 15:00:17 - DEBUG - auth.service - signup with username: a, fullname: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:00:17 - DEBUG - auth.route - new account created: undefined | 69032622b2a1f6e79b018695
+30.10.2025, 15:00:17 - DEBUG - auth.service - login with username: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:00:17 - ERROR - Failed to signup Invalid username or password | 69032622b2a1f6e79b018695
+30.10.2025, 15:01:19 - DEBUG - auth.service - signup with username: 999, fullname: 999 | 69032622b2a1f6e79b018695
+30.10.2025, 15:01:19 - DEBUG - auth.route - new account created: undefined | 69032622b2a1f6e79b018695
+30.10.2025, 15:01:19 - DEBUG - auth.service - login with username: 999 | 69032622b2a1f6e79b018695
+30.10.2025, 15:01:19 - ERROR - Failed to signup Invalid username or password | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:16 - INFO - Server is running on port: 3030
+30.10.2025, 15:02:18 - INFO - New connected socket [id: E-UIQOybZPKXDGG1AAAB]
+30.10.2025, 15:02:20 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 15:02:20 - INFO - New connected socket [id: Pnx1M1ZWlTQVAbFfAAAD]
+30.10.2025, 15:02:24 - DEBUG - auth.service - signup with username: a, fullname: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:28 - DEBUG - auth.service - signup with username: a, fullname: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.route - new account created: undefined | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.service - login with username: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.route - new account created: undefined | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.service - login with username: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - ERROR - Failed to signup Invalid username or password | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.service - signup with username: a, fullname: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.service - login with username: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - DEBUG - auth.route - new account created: undefined | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:30 - ERROR - Failed to signup Invalid username or password | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:31 - ERROR - Failed to signup Invalid username or password | 69032622b2a1f6e79b018695
+30.10.2025, 15:02:56 - INFO - Server is running on port: 3030
+30.10.2025, 15:02:58 - INFO - New connected socket [id: 7gLXk36d4awzB3IkAAAB]
+30.10.2025, 15:03:17 - INFO - Server is running on port: 3030
+30.10.2025, 15:03:19 - INFO - New connected socket [id: RfKG5Hc0I5kkxJudAAAB]
+30.10.2025, 15:03:33 - INFO - Server is running on port: 3030
+30.10.2025, 15:03:34 - INFO - New connected socket [id: 4G3oxTgKjTfsQDBPAAAB]
+30.10.2025, 15:03:34 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 15:03:34 - INFO - New connected socket [id: 5zY9Pj3HLEXAEWxPAAAD]
+30.10.2025, 15:03:35 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 15:03:36 - INFO - New connected socket [id: vt_EXX3nCXnzv7KzAAAF]
+30.10.2025, 15:03:40 - DEBUG - auth.service - signup with username: a, fullname: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:03:42 - DEBUG - auth.route - new account created: undefined | 69032622b2a1f6e79b018695
+30.10.2025, 15:03:42 - DEBUG - auth.service - login with username: a | 69032622b2a1f6e79b018695
+30.10.2025, 15:03:42 - ERROR - Failed to signup Invalid username or password | 69032622b2a1f6e79b018695
+30.10.2025, 15:04:07 - INFO - Server is running on port: 3030
+30.10.2025, 15:04:08 - INFO - Server is running on port: 3030
+30.10.2025, 15:04:09 - INFO - New connected socket [id: SFE7Y105IpSJpJhlAAAB]
+30.10.2025, 15:04:11 - INFO - Server is running on port: 3030
+30.10.2025, 15:04:13 - INFO - New connected socket [id: 6UJRTKU91V9w1D1TAAAB]
+30.10.2025, 15:04:39 - INFO - Server is running on port: 3030
+30.10.2025, 15:04:41 - INFO - New connected socket [id: qe_dEDHL9IQqz8v8AAAB]
+30.10.2025, 15:04:45 - INFO - Server is running on port: 3030
+30.10.2025, 15:04:46 - INFO - New connected socket [id: 9attaiR9bSv8FAZZAAAB]
+30.10.2025, 15:04:47 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 15:04:47 - INFO - New connected socket [id: WfydrRPoPiUH3c-uAAAD]
+30.10.2025, 15:04:53 - DEBUG - auth.service - signup with username: asd, fullname: asd | 69032622b2a1f6e79b018695
+30.10.2025, 15:04:55 - DEBUG - auth.route - new account created: {"username":"asd","password":"$2b$10$3s5Jgy0PVGg.VBQE78efeORdNDMBe6K9IT/u/wGF5ojs//mHiWY0i","fullname":"asd","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false,"_id":"690362772f2ce8a14dc8fbaf"} | 69032622b2a1f6e79b018695
+30.10.2025, 15:04:55 - DEBUG - auth.service - login with username: asd | 69032622b2a1f6e79b018695
+30.10.2025, 15:04:55 - INFO - User signup: | {"_id":"690362772f2ce8a14dc8fbaf","username":"asd","fullname":"asd","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false} | 69032622b2a1f6e79b018695
+30.10.2025, 15:04:55 - INFO - Setting socket.userId = 690362772f2ce8a14dc8fbaf for socket [id: WfydrRPoPiUH3c-uAAAD]
+30.10.2025, 15:04:56 - INFO - /api/board | GET |  | {} | 690362772f2ce8a14dc8fbaf
+30.10.2025, 15:04:56 - INFO - /api/board | GET |  | {} | 690362772f2ce8a14dc8fbaf
+30.10.2025, 15:05:14 - INFO - Server is running on port: 3030
+30.10.2025, 15:05:15 - INFO - New connected socket [id: j8E3nqlZ3G8nWeOOAAAB]
