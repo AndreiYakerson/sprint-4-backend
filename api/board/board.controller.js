@@ -91,7 +91,15 @@ export async function updateBoard(req, res) {
 export async function removeBoard(req, res) {
     try {
         const boardId = req.params.id
+        const { loggedinUser } = req
+
         const removedId = await boardService.remove(boardId)
+
+        socketService.broadcast({
+            type: 'event-remove-board',
+            data: { boardId },
+            userId: loggedinUser?._id
+        })
 
         res.send(removedId)
     } catch (err) {

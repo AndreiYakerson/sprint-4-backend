@@ -13329,3 +13329,272 @@
 30.10.2025, 3:53:45 - INFO - Broadcast to room 6902c51f367d92ac6448577d excluding user: 68fd2692da6ea3cbca9122ab | 68fd2692da6ea3cbca9122ab
 30.10.2025, 3:54:05 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
 30.10.2025, 3:54:05 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:14 - INFO - New connected socket [id: MtsXh6HoiJtRYhROAAAa]
+30.10.2025, 3:55:14 - INFO - New connected socket [id: pD3Y-36acUu6W81mAAAb]
+30.10.2025, 3:55:14 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: MtsXh6HoiJtRYhROAAAa]
+30.10.2025, 3:55:14 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: pD3Y-36acUu6W81mAAAb]
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:15 - INFO - New connected socket [id: iFx4kByydEMrhltqAAAd]
+30.10.2025, 3:55:15 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: iFx4kByydEMrhltqAAAd]
+30.10.2025, 3:55:15 - INFO - New connected socket [id: TKjFeJ9V_kxEVS8DAAAf]
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:15 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: TKjFeJ9V_kxEVS8DAAAf]
+30.10.2025, 3:55:15 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:16 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:20 - INFO - New connected socket [id: jxBdGw-lq2pMtn2rAAAh]
+30.10.2025, 3:55:20 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: jxBdGw-lq2pMtn2rAAAh]
+30.10.2025, 3:55:20 - INFO - New connected socket [id: 2fzKnLjKnmRSInDzAAAj]
+30.10.2025, 3:55:20 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: 2fzKnLjKnmRSInDzAAAj]
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:55:21 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:55:54 - INFO - Server is running on port: 3030
+30.10.2025, 3:55:55 - INFO - New connected socket [id: nnxkd4W92dWeV5agAAAE]
+30.10.2025, 3:55:55 - INFO - New connected socket [id: xXVAWtizkH7FmpEKAAAG]
+30.10.2025, 3:55:55 - INFO - New connected socket [id: n4kbp9DXXKWtcaV_AAAH]
+30.10.2025, 3:55:55 - INFO - New connected socket [id: RCX1sR8-WpUCym9oAAAI]
+30.10.2025, 3:55:55 - INFO - New connected socket [id: oWo4NF_hBDUIeHcIAAAJ]
+30.10.2025, 3:55:56 - INFO - New connected socket [id: nTu7XXVgUO_EpAowAAAN]
+30.10.2025, 3:55:56 - INFO - New connected socket [id: LEvozUKIst7ntTggAAAO]
+30.10.2025, 3:55:56 - INFO - New connected socket [id: H3UYIge7UB9e9ZA-AAAP]
+30.10.2025, 3:55:57 - INFO - Server is running on port: 3030
+30.10.2025, 3:55:58 - INFO - New connected socket [id: uv77OqrcyMwscjtjAAAE]
+30.10.2025, 3:55:58 - INFO - New connected socket [id: rU9wCPN1yX2XqsxAAAAF]
+30.10.2025, 3:55:58 - INFO - New connected socket [id: svTCOfaPYeTDP40pAAAG]
+30.10.2025, 3:55:58 - INFO - New connected socket [id: xqIgHlT_0HHCuootAAAH]
+30.10.2025, 3:55:59 - INFO - New connected socket [id: 3UkrQkBof9e1IsGgAAAM]
+30.10.2025, 3:55:59 - INFO - New connected socket [id: c_Qb5Si3gPHSPlp-AAAN]
+30.10.2025, 3:55:59 - INFO - New connected socket [id: Kbs9Ye61vihlEBo9AAAO]
+30.10.2025, 3:55:59 - INFO - New connected socket [id: lmD_HkglhX_gUaYbAAAP]
+30.10.2025, 3:56:00 - INFO - Server is running on port: 3030
+30.10.2025, 3:56:00 - INFO - Server is running on port: 3030
+30.10.2025, 3:56:01 - INFO - New connected socket [id: Ns5Z2nBRY9qlTYJnAAAH]
+30.10.2025, 3:56:01 - INFO - New connected socket [id: E4qDSOTFhpOqdzprAAAI]
+30.10.2025, 3:56:01 - INFO - New connected socket [id: DGaXc3r5bsygOvt8AAAJ]
+30.10.2025, 3:56:01 - INFO - New connected socket [id: NqceTdas2Hvm3oUKAAAK]
+30.10.2025, 3:56:01 - INFO - New connected socket [id: jgguU8PgLU5J5pkdAAAM]
+30.10.2025, 3:56:01 - INFO - New connected socket [id: iIOzGHEJ6uoTsRHOAAAL]
+30.10.2025, 3:56:01 - INFO - New connected socket [id: roS1kaA0CAqpz7tRAAAN]
+30.10.2025, 3:56:02 - INFO - New connected socket [id: w-X9xDbhL-WKDx_wAAAP]
+30.10.2025, 3:56:11 - INFO - Server is running on port: 3030
+30.10.2025, 3:56:12 - INFO - New connected socket [id: 2AeMNXtjhUtF4wnwAAAI]
+30.10.2025, 3:56:12 - INFO - New connected socket [id: PVKNWq0NI79znzFNAAAJ]
+30.10.2025, 3:56:12 - INFO - New connected socket [id: 38Mwv7EH7TKEiU2GAAAH]
+30.10.2025, 3:56:12 - INFO - New connected socket [id: NB0C9s_BZjyUQEN7AAAK]
+30.10.2025, 3:56:12 - INFO - New connected socket [id: kUfxgC8bLYmJ4NXmAAAL]
+30.10.2025, 3:56:12 - INFO - New connected socket [id: kpTu4qs5rfdGry4JAAAM]
+30.10.2025, 3:56:12 - INFO - New connected socket [id: n0JXFXUNhiaauizXAAAN]
+30.10.2025, 3:56:13 - INFO - New connected socket [id: 6Zvedjv6qmcQDBxmAAAP]
+30.10.2025, 3:56:47 - INFO - Server is running on port: 3030
+30.10.2025, 3:56:48 - INFO - New connected socket [id: W9eLVLzLyNpezsDBAAAE]
+30.10.2025, 3:56:48 - INFO - New connected socket [id: 36MmgPKBhI1f0KPvAAAG]
+30.10.2025, 3:56:48 - INFO - New connected socket [id: fpsU7JUlhh0UZaiRAAAI]
+30.10.2025, 3:56:48 - INFO - New connected socket [id: lvxkhj-0RMtXT8KDAAAH]
+30.10.2025, 3:56:48 - INFO - New connected socket [id: HRtOBX0-MHPaLvjuAAAJ]
+30.10.2025, 3:56:49 - INFO - New connected socket [id: WjVn4lzoSPrZaGJRAAAN]
+30.10.2025, 3:56:49 - INFO - New connected socket [id: wdZe7PGP9b3YmqPDAAAO]
+30.10.2025, 3:56:49 - INFO - New connected socket [id: soRseZ7hp5smnF-CAAAP]
+30.10.2025, 3:58:06 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:06 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:07 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:07 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:10 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:11 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:11 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:19 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:19 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:24 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:24 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:29 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:29 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:35 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:35 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:35 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:35 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:35 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:35 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:39 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:39 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:58:42 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:58:42 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:27 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:27 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:36 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:36 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - New connected socket [id: B5OlYq2ArpruxEkNAAAR]
+30.10.2025, 3:59:38 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: B5OlYq2ArpruxEkNAAAR]
+30.10.2025, 3:59:38 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:38 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:38 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:38 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 3:59:38 - INFO - New connected socket [id: qgA1nxhHDOpsKtvQAAAT]
+30.10.2025, 3:59:39 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: qgA1nxhHDOpsKtvQAAAT]
+30.10.2025, 3:59:39 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:39 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:39 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:39 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 3:59:47 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 3:59:47 - ERROR - Failed to remove board | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:32 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:00:32 - INFO - New connected socket [id: c6MeYcsfkobgABxkAAAV]
+30.10.2025, 4:00:32 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: c6MeYcsfkobgABxkAAAV]
+30.10.2025, 4:00:32 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:32 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:32 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:32 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:39 - INFO - /api/board | POST | {"title":"345435345","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761789639457,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"EOflUF","fullname":"Aisha Khan","password":"user 1","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"f3gc59","fullname":"Benjamin Chen","password":"user 2","profession":"Pastry Chef","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"tSq1M4","fullname":"Grace Dubois","password":"user 3","profession":"Baker","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"YjC5Dh","fullname":"Samuel Rivera","password":"user 4","profession":"cold-line cook","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"BLz8ZN","fullname":"Olivia Mason","password":"user 5","profession":"hot-line cook","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"Ukpux6","title":"Group 1","createdAt":1761789639457,"isCollapsed":false,"tasks":[{"id":"SkawHb","title":"Item 1","createdAt":1761789639457,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"sxKu5h","title":"Item 2","createdAt":1761789639457,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#fa0080"}}],"activities":[]} | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:39 - INFO - Broadcasting event: event-add-board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:39 - INFO - Broadcast to all excluding user: 68fd2692da6ea3cbca9122ab | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:39 - INFO - Socket is leaving topic 6902c51f367d92ac6448577d [id: c6MeYcsfkobgABxkAAAV]
+30.10.2025, 4:00:39 - INFO - /api/board | GET |  | {"boardId":"6902c6c7de2069fa529fe78b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:39 - INFO - /api/board | GET |  | {"boardId":"6902c6c7de2069fa529fe78b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:46 - INFO - Broadcasting event: event-remove-board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:46 - INFO - Broadcast to all excluding user: 68fd2692da6ea3cbca9122ab | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:00:57 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:00:57 - ERROR - Failed to remove board | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:00 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:00 - ERROR - Failed to remove board | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:07 - ERROR - cannot remove board 6902c51f367d92ac6448577d | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:07 - ERROR - Failed to remove board | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:09 - ERROR - cannot remove board 69023f51bcc5861cf871257c | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:09 - ERROR - Failed to remove board | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:11 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:11 - INFO - New connected socket [id: rGFWpbAzmieXdWvXAAAX]
+30.10.2025, 4:01:11 - INFO - /api/board | GET |  | {"boardId":"6902c6c7de2069fa529fe78b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:11 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: rGFWpbAzmieXdWvXAAAX]
+30.10.2025, 4:01:11 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:11 - ERROR - while finding board 6902c6c7de2069fa529fe78b | TypeError: Cannot read properties of null (reading '_id') | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:11 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - INFO - /api/board | GET |  | {"boardId":"6902c6c7de2069fa529fe78b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - ERROR - while finding board 6902c6c7de2069fa529fe78b | TypeError: Cannot read properties of null (reading '_id') | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - INFO - /api/board | GET |  | {"boardId":"6902c6c7de2069fa529fe78b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - ERROR - while finding board 6902c6c7de2069fa529fe78b | TypeError: Cannot read properties of null (reading '_id') | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:12 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:12 - INFO - New connected socket [id: 3k8E2UXVTnz6ruQBAAAZ]
+30.10.2025, 4:01:12 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:12 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: 3k8E2UXVTnz6ruQBAAAZ]
+30.10.2025, 4:01:12 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:12 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:12 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:15 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:23 - INFO - Broadcasting event: event-remove-board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:23 - INFO - Broadcast to all excluding user: 68fd2692da6ea3cbca9122ab | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:29 - INFO - Socket is leaving topic 6902c6c7de2069fa529fe78b [id: rGFWpbAzmieXdWvXAAAX]
+30.10.2025, 4:01:29 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:29 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:30 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:32 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:32 - ERROR - Failed to remove board | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:35 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:35 - ERROR - Failed to remove board | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:36 - INFO - New connected socket [id: AmA98i_eB7FsOmbTAAAb]
+30.10.2025, 4:01:36 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: AmA98i_eB7FsOmbTAAAb]
+30.10.2025, 4:01:36 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:36 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:38 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:38 - INFO - New connected socket [id: DP2QaHr-v2YsNUvmAAAd]
+30.10.2025, 4:01:38 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: DP2QaHr-v2YsNUvmAAAd]
+30.10.2025, 4:01:38 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:38 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:38 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:38 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:39 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:39 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:39 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:39 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:39 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:39 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:43 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:43 - ERROR - Failed to remove board | Not your board | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:45 - ERROR - cannot remove board 68fddf6d21b7fbaf90993900 | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:45 - ERROR - Failed to remove board | Not your board | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:46 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:46 - INFO - New connected socket [id: El3j-DDWRSJbydEYAAAf]
+30.10.2025, 4:01:47 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:47 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: El3j-DDWRSJbydEYAAAf]
+30.10.2025, 4:01:47 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:47 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:47 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:01:47 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:48 - INFO - New connected socket [id: q-2AA3CfgXj9G8lXAAAh]
+30.10.2025, 4:01:48 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: q-2AA3CfgXj9G8lXAAAh]
+30.10.2025, 4:01:48 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - INFO - /api/board | GET |  | {"boardId":"6902c51f367d92ac6448577d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - ERROR - while finding board 6902c51f367d92ac6448577d | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:48 - ERROR - Failed to get board | TypeError: Cannot read properties of null (reading '_id') | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:51 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:55 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993901","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:55 - INFO - Socket is leaving topic 6902c51f367d92ac6448577d [id: q-2AA3CfgXj9G8lXAAAh]
+30.10.2025, 4:01:55 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993901","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:55 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993901","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:56 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:01:56 - INFO - New connected socket [id: Y-O-G0F0cDLuUk-9AAAj]
+30.10.2025, 4:01:56 - INFO - /api/board | GET |  | {} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:56 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993901","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:56 - INFO - Setting socket.userId = 690156cc696b5e7712bddc22 for socket [id: Y-O-G0F0cDLuUk-9AAAj]
+30.10.2025, 4:01:56 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993901","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:01:56 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993901","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690156cc696b5e7712bddc22
+30.10.2025, 4:02:01 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 4:02:01 - INFO - New connected socket [id: GlnAQU4J6MiDQI7lAAAl]
+30.10.2025, 4:02:01 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:02:01 - INFO - Setting socket.userId = 68fd2692da6ea3cbca9122ab for socket [id: GlnAQU4J6MiDQI7lAAAl]
+30.10.2025, 4:02:01 - INFO - /api/board | GET |  | {} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:02:01 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
+30.10.2025, 4:02:01 - INFO - /api/board | GET |  | {"boardId":"68fddf6d21b7fbaf90993900","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 68fd2692da6ea3cbca9122ab
