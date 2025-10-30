@@ -51,9 +51,8 @@ export async function addBoard(req, res) {
         const addedBoard = await boardService.add(board)
 
         socketService.broadcast({
-            type: 'event-update-board',
-            data: board,
-            room: board.id,
+            type: 'event-add-board',
+            data: { newBoard: addedBoard },
             userId: loggedinUser?._id
         })
 
