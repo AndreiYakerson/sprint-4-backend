@@ -75,9 +75,13 @@ export async function updateBoard(req, res) {
     try {
         const updatedBoard = await boardService.update(board)
 
+
+        const boardToSocket = structuredClone(updatedBoard)
+        delete boardToSocket?.groups
+
         socketService.broadcast({
             type: 'event-update-board',
-            data: { updatedBoard },
+            data: { updatedBoard: boardToSocket },
             userId: loggedinUser?._id
         })
 

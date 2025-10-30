@@ -108,7 +108,7 @@ async function update(board) {
     const { _id, ...boardToSave } = board
 
     try {
-        const criteria = { _id: new ObjectId(board._id) }
+        const criteria = { _id: ObjectId.createFromHexString(board._id) }
         const collection = await dbService.getCollection('board')
         delete boardToSave._id
         await collection.updateOne(criteria, { $set: boardToSave })
@@ -518,142 +518,142 @@ async function removeTask(boardId, groupId, taskId) {
 
 //// dashboard
 export async function getDashboardData(filterBy = {}) {
-  try {
-    const collection = await dbService.getCollection('board')
+    try {
+        const collection = await dbService.getCollection('board')
 
-    const pipeline = [
-      { $unwind: '$groups' },
-      { $unwind: '$groups.tasks' },
+        const pipeline = [
+            { $unwind: '$groups' },
+            { $unwind: '$groups.tasks' },
 
-      {
-        $project: {
-          status: '$groups.tasks.status',
-          priority: '$groups.tasks.priority',
-          memberIds: '$groups.tasks.memberIds'
-        }
-      },
-
-      {
-        $addFields: {
-          memberIds: {
-            $map: {
-              input: '$memberIds',
-              as: 'id',
-              in: {
-                $cond: {
-                  if: { $regexMatch: { input: '$$id', regex: /^[0-9a-fA-F]{24}$/ } },
-                  then: { $toObjectId: '$$id' },
-                  else: '$$id'
+            {
+                $project: {
+                    status: '$groups.tasks.status',
+                    priority: '$groups.tasks.priority',
+                    memberIds: '$groups.tasks.memberIds'
                 }
-              }
-            }
-          }
-        }
-      },
+            },
 
-      {
-        $facet: {
-          tasksCount: [{ $count: 'total' }],
-
-          // ✅ keep byStatus logic as-is
-          byStatus: [
             {
-              $group: {
-                _id: { $ifNull: ['$status.id', 'none'] },
-                txt: { $first: { $ifNull: ['$status.txt', 'No Status'] } },
-                cssVar: { $first: { $ifNull: ['$status.cssVar', '--layout-border-color'] } },
-                tasksCount: { $sum: 1 }
-              }
-            }
-          ],
+                $addFields: {
+                    memberIds: {
+                        $map: {
+                            input: '$memberIds',
+                            as: 'id',
+                            in: {
+                                $cond: {
+                                    if: { $regexMatch: { input: '$$id', regex: /^[0-9a-fA-F]{24}$/ } },
+                                    then: { $toObjectId: '$$id' },
+                                    else: '$$id'
+                                }
+                            }
+                        }
+                    }
+                }
+            },
 
-          // ✅ NEW byPriority facet (with fallback for missing values)
-          byPriority: [
             {
-              $group: {
-                _id: { $ifNull: ['$priority.id', 'none'] },
-                txt: { $first: { $ifNull: ['$priority.txt', 'No Priority'] } },
-                cssVar: { $first: { $ifNull: ['$priority.cssVar', '--layout-border-color'] } },
-                tasksCount: { $sum: 1 }
-              }
-            }
-          ],
+                $facet: {
+                    tasksCount: [{ $count: 'total' }],
 
-          byMember: [
-            { $unwind: { path: '$memberIds', preserveNullAndEmptyArrays: false } },
+                    // ✅ keep byStatus logic as-is
+                    byStatus: [
+                        {
+                            $group: {
+                                _id: { $ifNull: ['$status.id', 'none'] },
+                                txt: { $first: { $ifNull: ['$status.txt', 'No Status'] } },
+                                cssVar: { $first: { $ifNull: ['$status.cssVar', '--layout-border-color'] } },
+                                tasksCount: { $sum: 1 }
+                            }
+                        }
+                    ],
+
+                    // ✅ NEW byPriority facet (with fallback for missing values)
+                    byPriority: [
+                        {
+                            $group: {
+                                _id: { $ifNull: ['$priority.id', 'none'] },
+                                txt: { $first: { $ifNull: ['$priority.txt', 'No Priority'] } },
+                                cssVar: { $first: { $ifNull: ['$priority.cssVar', '--layout-border-color'] } },
+                                tasksCount: { $sum: 1 }
+                            }
+                        }
+                    ],
+
+                    byMember: [
+                        { $unwind: { path: '$memberIds', preserveNullAndEmptyArrays: false } },
+                        {
+                            $group: {
+                                _id: '$memberIds',
+                                tasksCount: { $sum: 1 }
+                            }
+                        }
+                    ]
+                }
+            },
+
+            { $unwind: { path: '$byMember', preserveNullAndEmptyArrays: true } },
+
             {
-              $group: {
-                _id: '$memberIds',
-                tasksCount: { $sum: 1 }
-              }
+                $lookup: {
+                    from: 'user',
+                    localField: 'byMember._id',
+                    foreignField: '_id',
+                    as: 'byMember.userInfo'
+                }
+            },
+
+            {
+                $set: {
+                    'byMember.userInfo': { $arrayElemAt: ['$byMember.userInfo', 0] }
+                }
+            },
+
+            {
+                $group: {
+                    _id: null,
+                    tasksCount: { $first: '$tasksCount' },
+                    byStatus: { $first: '$byStatus' },
+                    byPriority: { $first: '$byPriority' },
+                    byMember: { $push: '$byMember' }
+                }
             }
-          ]
-        }
-      },
+        ]
 
-      { $unwind: { path: '$byMember', preserveNullAndEmptyArrays: true } },
+        const [result] = await collection.aggregate(pipeline).toArray()
 
-      {
-        $lookup: {
-          from: 'user',
-          localField: 'byMember._id',
-          foreignField: '_id',
-          as: 'byMember.userInfo'
-        }
-      },
+        const tasksCount = result?.tasksCount?.[0]?.total || 0
 
-      {
-        $set: {
-          'byMember.userInfo': { $arrayElemAt: ['$byMember.userInfo', 0] }
-        }
-      },
+        const byStatus = result.byStatus.map(s => ({
+            id: s._id,
+            txt: s.txt,
+            cssVar: s.cssVar,
+            tasksCount: s.tasksCount,
+            tasksPercentage: parseFloat(((s.tasksCount / tasksCount) * 100).toFixed(1))
+        }))
 
-      {
-        $group: {
-          _id: null,
-          tasksCount: { $first: '$tasksCount' },
-          byStatus: { $first: '$byStatus' },
-          byPriority: { $first: '$byPriority' },
-          byMember: { $push: '$byMember' }
-        }
-      }
-    ]
+        const byPriority = result.byPriority.map(p => ({
+            id: p._id,
+            txt: p.txt,
+            cssVar: p.cssVar,
+            tasksCount: p.tasksCount,
+            tasksPercentage: parseFloat(((p.tasksCount / tasksCount) * 100).toFixed(1))
+        }))
 
-    const [result] = await collection.aggregate(pipeline).toArray()
+        const byMember = result.byMember.map(m => ({
+            memberId: m._id,
+            fullname: m.userInfo?.fullname || 'Unknown',
+            imgUrl: m.userInfo?.imgUrl || '',
+            tasksCount: m.tasksCount,
+            tasksPercentage: parseFloat(((m.tasksCount / tasksCount) * 100).toFixed(1))
+        }))
 
-    const tasksCount = result?.tasksCount?.[0]?.total || 0
 
-    const byStatus = result.byStatus.map(s => ({
-      id: s._id,
-      txt: s.txt,
-      cssVar: s.cssVar,
-      tasksCount: s.tasksCount,
-      tasksPercentage: parseFloat(((s.tasksCount / tasksCount) * 100).toFixed(1))
-    }))
+        return { tasksCount, byStatus, byPriority, byMember }
 
-    const byPriority = result.byPriority.map(p => ({
-      id: p._id,
-      txt: p.txt,
-      cssVar: p.cssVar,
-      tasksCount: p.tasksCount,
-      tasksPercentage: parseFloat(((p.tasksCount / tasksCount) * 100).toFixed(1))
-    }))
-
-    const byMember = result.byMember.map(m => ({
-      memberId: m._id,
-      fullname: m.userInfo?.fullname || 'Unknown',
-      imgUrl: m.userInfo?.imgUrl || '',
-      tasksCount: m.tasksCount,
-      tasksPercentage: parseFloat(((m.tasksCount / tasksCount) * 100).toFixed(1))
-    }))
-
-    
-    return { tasksCount, byStatus, byPriority, byMember }
-
-  } catch (err) {
-    console.error('Failed to build dashboard data:', err)
-    throw err
-  }
+    } catch (err) {
+        console.error('Failed to build dashboard data:', err)
+        throw err
+    }
 }
 
 //////////////////////////////////////////////////////////////////

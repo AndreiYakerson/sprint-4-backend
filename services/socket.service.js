@@ -80,7 +80,7 @@ async function broadcast({ type, data, room = null, userId }) {
 
     logger.info(`Broadcasting event: ${type}`)
     const excludedSocket = await _getUserSocket(userId)
-    console.log('excludedSocket:', excludedSocket)
+
     if (room && excludedSocket) {
         logger.info(`Broadcast to room ${room} excluding user: ${userId}`)
         excludedSocket.broadcast.to(room).emit(type, data)
