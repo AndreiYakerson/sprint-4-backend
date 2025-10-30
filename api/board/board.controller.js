@@ -143,9 +143,14 @@ export async function addGroup(req, res) {
     try {
         group.owner = loggedinUser
 
-        console.log(group);
-
         const addedGroup = await boardService.addGroup(boardId, group)
+
+        socketService.broadcast({
+            type: 'event-add-group',
+            data: { newGroup: addedGroup },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
 
         res.json(addedGroup)
     } catch (err) {
@@ -171,6 +176,7 @@ export async function updateGroup(req, res) {
             room: boardId,
             userId: loggedinUser?._id
         })
+
 
         res.json(updatedGroup)
     } catch (err) {
