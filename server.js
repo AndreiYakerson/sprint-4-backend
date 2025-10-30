@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === 'production') {
             'http://127.0.0.1:5173',
             'http://localhost:5173',
             'http://localhost:5174',
-            'https://sprint-4-backend.onrender.com'
+            // 'https://sprint-4-backend.onrender.com'
         ],
         credentials: true
     }

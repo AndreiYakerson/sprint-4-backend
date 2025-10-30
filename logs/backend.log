@@ -14193,3 +14193,56 @@
 30.10.2025, 18:31:29 - INFO - New connected socket [id: I7btM8JWhjNAsHSoAAAB]
 30.10.2025, 18:32:28 - INFO - Server is running on port: 3030
 30.10.2025, 18:32:29 - INFO - New connected socket [id: _qTNG9SYD0TuRsvXAAAB]
+30.10.2025, 18:35:04 - INFO - /api/board | GET |  | {}
+30.10.2025, 18:35:04 - INFO - /api/board | GET |  | {}
+30.10.2025, 18:35:10 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"}
+30.10.2025, 18:35:10 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"}
+30.10.2025, 18:35:10 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"}
+30.10.2025, 18:35:17 - INFO - /api/board | GET |  | {}
+30.10.2025, 18:35:26 - INFO - /api/board | GET |  | {}
+30.10.2025, 18:35:26 - INFO - /api/board | GET |  | {}
+30.10.2025, 18:35:35 - INFO - /api/board | POST | {"title":"New Board 999","privacy":"main","managingType":"item","isStarred":false,"createdAt":1761842135336,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"Not Started","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[{"_id":"uQIQw5","fullname":"Aisha Khan","password":"user 1","profession":"Head Chef","tags":["member"],"imgUrl":"/img/demoUsers/user1.png"},{"_id":"NzKWhW","fullname":"Benjamin Chen","password":"user 2","profession":"Pastry Chef","tags":["member"],"imgUrl":"/img/demoUsers/user2.png"},{"_id":"8wEII6","fullname":"Grace Dubois","password":"user 3","profession":"Baker","tags":["member"],"imgUrl":"/img/demoUsers/user3.png"},{"_id":"w2Tlwm","fullname":"Samuel Rivera","password":"user 4","profession":"cold-line cook","tags":["member"],"imgUrl":"/img/demoUsers/user4.png"},{"_id":"nhtAsM","fullname":"Olivia Mason","password":"user 5","profession":"hot-line cook","tags":["member"],"imgUrl":"/img/demoUsers/user5.png"}],"groups":[{"id":"35IWQz","title":"Group 1","createdAt":1761842135336,"isCollapsed":false,"tasks":[{"id":"ZaU0gZ","title":"Item 1","createdAt":1761842135336,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]},{"id":"TvqOYV","title":"Item 2","createdAt":1761842135336,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"Not Started"},"updates":[]}],"style":{"--group-color":"#27c977"}}],"activities":[]} | {}
+30.10.2025, 18:38:33 - INFO - Server is running on port: 3030
+30.10.2025, 18:38:38 - INFO - New connected socket [id: eP6QIK-quPsmZfWWAAAB]
+30.10.2025, 18:38:43 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 18:38:43 - INFO - New connected socket [id: fZb5JtUl_Fr9MXsVAAAD]
+30.10.2025, 18:38:44 - INFO - Setting socket.userId = 69032622b2a1f6e79b018695 for socket [id: fZb5JtUl_Fr9MXsVAAAD]
+30.10.2025, 18:38:44 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:38:45 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:38:45 - INFO - /api/board | GET |  | {"boardId":"6903265fb2a1f6e79b018696","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 18:39:04 - INFO - New connected socket [id: NIi0oKd7jHGIS9LPAAAF]
+30.10.2025, 18:39:04 - INFO - Setting socket.userId = 69032622b2a1f6e79b018695 for socket [id: NIi0oKd7jHGIS9LPAAAF]
+30.10.2025, 18:39:04 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:04 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 18:39:47 - INFO - New connected socket [id: p3lkPcxSAbQu6pFkAAAH]
+30.10.2025, 18:39:47 - INFO - Setting socket.userId = 69032622b2a1f6e79b018695 for socket [id: p3lkPcxSAbQu6pFkAAAH]
+30.10.2025, 18:39:47 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:39:47 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - INFO - Socket disconnected [id: undefined]
+30.10.2025, 18:40:00 - INFO - New connected socket [id: y2KGuyPYRL9JMtpiAAAJ]
+30.10.2025, 18:40:00 - INFO - Setting socket.userId = 69032622b2a1f6e79b018695 for socket [id: y2KGuyPYRL9JMtpiAAAJ]
+30.10.2025, 18:40:00 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+30.10.2025, 18:40:00 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
