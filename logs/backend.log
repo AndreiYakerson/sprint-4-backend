@@ -14088,3 +14088,7 @@
 30.10.2025, 11:02:08 - INFO - /api/board | GET |  | {} | 690327a42345ee2a0170bd36
 30.10.2025, 11:02:08 - INFO - /api/board | GET |  | {"boardId":"690326c1b2a1f6e79b018697","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690327a42345ee2a0170bd36
 30.10.2025, 11:02:09 - INFO - /api/board | GET |  | {"boardId":"690326c1b2a1f6e79b018697","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690327a42345ee2a0170bd36
+30.10.2025, 12:30:48 - INFO - Server is running on port: 3030
+30.10.2025, 12:30:50 - INFO - New connected socket [id: gnAYHUjAHEMcSzOcAAAB]
+30.10.2025, 12:31:09 - INFO - Server is running on port: 3030
+30.10.2025, 12:31:11 - INFO - New connected socket [id: nrvzvMdEi38A77UyAAAB]
