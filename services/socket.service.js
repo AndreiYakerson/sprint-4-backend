@@ -61,7 +61,7 @@ function emitTo({ type, data, label }) {
 }
 
 async function emitToUser({ type, data, userId }) {
-    userId = userId.toString()
+    userId = userId?.toString()
     const socket = await _getUserSocket(userId)
 
     if (socket) {
@@ -126,5 +126,5 @@ export const socketService = {
     // Send to all sockets BUT not the current socket - if found
     // (otherwise broadcast to a room / to all)
     broadcast,
-    
+
 }
