@@ -78,8 +78,7 @@ export async function updateBoard(req, res) {
 
         socketService.broadcast({
             type: 'event-update-board',
-            data: updatedBoard,
-            room: boardId,
+            data: { updatedBoard },
             userId: loggedinUser?._id
         })
 
