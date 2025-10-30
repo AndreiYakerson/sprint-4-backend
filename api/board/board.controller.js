@@ -134,7 +134,6 @@ export async function removeBoardMsg(req, res) {
 // groups
 
 export async function addGroup(req, res) {
-    console.log('YES');
 
     const { boardId } = req.params
     const { loggedinUser } = asyncLocalStorage.getStore()
@@ -161,16 +160,19 @@ export async function updateGroup(req, res) {
     const { loggedinUser } = asyncLocalStorage.getStore()
 
     try {
-        const addedGroup = await boardService.updateGroup(boardId, group)
+        const updatedGroup = await boardService.updateGroup(boardId, group)
+
+        const groupToSocket = structuredClone(updatedGroup)
+        delete groupToSocket?.tasks
 
         socketService.broadcast({
             type: 'event-update-group',
-            data: { addedGroup, boardId },
+            data: { updatedGroup: groupToSocket, boardId },
             room: boardId,
             userId: loggedinUser?._id
         })
 
-        res.json(addedGroup)
+        res.json(updatedGroup)
     } catch (err) {
         logger.error('Failed to add group', err)
         res.status(400).send({ err: 'Failed to add group' })
