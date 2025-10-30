@@ -195,6 +195,13 @@ export async function updateGroupOrder(req, res) {
 
         const addedGroup = await boardService.updateGroupOrder(boardId, orderedGroups)
 
+        socketService.broadcast({
+            type: 'event-update-groups-order',
+            data: { groups: orderedGroups },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(addedGroup)
     } catch (err) {
         logger.error('Failed to add group', err)
