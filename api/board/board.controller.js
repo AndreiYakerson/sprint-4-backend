@@ -207,8 +207,17 @@ export async function removeGroup(req, res) {
 
     try {
         const { boardId, groupId } = req.params
+        const { loggedinUser } = req
 
         const updatedBoard = await boardService.removeGroup(boardId, groupId)
+
+        socketService.broadcast({
+            type: 'event-remove-group',
+            data: { groupId },
+            room: boardId,
+            userId: loggedinUser?._id
+        })
+
         res.json(updatedBoard)
     } catch (err) {
         logger.error('Failed to remove group', err)
