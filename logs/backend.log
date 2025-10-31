@@ -14311,3 +14311,13 @@
 31.10.2025, 10:31:36 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
 31.10.2025, 10:48:26 - INFO - Server is running on port: 3030
 31.10.2025, 10:49:23 - INFO - Server is running on port: 3030
+31.10.2025, 10:50:58 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:50:58 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:00 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:06 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:09 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:09 - INFO - /api/board | GET |  | {} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:10 - DEBUG - auth.service - signup with username: HappyGuest24, fullname: HappyGuest | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:11 - DEBUG - auth.route - new account created: {"username":"HappyGuest24","password":"$2b$10$gM9N9TpF9dAGrKk/x2Hoh.NSjh.DOXzuxc7y.8qcWWom4mp4gJQZq","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"6904787e0aafca634590022f"} | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:11 - DEBUG - auth.service - login with username: HappyGuest24 | 69046f52e59e68258e31cb4f
+31.10.2025, 10:51:11 - INFO - User signup: | {"_id":"6904787e0aafca634590022f","username":"HappyGuest24","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null} | 69046f52e59e68258e31cb4f
