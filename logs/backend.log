@@ -14246,3 +14246,19 @@
 30.10.2025, 18:40:00 - INFO - /api/board | GET |  | {"boardId":"undefined","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69032622b2a1f6e79b018695
 30.10.2025, 18:40:00 - ERROR - while finding board undefined | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
 30.10.2025, 18:40:00 - ERROR - Failed to get board | BSONError: hex string must be 24 characters | 69032622b2a1f6e79b018695
+31.10.2025, 9:34:05 - INFO - Socket disconnected [id: undefined]
+31.10.2025, 9:34:09 - INFO - New connected socket [id: cqLTaL70kCDGRfI7AAAT]
+31.10.2025, 9:34:33 - INFO - /api/board | GET |  | {} | 6904656e377d20a67c201585
+31.10.2025, 9:34:33 - INFO - /api/board | GET |  | {} | 6904656e377d20a67c201585
+31.10.2025, 9:34:33 - DEBUG - auth.service - signup with username: HappyGuest18, fullname: HappyGuest | 6904656e377d20a67c201585
+31.10.2025, 9:34:34 - DEBUG - auth.service - login with username: HappyGuest18 | 6904656e377d20a67c201585
+31.10.2025, 9:34:34 - DEBUG - auth.route - new account created: {"username":"HappyGuest18","password":"$2b$10$SWinAO1p1ALrfVcJ3koSBOBetsnIc4KXEqV6u/M7OAZ4.fjMnsL8K","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"6904668a377d20a67c201586"} | 6904656e377d20a67c201585
+31.10.2025, 9:34:34 - INFO - User signup: | {"_id":"6904668a377d20a67c201586","username":"HappyGuest18","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null} | 6904656e377d20a67c201585
+31.10.2025, 9:34:34 - INFO - Setting socket.userId = 6904668a377d20a67c201586 for socket [id: cqLTaL70kCDGRfI7AAAT]
+31.10.2025, 9:41:50 - INFO - Socket disconnected [id: undefined]
+31.10.2025, 9:41:52 - INFO - New connected socket [id: RJK4-hNKikpNCYDKAAAV]
+31.10.2025, 9:41:52 - INFO - Setting socket.userId = 6904668a377d20a67c201586 for socket [id: RJK4-hNKikpNCYDKAAAV]
+31.10.2025, 9:41:52 - INFO - /api/board | GET |  | {} | 6904668a377d20a67c201586
+31.10.2025, 9:41:52 - INFO - /api/board | GET |  | {} | 6904668a377d20a67c201586
+31.10.2025, 9:52:50 - INFO - Socket disconnected [id: undefined]
+31.10.2025, 10:02:58 - INFO - Server is running on port: 3030
