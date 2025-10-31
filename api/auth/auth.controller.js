@@ -8,9 +8,10 @@ export async function login(req, res) {
         const loginToken = authService.getLoginToken(user)
 
         logger.info('User login: ', user)
+
         // Doesn't accept sockets coming from Incognito 
         // res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
-      
+
         //this accept!! sockets coming from Incognito 
         res.cookie('loginToken', loginToken, { sameSite: 'Lax', secure: false })
         res.json(user)
@@ -24,9 +25,6 @@ export async function signup(req, res) {
     try {
         const credentials = req.body
 
-        // Never log passwords
-        // logger.debug(credentials)
-
         const account = await authService.signup(credentials)
         logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
 
@@ -34,10 +32,11 @@ export async function signup(req, res) {
         logger.info('User signup:', user)
 
         const loginToken = authService.getLoginToken(user)
-        // do not allow getting cookies From Incognito. 
+
+        // Doesn't accept sockets coming from Incognito 
         // res.cookie('loginToken', loginToken, { sameSite: 'None', secure: true })
 
-        // Allows cookies from everywhere 
+        //this accept!! sockets coming from Incognito 
         res.cookie('loginToken', loginToken, { sameSite: 'Lax', secure: true })
 
         res.json(user)
@@ -55,6 +54,3 @@ export async function logout(req, res) {
         res.status(400).send({ err: 'Failed to logout' })
     }
 }
-
-// Hey there. One. One check one check
-// HeyHey there. One. One check one check
