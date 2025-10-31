@@ -14323,3 +14323,7 @@
 31.10.2025, 10:51:11 - INFO - User signup: | {"_id":"6904787e0aafca634590022f","username":"HappyGuest24","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null} | 69046f52e59e68258e31cb4f
 31.10.2025, 14:37:45 - INFO - Server is running on port: 3030
 31.10.2025, 14:37:49 - INFO - Server is running on port: 3030
+31.10.2025, 14:46:13 - INFO - Server is running on port: 3030
+31.10.2025, 14:46:39 - INFO - New connected socket [id: oiqsB_44MOF8VTX9AAAB]
+31.10.2025, 14:56:40 - INFO - Server is running on port: 3030
+31.10.2025, 14:56:42 - INFO - New connected socket [id: 1WMs7Jc6ad-AYRfDAAAB]
