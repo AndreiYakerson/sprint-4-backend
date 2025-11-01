@@ -15202,3 +15202,158 @@
 1.11.2025, 18:38:10 - INFO - /api/board | GET |  | {} | 6905bee2a47bac8ec400fefa
 1.11.2025, 18:38:11 - INFO - /api/board | GET |  | {} | 6905bee2a47bac8ec400fefa
 1.11.2025, 18:38:11 - INFO - /api/board | GET |  | {} | 6905bee2a47bac8ec400fefa
+1.11.2025, 19:08:57 - INFO - Server is running on port: 3030
+1.11.2025, 19:08:58 - INFO - New connected socket [id: 3V1DOu6lXIQczrwaAAAB]
+1.11.2025, 19:09:00 - INFO - Socket disconnected [id: undefined]
+1.11.2025, 19:10:14 - INFO - New connected socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:12:47 - DEBUG - auth.service - signup with username: dandan, fullname: Dan weibren | 6905bee2a47bac8ec400fefa
+1.11.2025, 19:12:48 - DEBUG - auth.route - new account created: {"username":"dandan","password":"$2b$10$4aqmcFGhyLiAW6xr5II.leIcM8LaRGSMQQUGOic2Go6X20AVBNWgm","fullname":"Dan weibren","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017158/nrlvmzkslyqodbhp3w03.png","isAdmin":false,"profession":"Head Chef","_id":"69063f905baa2f111fc6c3d2"} | 6905bee2a47bac8ec400fefa
+1.11.2025, 19:12:48 - DEBUG - auth.service - login with username: dandan | 6905bee2a47bac8ec400fefa
+1.11.2025, 19:12:48 - INFO - User signup: | {"_id":"69063f905baa2f111fc6c3d2","username":"dandan","fullname":"Dan weibren","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017158/nrlvmzkslyqodbhp3w03.png","isAdmin":false,"profession":"Head Chef"} | 6905bee2a47bac8ec400fefa
+1.11.2025, 19:12:48 - INFO - Setting socket.userId = 69063f905baa2f111fc6c3d2 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:12:48 - INFO - /api/board | GET |  | {} | 69063f905baa2f111fc6c3d2
+1.11.2025, 19:12:48 - INFO - /api/board | GET |  | {} | 69063f905baa2f111fc6c3d2
+1.11.2025, 19:12:57 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:13:43 - DEBUG - auth.service - signup with username: Aisha, fullname: Aisha Khan | 69063f905baa2f111fc6c3d2
+1.11.2025, 19:13:44 - DEBUG - auth.service - login with username: Aisha | 69063f905baa2f111fc6c3d2
+1.11.2025, 19:13:44 - DEBUG - auth.route - new account created: {"username":"Aisha","password":"$2b$10$RqVq7XNq2cG44SBrB8sjmeGsaTbofV3YH32PaVGzIZVMh27MoMHTK","fullname":"Aisha Khan","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017216/jgdlav2olql0pbo2ktcz.png","isAdmin":false,"profession":"Pastry Chef","_id":"69063fc75baa2f111fc6c3d3"} | 69063f905baa2f111fc6c3d2
+1.11.2025, 19:13:44 - INFO - User signup: | {"_id":"69063fc75baa2f111fc6c3d3","username":"Aisha","fullname":"Aisha Khan","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017216/jgdlav2olql0pbo2ktcz.png","isAdmin":false,"profession":"Pastry Chef"} | 69063f905baa2f111fc6c3d2
+1.11.2025, 19:13:44 - INFO - Setting socket.userId = 69063fc75baa2f111fc6c3d3 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:13:44 - INFO - /api/board | GET |  | {} | 69063fc75baa2f111fc6c3d3
+1.11.2025, 19:13:44 - INFO - /api/board | GET |  | {} | 69063fc75baa2f111fc6c3d3
+1.11.2025, 19:13:48 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:14:26 - DEBUG - auth.service - signup with username: Grace , fullname: Grace Dubois | 69063fc75baa2f111fc6c3d3
+1.11.2025, 19:14:26 - DEBUG - auth.route - new account created: {"username":"Grace ","password":"$2b$10$Cpv.SKVfWThItb8q92.Qk.oWlnQlmkg20eaMlAzddgHXxFlRjwm2e","fullname":"Grace Dubois","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017260/eozigtavzf4gx7t0lifh.png","isAdmin":false,"profession":"Baker","_id":"69063ff25baa2f111fc6c3d4"} | 69063fc75baa2f111fc6c3d3
+1.11.2025, 19:14:26 - DEBUG - auth.service - login with username: Grace  | 69063fc75baa2f111fc6c3d3
+1.11.2025, 19:14:26 - INFO - User signup: | {"_id":"69063ff25baa2f111fc6c3d4","username":"Grace ","fullname":"Grace Dubois","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017260/eozigtavzf4gx7t0lifh.png","isAdmin":false,"profession":"Baker"} | 69063fc75baa2f111fc6c3d3
+1.11.2025, 19:14:26 - INFO - Setting socket.userId = 69063ff25baa2f111fc6c3d4 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:14:26 - INFO - /api/board | GET |  | {} | 69063ff25baa2f111fc6c3d4
+1.11.2025, 19:14:26 - INFO - /api/board | GET |  | {} | 69063ff25baa2f111fc6c3d4
+1.11.2025, 19:14:28 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:15:14 - DEBUG - auth.service - signup with username: Samuel , fullname: Samuel Rivera | 69063ff25baa2f111fc6c3d4
+1.11.2025, 19:15:14 - DEBUG - auth.route - new account created: {"username":"Samuel ","password":"$2b$10$sEpdMt4vFoiDR00OcE9Sn.6Gmwv5MEcpj0NZ5.xernFkrpzUl3xPO","fullname":"Samuel Rivera","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017305/mupzi1qzwslh2iwd1c9t.png","isAdmin":false,"profession":"cold-line cook","_id":"690640225baa2f111fc6c3d5"} | 69063ff25baa2f111fc6c3d4
+1.11.2025, 19:15:14 - DEBUG - auth.service - login with username: Samuel  | 69063ff25baa2f111fc6c3d4
+1.11.2025, 19:15:14 - INFO - User signup: | {"_id":"690640225baa2f111fc6c3d5","username":"Samuel ","fullname":"Samuel Rivera","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017305/mupzi1qzwslh2iwd1c9t.png","isAdmin":false,"profession":"cold-line cook"} | 69063ff25baa2f111fc6c3d4
+1.11.2025, 19:15:15 - INFO - Setting socket.userId = 690640225baa2f111fc6c3d5 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:15:15 - INFO - /api/board | GET |  | {} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:15:15 - INFO - /api/board | GET |  | {} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:15:18 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:15:50 - DEBUG - auth.service - signup with username: Olivia , fullname: Olivia Mason | 690640225baa2f111fc6c3d5
+1.11.2025, 19:15:50 - DEBUG - auth.route - new account created: {"username":"Olivia ","password":"$2b$10$mW379t7kELVQqT.eRyQOAeL0I..UNlJ/8UnZaGjYBFd6FwB0J3d9.","fullname":"Olivia Mason","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017342/ud6ad6d1zziq6un6rtej.png","isAdmin":false,"profession":"hot-line cook","_id":"690640465baa2f111fc6c3d6"} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:15:50 - DEBUG - auth.service - login with username: Olivia  | 690640225baa2f111fc6c3d5
+1.11.2025, 19:15:50 - INFO - User signup: | {"_id":"690640465baa2f111fc6c3d6","username":"Olivia ","fullname":"Olivia Mason","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017342/ud6ad6d1zziq6un6rtej.png","isAdmin":false,"profession":"hot-line cook"} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:15:51 - INFO - Setting socket.userId = 690640465baa2f111fc6c3d6 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:15:51 - INFO - /api/board | GET |  | {} | 690640465baa2f111fc6c3d6
+1.11.2025, 19:15:51 - INFO - /api/board | GET |  | {} | 690640465baa2f111fc6c3d6
+1.11.2025, 19:15:52 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:16:38 - DEBUG - auth.service - signup with username: Emma , fullname: Emma Ruiz | 690640465baa2f111fc6c3d6
+1.11.2025, 19:16:39 - DEBUG - auth.route - new account created: {"username":"Emma ","password":"$2b$10$sZVHIv3QyEnDClCUknvwUOalWxvErPvVDZxvUkqUDyCA1Q41S0iD.","fullname":"Emma Ruiz","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017391/ulvlhi9jvizxpznzewxi.png","isAdmin":false,"profession":"Pizza chef","_id":"690640775baa2f111fc6c3d7"} | 690640465baa2f111fc6c3d6
+1.11.2025, 19:16:39 - DEBUG - auth.service - login with username: Emma  | 690640465baa2f111fc6c3d6
+1.11.2025, 19:16:39 - INFO - User signup: | {"_id":"690640775baa2f111fc6c3d7","username":"Emma ","fullname":"Emma Ruiz","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017391/ulvlhi9jvizxpznzewxi.png","isAdmin":false,"profession":"Pizza chef"} | 690640465baa2f111fc6c3d6
+1.11.2025, 19:16:39 - INFO - Setting socket.userId = 690640775baa2f111fc6c3d7 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:16:39 - INFO - /api/board | GET |  | {} | 690640775baa2f111fc6c3d7
+1.11.2025, 19:16:39 - INFO - /api/board | GET |  | {} | 690640775baa2f111fc6c3d7
+1.11.2025, 19:16:40 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:17:11 - DEBUG - auth.service - signup with username: Logan, fullname: Logan Park | 690640775baa2f111fc6c3d7
+1.11.2025, 19:17:11 - DEBUG - auth.route - new account created: {"username":"Logan","password":"$2b$10$zQA6EgsAnhN76g4c30RwHO6wy9aIzpCHPuodq33l9tspsh4zL08QK","fullname":"Logan Park","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false,"profession":"hot-line cook","_id":"690640975baa2f111fc6c3d8"} | 690640775baa2f111fc6c3d7
+1.11.2025, 19:17:11 - DEBUG - auth.service - login with username: Logan | 690640775baa2f111fc6c3d7
+1.11.2025, 19:17:11 - INFO - User signup: | {"_id":"690640975baa2f111fc6c3d8","username":"Logan","fullname":"Logan Park","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":false,"profession":"hot-line cook"} | 690640775baa2f111fc6c3d7
+1.11.2025, 19:17:11 - INFO - Setting socket.userId = 690640975baa2f111fc6c3d8 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:17:12 - INFO - /api/board | GET |  | {} | 690640975baa2f111fc6c3d8
+1.11.2025, 19:17:12 - INFO - /api/board | GET |  | {} | 690640975baa2f111fc6c3d8
+1.11.2025, 19:17:22 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:19:47 - DEBUG - auth.service - signup with username: Logan, fullname: Logan Park | 690640975baa2f111fc6c3d8
+1.11.2025, 19:19:48 - DEBUG - auth.route - new account created: {"username":"Logan","password":"$2b$10$vVMES/6GezSZheklljxw3OmsMt1yPOmParCntXe5V5257HZDR.Yme","fullname":"Logan Park","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017576/h9bjajzgrzxqgbkq3ds7.png","isAdmin":false,"profession":"hot-line cook","_id":"690641345baa2f111fc6c3d9"} | 690640975baa2f111fc6c3d8
+1.11.2025, 19:19:48 - DEBUG - auth.service - login with username: Logan | 690640975baa2f111fc6c3d8
+1.11.2025, 19:19:48 - INFO - User signup: | {"_id":"690641345baa2f111fc6c3d9","username":"Logan","fullname":"Logan Park","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017576/h9bjajzgrzxqgbkq3ds7.png","isAdmin":false,"profession":"hot-line cook"} | 690640975baa2f111fc6c3d8
+1.11.2025, 19:19:48 - INFO - Setting socket.userId = 690641345baa2f111fc6c3d9 for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:19:48 - INFO - /api/board | GET |  | {} | 690641345baa2f111fc6c3d9
+1.11.2025, 19:19:48 - INFO - /api/board | GET |  | {} | 690641345baa2f111fc6c3d9
+1.11.2025, 19:19:51 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:27:56 - DEBUG - auth.service - signup with username: Natalie , fullname: Natalie Brooks | 690641345baa2f111fc6c3d9
+1.11.2025, 19:27:56 - DEBUG - auth.service - login with username: Natalie  | 690641345baa2f111fc6c3d9
+1.11.2025, 19:27:56 - DEBUG - auth.route - new account created: {"username":"Natalie ","password":"$2b$10$0n7ujYo2oTk2QukY6t4aley2VS3TsdEHrXMrP4gsMczHeytJt5QD6","fullname":"Natalie Brooks","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762018073/sjeyoyecvvipfrhcqnhd.png","isAdmin":false,"profession":"cold-line cook","_id":"6906431c5baa2f111fc6c3da"} | 690641345baa2f111fc6c3d9
+1.11.2025, 19:27:56 - INFO - User signup: | {"_id":"6906431c5baa2f111fc6c3da","username":"Natalie ","fullname":"Natalie Brooks","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762018073/sjeyoyecvvipfrhcqnhd.png","isAdmin":false,"profession":"cold-line cook"} | 690641345baa2f111fc6c3d9
+1.11.2025, 19:27:57 - INFO - Setting socket.userId = 6906431c5baa2f111fc6c3da for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:27:57 - INFO - /api/board | GET |  | {} | 6906431c5baa2f111fc6c3da
+1.11.2025, 19:27:57 - INFO - /api/board | GET |  | {} | 6906431c5baa2f111fc6c3da
+1.11.2025, 19:27:59 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:28:39 - DEBUG - auth.service - signup with username: Omar , fullname: Omar Haddad | 6906431c5baa2f111fc6c3da
+1.11.2025, 19:28:40 - DEBUG - auth.service - login with username: Omar  | 6906431c5baa2f111fc6c3da
+1.11.2025, 19:28:40 - DEBUG - auth.route - new account created: {"username":"Omar ","password":"$2b$10$PksfCjlh7tQQdH1NiwXSg.MmHz8UMR49Ytgr/5uTYLQyKHWN73FTq","fullname":"Omar Haddad","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762018114/o6rkjqzfx4xufnm3rdqj.png","isAdmin":false,"profession":"hot-line cook","_id":"690643475baa2f111fc6c3db"} | 6906431c5baa2f111fc6c3da
+1.11.2025, 19:28:40 - INFO - User signup: | {"_id":"690643475baa2f111fc6c3db","username":"Omar ","fullname":"Omar Haddad","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762018114/o6rkjqzfx4xufnm3rdqj.png","isAdmin":false,"profession":"hot-line cook"} | 6906431c5baa2f111fc6c3da
+1.11.2025, 19:28:40 - INFO - Setting socket.userId = 690643475baa2f111fc6c3db for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:28:40 - INFO - /api/board | GET |  | {} | 690643475baa2f111fc6c3db
+1.11.2025, 19:28:40 - INFO - /api/board | GET |  | {} | 690643475baa2f111fc6c3db
+1.11.2025, 19:28:42 - INFO - Removing socket.userId for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:30:39 - DEBUG - auth.service - signup with username: Jade , fullname: Jade Emerson | 690643475baa2f111fc6c3db
+1.11.2025, 19:30:39 - DEBUG - auth.route - new account created: {"username":"Jade ","password":"$2b$10$U9iry.t3Po31L4w451j5Oe4PLvY2TSE0So3NbTsOwQrhPcvMld.wa","fullname":"Jade Emerson","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762018233/mic4m8xedbmehxxmwhdq.png","isAdmin":false,"profession":"cold-line cook","_id":"690643bf5baa2f111fc6c3dc"} | 690643475baa2f111fc6c3db
+1.11.2025, 19:30:39 - DEBUG - auth.service - login with username: Jade  | 690643475baa2f111fc6c3db
+1.11.2025, 19:30:39 - INFO - User signup: | {"_id":"690643bf5baa2f111fc6c3dc","username":"Jade ","fullname":"Jade Emerson","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762018233/mic4m8xedbmehxxmwhdq.png","isAdmin":false,"profession":"cold-line cook"} | 690643475baa2f111fc6c3db
+1.11.2025, 19:30:39 - INFO - Setting socket.userId = 690643bf5baa2f111fc6c3dc for socket [id: ldqUMCRK0hvI-dUFAAAD]
+1.11.2025, 19:30:39 - INFO - /api/board | GET |  | {} | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:30:39 - INFO - /api/board | GET |  | {} | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:22 - INFO - /api/board | GET |  | {"boardId":"690643b7a31ed5c305861daf","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:22 - INFO - /api/board | GET |  | {"boardId":"690643b7a31ed5c305861daf","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:22 - INFO - /api/board | GET |  | {"boardId":"690643b7a31ed5c305861daf","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:36 - INFO - Broadcasting event: event-add-group | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:36 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690643bf5baa2f111fc6c3dc | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:38 - INFO - Broadcasting event: event-add-group | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:38 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690643bf5baa2f111fc6c3dc | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:41 - INFO - Broadcasting event: event-add-group | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:41 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690643bf5baa2f111fc6c3dc | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:32:49 - INFO - Socket disconnected [id: undefined]
+1.11.2025, 19:33:01 - INFO - New connected socket [id: SuwtMTejmP95uHPUAAAF]
+1.11.2025, 19:33:10 - DEBUG - auth.service - login with username: Samuel  | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:33:11 - INFO - User login:  | {"_id":"690640225baa2f111fc6c3d5","username":"Samuel ","fullname":"Samuel Rivera","imgUrl":"https://res.cloudinary.com/dy972hmba/image/upload/v1762017305/mupzi1qzwslh2iwd1c9t.png","isAdmin":false,"profession":"cold-line cook"} | 690643bf5baa2f111fc6c3dc
+1.11.2025, 19:33:11 - INFO - Setting socket.userId = 690640225baa2f111fc6c3d5 for socket [id: SuwtMTejmP95uHPUAAAF]
+1.11.2025, 19:33:11 - INFO - /api/board | GET |  | {} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:11 - INFO - /api/board | GET |  | {} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:14 - INFO - /api/board | GET |  | {"boardId":"690643b7a31ed5c305861daf","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:14 - INFO - /api/board | GET |  | {"boardId":"690643b7a31ed5c305861daf","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:14 - INFO - /api/board | GET |  | {"boardId":"690643b7a31ed5c305861daf","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:46 - INFO - Broadcasting event: event-add-group | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:46 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690640225baa2f111fc6c3d5 | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:51 - INFO - Broadcasting event: event-add-task | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:51 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690640225baa2f111fc6c3d5 | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:56 - INFO - Broadcasting event: event-add-task | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:56 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690640225baa2f111fc6c3d5 | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:58 - INFO - Broadcasting event: event-add-task | 690640225baa2f111fc6c3d5
+1.11.2025, 19:33:58 - INFO - Broadcast to room 690643b7a31ed5c305861daf excluding user: 690640225baa2f111fc6c3d5 | 690640225baa2f111fc6c3d5
+1.11.2025, 19:34:34 - INFO - Socket disconnected [id: undefined]
+1.11.2025, 19:38:13 - INFO - New connected socket [id: Zgn43lDOWgfG0DhOAAAH]
+1.11.2025, 19:38:24 - INFO - /api/board | GET |  | {} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:38:25 - INFO - /api/board | GET |  | {} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:38:25 - DEBUG - auth.service - signup with username: HappyGuest12, fullname: HappyGuest | 690640225baa2f111fc6c3d5
+1.11.2025, 19:38:25 - DEBUG - auth.route - new account created: {"username":"HappyGuest12","password":"$2b$10$5sKM/wX75T/OJ/eguFRcDet4uaFZCiVv1KrSP2EJ00WjohoPuPfcW","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"690645915baa2f111fc6c3dd"} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:38:25 - DEBUG - auth.service - login with username: HappyGuest12 | 690640225baa2f111fc6c3d5
+1.11.2025, 19:38:25 - INFO - User signup: | {"_id":"690645915baa2f111fc6c3dd","username":"HappyGuest12","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null,"profession":null} | 690640225baa2f111fc6c3d5
+1.11.2025, 19:38:25 - INFO - Setting socket.userId = 690645915baa2f111fc6c3dd for socket [id: Zgn43lDOWgfG0DhOAAAH]
+1.11.2025, 19:38:30 - INFO - /api/board | GET |  | {"boardId":"690641c54ea9ad5c48522d82","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690645915baa2f111fc6c3dd
+1.11.2025, 19:38:30 - INFO - /api/board | GET |  | {"boardId":"690641c54ea9ad5c48522d82","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690645915baa2f111fc6c3dd
+1.11.2025, 19:38:30 - INFO - /api/board | GET |  | {"boardId":"690641c54ea9ad5c48522d82","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:10 - INFO - New connected socket [id: iYFYqe95k0nfzTM_AAAJ]
+1.11.2025, 20:40:18 - INFO - Socket disconnected [id: undefined]
+1.11.2025, 20:40:20 - INFO - /api/board | GET |  | {} | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:20 - INFO - /api/board | GET |  | {} | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:20 - DEBUG - auth.service - signup with username: HappyGuest16, fullname: HappyGuest | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:20 - DEBUG - auth.route - new account created: {"username":"HappyGuest16","password":"$2b$10$1MhGunC5m.5gcQZzd4EGEOvn4SkQ4x.IxQUQhZZa771RNjZ6qa/h.","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"690654145baa2f111fc6c3de"} | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:20 - DEBUG - auth.service - login with username: HappyGuest16 | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:20 - INFO - User signup: | {"_id":"690654145baa2f111fc6c3de","username":"HappyGuest16","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null,"profession":null} | 690645915baa2f111fc6c3dd
+1.11.2025, 20:40:21 - INFO - Setting socket.userId = 690654145baa2f111fc6c3de for socket [id: iYFYqe95k0nfzTM_AAAJ]
+1.11.2025, 20:44:22 - INFO - /api/board | GET |  | {"boardId":"69065371a31ed5c305861db3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690654145baa2f111fc6c3de
+1.11.2025, 20:44:22 - INFO - /api/board | GET |  | {"boardId":"69065371a31ed5c305861db3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690654145baa2f111fc6c3de
+1.11.2025, 20:44:22 - INFO - /api/board | GET |  | {"boardId":"69065371a31ed5c305861db3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:37 - INFO - Server is running on port: 3030
+1.11.2025, 20:47:38 - INFO - New connected socket [id: RRPHenBBiMORted7AAAB]
+1.11.2025, 20:47:44 - INFO - Broadcasting event: event-update-task | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:44 - INFO - Emit to room: 69065371a31ed5c305861db3 | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:49 - INFO - Socket disconnected [id: undefined]
+1.11.2025, 20:47:50 - INFO - New connected socket [id: GLymb1uX9rKxhHuoAAAD]
+1.11.2025, 20:47:50 - INFO - Setting socket.userId = 690654145baa2f111fc6c3de for socket [id: GLymb1uX9rKxhHuoAAAD]
+1.11.2025, 20:47:50 - INFO - /api/board | GET |  | {"boardId":"69065371a31ed5c305861db3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:51 - INFO - /api/board | GET |  | {} | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:51 - INFO - /api/board | GET |  | {"boardId":"69065371a31ed5c305861db3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:52 - INFO - /api/board | GET |  | {"boardId":"69065371a31ed5c305861db3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:57 - INFO - Broadcasting event: event-update-task | 690654145baa2f111fc6c3de
+1.11.2025, 20:47:57 - INFO - Broadcast to room 69065371a31ed5c305861db3 excluding user: 690654145baa2f111fc6c3de | 690654145baa2f111fc6c3de
