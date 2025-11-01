@@ -555,7 +555,6 @@ export async function getDashboardData(filterBy = {}) {
                 $facet: {
                     tasksCount: [{ $count: 'total' }],
 
-                    // ✅ keep byStatus logic as-is
                     byStatus: [
                         {
                             $group: {
@@ -564,8 +563,26 @@ export async function getDashboardData(filterBy = {}) {
                                 cssVar: { $first: { $ifNull: ['$status.cssVar', '--layout-border-color'] } },
                                 tasksCount: { $sum: 1 }
                             }
-                        }
+                        },
+                        {
+                            $addFields: {
+                                order: {
+                                    $switch: {
+                                        branches: [
+                                            { case: { $eq: ['$_id', 'done'] }, then: 1 },
+                                            { case: { $eq: ['$_id', 'working'] }, then: 2 },
+                                            { case: { $eq: ['$_id', 'stuck'] }, then: 3 },
+                                            { case: { $eq: ['$_id', 'default'] }, then: 4 }, // "Not Started"
+                                        ],
+                                        default: 99 // new/unexpected statuses appear after these
+                                    }
+                                }
+                            }
+                        },
+                        { $sort: { order: 1 } } // sort by our defined order
                     ],
+
+
 
                     // ✅ NEW byPriority facet (with fallback for missing values)
                     byPriority: [
