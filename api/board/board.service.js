@@ -576,8 +576,26 @@ export async function getDashboardData(filterBy = {}) {
                                 cssVar: { $first: { $ifNull: ['$priority.cssVar', '--layout-border-color'] } },
                                 tasksCount: { $sum: 1 }
                             }
-                        }
+                        },
+                        // 👇 Add these two lines
+                        {
+                            $addFields: {
+                                order: {
+                                    $switch: {
+                                        branches: [
+                                            { case: { $eq: ['$_id', 'low'] }, then: 1 },
+                                            { case: { $eq: ['$_id', 'medium'] }, then: 2 },
+                                            { case: { $eq: ['$_id', 'high'] }, then: 3 },
+                                            { case: { $eq: ['$_id', 'critical'] }, then: 4 },
+                                        ],
+                                        default: 99
+                                    }
+                                }
+                            }
+                        },
+                        { $sort: { order: 1 } } // ✅ final sort by your custom order
                     ],
+
 
                     byMember: [
                         { $unwind: { path: '$memberIds', preserveNullAndEmptyArrays: false } },
