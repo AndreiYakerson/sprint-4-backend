@@ -29,7 +29,7 @@ async function login(username, password) {
     return user
 }
 
-async function signup({ username, password, fullname, imgUrl, isAdmin }) {
+async function signup({ username, password, fullname, imgUrl, isAdmin, profession }) {
     const saltRounds = 10
 
     logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
@@ -38,8 +38,10 @@ async function signup({ username, password, fullname, imgUrl, isAdmin }) {
     const userExist = await userService.getByUsername(username)
     if (userExist) return Promise.reject('Username already taken')
 
+
+
     const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname, imgUrl, isAdmin })
+    return userService.add({ username, password: hash, fullname, imgUrl, isAdmin, profession })
 }
 
 function getLoginToken(user) {
@@ -48,6 +50,7 @@ function getLoginToken(user) {
         fullname: user.fullname,
         imgUrl: user.imgUrl,
         isAdmin: user.isAdmin,
+        profession: user.profession,
     }
     return cryptr.encrypt(JSON.stringify(userInfo))
 }
