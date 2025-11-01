@@ -43,6 +43,15 @@ export function setupSocketAPI(http) {
             logger.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
             socket.join('watching:' + userId)
         })
+        socket.on('emit-user-assigned', async assignedData => {
+            logger.info(`Assigning user: ${assignedData?.userId}`)
+
+            await emitToUser({
+                type: 'event-user-assigned',
+                data: assignedData,
+                userId: assignedData?.userId,
+            })
+        })
         socket.on('set-user-socket', userId => {
             logger.info(`Setting socket.userId = ${userId} for socket [id: ${socket.id}]`)
             socket.userId = userId
@@ -61,6 +70,7 @@ function emitTo({ type, data, label }) {
 }
 
 async function emitToUser({ type, data, userId }) {
+
     userId = userId?.toString()
     const socket = await _getUserSocket(userId)
 
