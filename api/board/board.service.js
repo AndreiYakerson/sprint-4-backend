@@ -251,6 +251,7 @@ async function getTaskById(boardId, taskId) {
                     _id: 0,
                     id: '$groups.tasks.id',
                     title: '$groups.tasks.title',
+                    file: '$groups.tasks.file',
                     groupId: '$groups.id',
                     createdAt: '$groups.tasks.createdAt',
                     updates: '$groups.tasks.updates',
